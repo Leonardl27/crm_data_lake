@@ -1,10 +1,25 @@
 {
   "metadata": {
     "source": "JSONPlaceholder API",
-    "qa_extracted_at": "2026-02-07T20:14:01.106477",
-    "promoted_at": "2026-02-07T20:14:01.119509",
+    "extracted_at": "2026-02-07T20:14:01.106477",
     "record_count": 600,
-    "layer": "PROD"
+    "layer": "QA",
+    "summary": {
+      "by_type": {
+        "post": 100,
+        "comment": 500
+      },
+      "by_sentiment": {
+        "positive": 193,
+        "neutral": 194,
+        "negative": 213
+      },
+      "by_channel": {
+        "web": 207,
+        "email": 189,
+        "mobile": 204
+      }
+    }
   },
   "data": [
     {
@@ -15,7 +30,8 @@
       "content": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
       "timestamp": "2026-01-12T01:54:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101633"
     },
     {
       "id": "INT-00002",
@@ -25,7 +41,8 @@
       "content": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla",
       "timestamp": "2026-01-27T02:48:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101644"
     },
     {
       "id": "INT-00003",
@@ -35,7 +52,8 @@
       "content": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut",
       "timestamp": "2025-12-09T07:46:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101654"
     },
     {
       "id": "INT-00004",
@@ -45,7 +63,8 @@
       "content": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit",
       "timestamp": "2026-02-03T03:50:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101661"
     },
     {
       "id": "INT-00005",
@@ -55,7 +74,8 @@
       "content": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque",
       "timestamp": "2025-11-19T07:23:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101667"
     },
     {
       "id": "INT-00006",
@@ -65,7 +85,8 @@
       "content": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae",
       "timestamp": "2025-12-02T19:34:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101673"
     },
     {
       "id": "INT-00007",
@@ -75,7 +96,8 @@
       "content": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas",
       "timestamp": "2025-12-11T18:07:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101679"
     },
     {
       "id": "INT-00008",
@@ -85,7 +107,8 @@
       "content": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
       "timestamp": "2025-12-03T22:27:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101688"
     },
     {
       "id": "INT-00009",
@@ -95,7 +118,8 @@
       "content": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas",
       "timestamp": "2025-12-15T00:44:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101695"
     },
     {
       "id": "INT-00010",
@@ -105,7 +129,8 @@
       "content": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error",
       "timestamp": "2026-01-24T04:05:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101701"
     },
     {
       "id": "INT-00011",
@@ -115,7 +140,8 @@
       "content": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi",
       "timestamp": "2025-12-12T06:24:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101706"
     },
     {
       "id": "INT-00012",
@@ -125,7 +151,8 @@
       "content": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio",
       "timestamp": "2026-01-07T08:01:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101711"
     },
     {
       "id": "INT-00013",
@@ -135,7 +162,8 @@
       "content": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
       "timestamp": "2026-01-15T19:01:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101716"
     },
     {
       "id": "INT-00014",
@@ -145,7 +173,8 @@
       "content": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum",
       "timestamp": "2025-11-18T16:08:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101721"
     },
     {
       "id": "INT-00015",
@@ -155,7 +184,8 @@
       "content": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae",
       "timestamp": "2025-12-27T08:24:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101726"
     },
     {
       "id": "INT-00016",
@@ -165,7 +195,8 @@
       "content": "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta",
       "timestamp": "2025-11-16T16:49:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101731"
     },
     {
       "id": "INT-00017",
@@ -175,7 +206,8 @@
       "content": "eos voluptas et aut odit natus earum\naspernatur fuga molestiae ullam\ndeserunt ratione qui eos\nqui nihil ratione nemo velit ut aut id quo",
       "timestamp": "2025-12-01T18:10:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101736"
     },
     {
       "id": "INT-00018",
@@ -185,7 +217,8 @@
       "content": "eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam",
       "timestamp": "2026-01-08T23:43:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101741"
     },
     {
       "id": "INT-00019",
@@ -195,7 +228,8 @@
       "content": "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas",
       "timestamp": "2025-11-28T04:23:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101749"
     },
     {
       "id": "INT-00020",
@@ -205,7 +239,8 @@
       "content": "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam amet\neos veritatis officiis exercitationem vel fugit aut necessitatibus totam\nomnis rerum consequatur expedita quidem cumque explicabo",
       "timestamp": "2025-11-12T08:08:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101756"
     },
     {
       "id": "INT-00021",
@@ -215,7 +250,8 @@
       "content": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt",
       "timestamp": "2026-01-29T13:00:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101761"
     },
     {
       "id": "INT-00022",
@@ -225,7 +261,8 @@
       "content": "eos qui et ipsum ipsam suscipit aut\nsed omnis non odio\nexpedita earum mollitia molestiae aut atque rem suscipit\nnam impedit esse",
       "timestamp": "2025-12-19T13:20:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101768"
     },
     {
       "id": "INT-00023",
@@ -235,7 +272,8 @@
       "content": "veritatis unde neque eligendi\nquae quod architecto quo neque vitae\nest illo sit tempora doloremque fugit quod\net et vel beatae sequi ullam sed tenetur perspiciatis",
       "timestamp": "2025-11-19T23:00:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101773"
     },
     {
       "id": "INT-00024",
@@ -245,7 +283,8 @@
       "content": "enim et ex nulla\nomnis voluptas quia qui\nvoluptatem consequatur numquam aliquam sunt\ntotam recusandae id dignissimos aut sed asperiores deserunt",
       "timestamp": "2025-12-22T17:09:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101778"
     },
     {
       "id": "INT-00025",
@@ -255,7 +294,8 @@
       "content": "ullam consequatur ut\nomnis quis sit vel consequuntur\nipsa eligendi ipsum molestiae et omnis error nostrum\nmolestiae illo tempore quia et distinctio",
       "timestamp": "2025-12-17T19:50:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101783"
     },
     {
       "id": "INT-00026",
@@ -265,7 +305,8 @@
       "content": "similique esse doloribus nihil accusamus\nomnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus\nperspiciatis cum ut laudantium\nomnis aut molestiae vel vero",
       "timestamp": "2025-12-02T02:55:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101788"
     },
     {
       "id": "INT-00027",
@@ -275,7 +316,8 @@
       "content": "eum sed dolores ipsam sint possimus debitis occaecati\ndebitis qui qui et\nut placeat enim earum aut odit facilis\nconsequatur suscipit necessitatibus rerum sed inventore temporibus consequatur",
       "timestamp": "2025-12-03T11:50:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101793"
     },
     {
       "id": "INT-00028",
@@ -285,7 +327,8 @@
       "content": "non et quaerat ex quae ad maiores\nmaiores recusandae totam aut blanditiis mollitia quas illo\nut voluptatibus voluptatem\nsimilique nostrum eum",
       "timestamp": "2026-01-16T12:57:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101798"
     },
     {
       "id": "INT-00029",
@@ -295,7 +338,8 @@
       "content": "odit magnam ut saepe sed non qui\ntempora atque nihil\naccusamus illum doloribus illo dolor\neligendi repudiandae odit magni similique sed cum maiores",
       "timestamp": "2025-12-13T03:58:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101803"
     },
     {
       "id": "INT-00030",
@@ -305,7 +349,8 @@
       "content": "alias dolor cumque\nimpedit blanditiis non eveniet odio maxime\nblanditiis amet eius quis tempora quia autem rem\na provident perspiciatis quia",
       "timestamp": "2026-02-05T05:33:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101807"
     },
     {
       "id": "INT-00031",
@@ -315,7 +360,8 @@
       "content": "debitis eius sed quibusdam non quis consectetur vitae\nimpedit ut qui consequatur sed aut in\nquidem sit nostrum et maiores adipisci atque\nquaerat voluptatem adipisci repudiandae",
       "timestamp": "2026-01-09T08:45:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101812"
     },
     {
       "id": "INT-00032",
@@ -325,7 +371,8 @@
       "content": "deserunt eos nobis asperiores et hic\nest debitis repellat molestiae optio\nnihil ratione ut eos beatae quibusdam distinctio maiores\nearum voluptates et aut adipisci ea maiores voluptas maxime",
       "timestamp": "2025-12-09T05:29:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101817"
     },
     {
       "id": "INT-00033",
@@ -335,7 +382,8 @@
       "content": "rerum ut et numquam laborum odit est sit\nid qui sint in\nquasi tenetur tempore aperiam et quaerat qui in\nrerum officiis sequi cumque quod",
       "timestamp": "2025-12-28T20:15:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101822"
     },
     {
       "id": "INT-00034",
@@ -345,7 +393,8 @@
       "content": "ea velit perferendis earum ut voluptatem voluptate itaque iusto\ntotam pariatur in\nnemo voluptatem voluptatem autem magni tempora minima in\nest distinctio qui assumenda accusamus dignissimos officia nesciunt nobis",
       "timestamp": "2026-01-22T19:35:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101828"
     },
     {
       "id": "INT-00035",
@@ -355,7 +404,8 @@
       "content": "nisi error delectus possimus ut eligendi vitae\nplaceat eos harum cupiditate facilis reprehenderit voluptatem beatae\nmodi ducimus quo illum voluptas eligendi\net nobis quia fugit",
       "timestamp": "2025-11-26T23:16:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101833"
     },
     {
       "id": "INT-00036",
@@ -365,7 +415,8 @@
       "content": "ad mollitia et omnis minus architecto odit\nvoluptas doloremque maxime aut non ipsa qui alias veniam\nblanditiis culpa aut quia nihil cumque facere et occaecati\nqui aspernatur quia eaque ut aperiam inventore",
       "timestamp": "2025-12-16T02:01:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101838"
     },
     {
       "id": "INT-00037",
@@ -375,7 +426,8 @@
       "content": "debitis et eaque non officia sed nesciunt pariatur vel\nvoluptatem iste vero et ea\nnumquam aut expedita ipsum nulla in\nvoluptates omnis consequatur aut enim officiis in quam qui",
       "timestamp": "2026-02-04T04:35:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101842"
     },
     {
       "id": "INT-00038",
@@ -385,7 +437,8 @@
       "content": "animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure",
       "timestamp": "2025-12-01T15:03:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101847"
     },
     {
       "id": "INT-00039",
@@ -395,7 +448,8 @@
       "content": "corporis rerum ducimus vel eum accusantium\nmaxime aspernatur a porro possimus iste omnis\nest in deleniti asperiores fuga aut\nvoluptas sapiente vel dolore minus voluptatem incidunt ex",
       "timestamp": "2025-12-30T11:52:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101854"
     },
     {
       "id": "INT-00040",
@@ -405,7 +459,8 @@
       "content": "ut voluptatum aliquid illo tenetur nemo sequi quo facilis\nipsum rem optio mollitia quas\nvoluptatem eum voluptas qui\nunde omnis voluptatem iure quasi maxime voluptas nam",
       "timestamp": "2026-01-28T20:14:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101859"
     },
     {
       "id": "INT-00041",
@@ -415,7 +470,8 @@
       "content": "molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe",
       "timestamp": "2025-12-09T23:29:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101864"
     },
     {
       "id": "INT-00042",
@@ -425,7 +481,8 @@
       "content": "odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut",
       "timestamp": "2026-02-02T19:02:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101869"
     },
     {
       "id": "INT-00043",
@@ -435,7 +492,8 @@
       "content": "similique fugit est\nillum et dolorum harum et voluptate eaque quidem\nexercitationem quos nam commodi possimus cum odio nihil nulla\ndolorum exercitationem magnam ex et a et distinctio debitis",
       "timestamp": "2025-11-15T11:52:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101876"
     },
     {
       "id": "INT-00044",
@@ -445,7 +503,8 @@
       "content": "temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae",
       "timestamp": "2025-12-28T13:16:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101881"
     },
     {
       "id": "INT-00045",
@@ -455,7 +514,8 @@
       "content": "est natus reiciendis nihil possimus aut provident\nex et dolor\nrepellat pariatur est\nnobis rerum repellendus dolorem autem",
       "timestamp": "2025-11-28T03:54:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101888"
     },
     {
       "id": "INT-00046",
@@ -465,7 +525,8 @@
       "content": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid",
       "timestamp": "2026-02-04T18:57:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101893"
     },
     {
       "id": "INT-00047",
@@ -475,7 +536,8 @@
       "content": "voluptatem assumenda ut qui ut cupiditate aut impedit veniam\noccaecati nemo illum voluptatem laudantium\nmolestiae beatae rerum ea iure soluta nostrum\neligendi et voluptate",
       "timestamp": "2025-12-15T17:56:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101898"
     },
     {
       "id": "INT-00048",
@@ -485,7 +547,8 @@
       "content": "voluptates quo voluptatem facilis iure occaecati\nvel assumenda rerum officia et\nillum perspiciatis ab deleniti\nlaudantium repellat ad ut et autem reprehenderit",
       "timestamp": "2025-12-02T13:10:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101902"
     },
     {
       "id": "INT-00049",
@@ -495,7 +558,8 @@
       "content": "inventore ab sint\nnatus fugit id nulla sequi architecto nihil quaerat\neos tenetur in in eum veritatis non\nquibusdam officiis aspernatur cumque aut commodi aut",
       "timestamp": "2025-12-30T23:17:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101907"
     },
     {
       "id": "INT-00050",
@@ -505,7 +569,8 @@
       "content": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur",
       "timestamp": "2025-12-06T16:50:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101912"
     },
     {
       "id": "INT-00051",
@@ -515,7 +580,8 @@
       "content": "sunt dolores aut doloribus\ndolore doloribus voluptates tempora et\ndoloremque et quo\ncum asperiores sit consectetur dolorem",
       "timestamp": "2025-12-27T02:35:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101917"
     },
     {
       "id": "INT-00052",
@@ -525,7 +591,8 @@
       "content": "iusto est quibusdam fuga quas quaerat molestias\na enim ut sit accusamus enim\ntemporibus iusto accusantium provident architecto\nsoluta esse reprehenderit qui laborum",
       "timestamp": "2025-12-20T01:21:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101921"
     },
     {
       "id": "INT-00053",
@@ -535,7 +602,8 @@
       "content": "minima harum praesentium eum rerum illo dolore\nquasi exercitationem rerum nam\nporro quis neque quo\nconsequatur minus dolor quidem veritatis sunt non explicabo similique",
       "timestamp": "2026-02-05T23:26:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101926"
     },
     {
       "id": "INT-00054",
@@ -545,7 +613,8 @@
       "content": "totam corporis dignissimos\nvitae dolorem ut occaecati accusamus\nex velit deserunt\net exercitationem vero incidunt corrupti mollitia",
       "timestamp": "2025-12-26T18:40:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101931"
     },
     {
       "id": "INT-00055",
@@ -555,7 +624,8 @@
       "content": "debitis excepturi ea perferendis harum libero optio\neos accusamus cum fuga ut sapiente repudiandae\net ut incidunt omnis molestiae\nnihil ut eum odit",
       "timestamp": "2025-12-05T12:13:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101936"
     },
     {
       "id": "INT-00056",
@@ -565,7 +635,8 @@
       "content": "aut est omnis dolores\nneque rerum quod ea rerum velit pariatur beatae excepturi\net provident voluptas corrupti\ncorporis harum reprehenderit dolores eligendi",
       "timestamp": "2025-12-28T02:22:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101941"
     },
     {
       "id": "INT-00057",
@@ -575,7 +646,8 @@
       "content": "at pariatur consequuntur earum quidem\nquo est laudantium soluta voluptatem\nqui ullam et est\net cum voluptas voluptatum repellat est",
       "timestamp": "2026-01-26T15:38:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101946"
     },
     {
       "id": "INT-00058",
@@ -585,7 +657,8 @@
       "content": "veniam voluptatum quae adipisci id\net id quia eos ad et dolorem\naliquam quo nisi sunt eos impedit error\nad similique veniam",
       "timestamp": "2026-01-04T14:51:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101952"
     },
     {
       "id": "INT-00059",
@@ -595,7 +668,8 @@
       "content": "perspiciatis et quam ea autem temporibus non voluptatibus qui\nbeatae a earum officia nesciunt dolores suscipit voluptas et\nanimi doloribus cum rerum quas et magni\net hic ut ut commodi expedita sunt",
       "timestamp": "2025-12-04T02:35:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101957"
     },
     {
       "id": "INT-00060",
@@ -605,7 +679,8 @@
       "content": "asperiores sunt ab assumenda cumque modi velit\nqui esse omnis\nvoluptate et fuga perferendis voluptas\nillo ratione amet aut et omnis",
       "timestamp": "2026-02-03T11:08:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101962"
     },
     {
       "id": "INT-00061",
@@ -615,7 +690,8 @@
       "content": "ab nemo optio odio\ndelectus tenetur corporis similique nobis repellendus rerum omnis facilis\nvero blanditiis debitis in nesciunt doloribus dicta dolores\nmagnam minus velit",
       "timestamp": "2026-01-23T12:20:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101966"
     },
     {
       "id": "INT-00062",
@@ -625,7 +701,8 @@
       "content": "enim aspernatur illo distinctio quae praesentium\nbeatae alias amet delectus qui voluptate distinctio\nodit sint accusantium autem omnis\nquo molestiae omnis ea eveniet optio",
       "timestamp": "2026-01-13T18:54:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101971"
     },
     {
       "id": "INT-00063",
@@ -635,7 +712,8 @@
       "content": "enim adipisci aspernatur nemo\nnumquam omnis facere dolorem dolor ex quis temporibus incidunt\nab delectus culpa quo reprehenderit blanditiis asperiores\naccusantium ut quam in voluptatibus voluptas ipsam dicta",
       "timestamp": "2026-01-21T07:47:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101976"
     },
     {
       "id": "INT-00064",
@@ -645,7 +723,8 @@
       "content": "id velit blanditiis\neum ea voluptatem\nmolestiae sint occaecati est eos perspiciatis\nincidunt a error provident eaque aut aut qui",
       "timestamp": "2026-01-27T15:45:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.101981"
     },
     {
       "id": "INT-00065",
@@ -655,7 +734,8 @@
       "content": "voluptatibus ex esse\nsint explicabo est aliquid cumque adipisci fuga repellat labore\nmolestiae corrupti ex saepe at asperiores et perferendis\nnatus id esse incidunt pariatur",
       "timestamp": "2025-12-04T21:04:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101988"
     },
     {
       "id": "INT-00066",
@@ -665,7 +745,8 @@
       "content": "officia veritatis tenetur vero qui itaque\nsint non ratione\nsed et ut asperiores iusto eos molestiae nostrum\nveritatis quibusdam et nemo iusto saepe",
       "timestamp": "2025-12-19T19:21:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.101994"
     },
     {
       "id": "INT-00067",
@@ -675,7 +756,8 @@
       "content": "reprehenderit id nostrum\nvoluptas doloremque pariatur sint et accusantium quia quod aspernatur\net fugiat amet\nnon sapiente et consequatur necessitatibus molestiae",
       "timestamp": "2026-01-18T09:46:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.101999"
     },
     {
       "id": "INT-00068",
@@ -685,7 +767,8 @@
       "content": "magnam molestiae perferendis quisquam\nqui cum reiciendis\nquaerat animi amet hic inventore\nea quia deleniti quidem saepe porro velit",
       "timestamp": "2025-11-23T09:38:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102004"
     },
     {
       "id": "INT-00069",
@@ -695,7 +778,8 @@
       "content": "officiis error culpa consequatur modi asperiores et\ndolorum assumenda voluptas et vel qui aut vel rerum\nvoluptatum quisquam perspiciatis quia rerum consequatur totam quas\nsequi commodi repudiandae asperiores et saepe a",
       "timestamp": "2026-01-19T02:21:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102009"
     },
     {
       "id": "INT-00070",
@@ -705,7 +789,8 @@
       "content": "sunt repellendus quae\nest asperiores aut deleniti esse accusamus repellendus quia aut\nquia dolorem unde\neum tempora esse dolore",
       "timestamp": "2026-01-11T17:47:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102014"
     },
     {
       "id": "INT-00071",
@@ -715,7 +800,8 @@
       "content": "occaecati a doloribus\niste saepe consectetur placeat eum voluptate dolorem et\nqui quo quia voluptas\nrerum ut id enim velit est perferendis",
       "timestamp": "2026-01-18T02:30:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102020"
     },
     {
       "id": "INT-00072",
@@ -725,7 +811,8 @@
       "content": "quam occaecati qui deleniti consectetur\nconsequatur aut facere quas exercitationem aliquam hic voluptas\nneque id sunt ut aut accusamus\nsunt consectetur expedita inventore velit",
       "timestamp": "2025-12-04T04:50:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102025"
     },
     {
       "id": "INT-00073",
@@ -735,7 +822,8 @@
       "content": "voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo\naut eum minima consequatur\ntempore cumque quae est et\net in consequuntur voluptatem voluptates aut",
       "timestamp": "2025-12-09T15:24:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102030"
     },
     {
       "id": "INT-00074",
@@ -745,7 +833,8 @@
       "content": "odit qui et et necessitatibus sint veniam\nmollitia amet doloremque molestiae commodi similique magnam et quam\nblanditiis est itaque\nquo et tenetur ratione occaecati molestiae tempora",
       "timestamp": "2026-01-21T17:28:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102035"
     },
     {
       "id": "INT-00075",
@@ -755,7 +844,8 @@
       "content": "commodi non non omnis et voluptas sit\nautem aut nobis magnam et sapiente voluptatem\net laborum repellat qui delectus facilis temporibus\nrerum amet et nemo voluptate expedita adipisci error dolorem",
       "timestamp": "2026-01-21T09:22:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102040"
     },
     {
       "id": "INT-00076",
@@ -765,7 +855,8 @@
       "content": "ut animi facere\ntotam iusto tempore\nmolestiae eum aut et dolorem aperiam\nquaerat recusandae totam odio",
       "timestamp": "2025-12-14T07:24:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102045"
     },
     {
       "id": "INT-00077",
@@ -775,7 +866,8 @@
       "content": "modi ut in nulla repudiandae dolorum nostrum eos\naut consequatur omnis\nut incidunt est omnis iste et quam\nvoluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident",
       "timestamp": "2026-01-10T06:25:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102050"
     },
     {
       "id": "INT-00078",
@@ -785,7 +877,8 @@
       "content": "nobis facilis odit tempore cupiditate quia\nassumenda doloribus rerum qui ea\nillum et qui totam\naut veniam repellendus",
       "timestamp": "2026-01-05T09:41:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102057"
     },
     {
       "id": "INT-00079",
@@ -795,7 +888,8 @@
       "content": "libero accusantium et et facere incidunt sit dolorem\nnon excepturi qui quia sed laudantium\nquisquam molestiae ducimus est\nofficiis esse molestiae iste et quos",
       "timestamp": "2026-01-30T01:00:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102062"
     },
     {
       "id": "INT-00080",
@@ -805,7 +899,8 @@
       "content": "ex quod dolorem ea eum iure qui provident amet\nquia qui facere excepturi et repudiandae\nasperiores molestias provident\nminus incidunt vero fugit rerum sint sunt excepturi provident",
       "timestamp": "2025-11-20T19:25:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102067"
     },
     {
       "id": "INT-00081",
@@ -815,7 +910,8 @@
       "content": "facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut",
       "timestamp": "2026-02-01T16:15:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102072"
     },
     {
       "id": "INT-00082",
@@ -825,7 +921,8 @@
       "content": "ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic",
       "timestamp": "2025-12-24T05:22:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102077"
     },
     {
       "id": "INT-00083",
@@ -835,7 +932,8 @@
       "content": "est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam",
       "timestamp": "2025-11-16T20:57:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102082"
     },
     {
       "id": "INT-00084",
@@ -845,7 +943,8 @@
       "content": "sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio",
       "timestamp": "2025-11-18T15:56:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102087"
     },
     {
       "id": "INT-00085",
@@ -855,7 +954,8 @@
       "content": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione",
       "timestamp": "2025-11-16T13:42:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102092"
     },
     {
       "id": "INT-00086",
@@ -865,7 +965,8 @@
       "content": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio",
       "timestamp": "2025-12-08T15:49:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102099"
     },
     {
       "id": "INT-00087",
@@ -875,7 +976,8 @@
       "content": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est",
       "timestamp": "2025-11-16T12:39:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102104"
     },
     {
       "id": "INT-00088",
@@ -885,7 +987,8 @@
       "content": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed",
       "timestamp": "2026-01-24T18:31:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102109"
     },
     {
       "id": "INT-00089",
@@ -895,7 +998,8 @@
       "content": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est",
       "timestamp": "2025-11-17T07:09:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102114"
     },
     {
       "id": "INT-00090",
@@ -905,7 +1009,8 @@
       "content": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis",
       "timestamp": "2025-12-22T04:43:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102119"
     },
     {
       "id": "INT-00091",
@@ -915,7 +1020,8 @@
       "content": "libero voluptate eveniet aperiam sed\nsunt placeat suscipit molestias\nsimilique fugit nam natus\nexpedita consequatur consequatur dolores quia eos et placeat",
       "timestamp": "2025-11-26T19:15:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102124"
     },
     {
       "id": "INT-00092",
@@ -925,7 +1031,8 @@
       "content": "aut et excepturi dicta laudantium sint rerum nihil\nlaudantium et at\na neque minima officia et similique libero et\ncommodi voluptate qui",
       "timestamp": "2026-01-27T02:59:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102129"
     },
     {
       "id": "INT-00093",
@@ -935,7 +1042,8 @@
       "content": "dolorem quibusdam ducimus consequuntur dicta aut quo laboriosam\nvoluptatem quis enim recusandae ut sed sunt\nnostrum est odit totam\nsit error sed sunt eveniet provident qui nulla",
       "timestamp": "2026-01-29T21:28:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102133"
     },
     {
       "id": "INT-00094",
@@ -945,7 +1053,8 @@
       "content": "aspernatur expedita soluta quo ab ut similique\nexpedita dolores amet\nsed temporibus distinctio magnam saepe deleniti\nomnis facilis nam ipsum natus sint similique omnis",
       "timestamp": "2025-11-20T23:30:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102138"
     },
     {
       "id": "INT-00095",
@@ -955,7 +1064,8 @@
       "content": "earum voluptatem facere provident blanditiis velit laboriosam\npariatur accusamus odio saepe\ncumque dolor qui a dicta ab doloribus consequatur omnis\ncorporis cupiditate eaque assumenda ad nesciunt",
       "timestamp": "2025-11-23T10:46:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102143"
     },
     {
       "id": "INT-00096",
@@ -965,7 +1075,8 @@
       "content": "in non odio excepturi sint eum\nlabore voluptates vitae quia qui et\ninventore itaque rerum\nveniam non exercitationem delectus aut",
       "timestamp": "2026-02-01T08:01:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102148"
     },
     {
       "id": "INT-00097",
@@ -975,7 +1086,8 @@
       "content": "eum non blanditiis soluta porro quibusdam voluptas\nvel voluptatem qui placeat dolores qui velit aut\nvel inventore aut cumque culpa explicabo aliquid at\nperspiciatis est et voluptatem dignissimos dolor itaque sit nam",
       "timestamp": "2026-02-06T14:37:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102157"
     },
     {
       "id": "INT-00098",
@@ -985,7 +1097,8 @@
       "content": "doloremque ex facilis sit sint culpa\nsoluta assumenda eligendi non ut eius\nsequi ducimus vel quasi\nveritatis est dolores",
       "timestamp": "2025-11-15T08:58:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102163"
     },
     {
       "id": "INT-00099",
@@ -995,7 +1108,8 @@
       "content": "quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia",
       "timestamp": "2026-01-02T09:09:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102168"
     },
     {
       "id": "INT-00100",
@@ -1005,7 +1119,8 @@
       "content": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut",
       "timestamp": "2025-11-25T17:32:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102173"
     },
     {
       "id": "INT-00101",
@@ -1017,7 +1132,8 @@
       "parent_id": "INT-00001",
       "timestamp": "2026-01-13T18:53:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102180"
     },
     {
       "id": "INT-00102",
@@ -1029,7 +1145,8 @@
       "parent_id": "INT-00001",
       "timestamp": "2025-12-22T18:18:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102186"
     },
     {
       "id": "INT-00103",
@@ -1041,7 +1158,8 @@
       "parent_id": "INT-00001",
       "timestamp": "2025-12-04T10:33:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102192"
     },
     {
       "id": "INT-00104",
@@ -1053,7 +1171,8 @@
       "parent_id": "INT-00001",
       "timestamp": "2026-01-24T23:26:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102197"
     },
     {
       "id": "INT-00105",
@@ -1065,7 +1184,8 @@
       "parent_id": "INT-00001",
       "timestamp": "2025-12-12T07:41:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102205"
     },
     {
       "id": "INT-00106",
@@ -1077,7 +1197,8 @@
       "parent_id": "INT-00002",
       "timestamp": "2025-12-31T23:06:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102210"
     },
     {
       "id": "INT-00107",
@@ -1089,7 +1210,8 @@
       "parent_id": "INT-00002",
       "timestamp": "2025-12-17T15:23:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102215"
     },
     {
       "id": "INT-00108",
@@ -1101,7 +1223,8 @@
       "parent_id": "INT-00002",
       "timestamp": "2025-12-31T06:14:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102220"
     },
     {
       "id": "INT-00109",
@@ -1113,7 +1236,8 @@
       "parent_id": "INT-00002",
       "timestamp": "2026-01-03T20:12:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102226"
     },
     {
       "id": "INT-00110",
@@ -1125,7 +1249,8 @@
       "parent_id": "INT-00002",
       "timestamp": "2026-01-25T09:53:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102231"
     },
     {
       "id": "INT-00111",
@@ -1137,7 +1262,8 @@
       "parent_id": "INT-00003",
       "timestamp": "2025-12-22T23:44:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102236"
     },
     {
       "id": "INT-00112",
@@ -1149,7 +1275,8 @@
       "parent_id": "INT-00003",
       "timestamp": "2026-01-15T23:02:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102244"
     },
     {
       "id": "INT-00113",
@@ -1161,7 +1288,8 @@
       "parent_id": "INT-00003",
       "timestamp": "2025-12-24T08:38:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102249"
     },
     {
       "id": "INT-00114",
@@ -1173,7 +1301,8 @@
       "parent_id": "INT-00003",
       "timestamp": "2025-12-11T18:16:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102254"
     },
     {
       "id": "INT-00115",
@@ -1185,7 +1314,8 @@
       "parent_id": "INT-00003",
       "timestamp": "2025-11-28T01:15:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102259"
     },
     {
       "id": "INT-00116",
@@ -1197,7 +1327,8 @@
       "parent_id": "INT-00004",
       "timestamp": "2026-02-05T08:09:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102264"
     },
     {
       "id": "INT-00117",
@@ -1209,7 +1340,8 @@
       "parent_id": "INT-00004",
       "timestamp": "2026-02-04T05:25:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102269"
     },
     {
       "id": "INT-00118",
@@ -1221,7 +1353,8 @@
       "parent_id": "INT-00004",
       "timestamp": "2026-01-11T09:53:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102274"
     },
     {
       "id": "INT-00119",
@@ -1233,7 +1366,8 @@
       "parent_id": "INT-00004",
       "timestamp": "2026-01-28T04:05:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102280"
     },
     {
       "id": "INT-00120",
@@ -1245,7 +1379,8 @@
       "parent_id": "INT-00004",
       "timestamp": "2025-12-24T19:33:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102285"
     },
     {
       "id": "INT-00121",
@@ -1257,7 +1392,8 @@
       "parent_id": "INT-00005",
       "timestamp": "2025-11-15T08:19:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102301"
     },
     {
       "id": "INT-00122",
@@ -1269,7 +1405,8 @@
       "parent_id": "INT-00005",
       "timestamp": "2025-12-04T18:47:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102309"
     },
     {
       "id": "INT-00123",
@@ -1281,7 +1418,8 @@
       "parent_id": "INT-00005",
       "timestamp": "2026-02-03T12:29:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102315"
     },
     {
       "id": "INT-00124",
@@ -1293,7 +1431,8 @@
       "parent_id": "INT-00005",
       "timestamp": "2025-12-23T01:18:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102320"
     },
     {
       "id": "INT-00125",
@@ -1305,7 +1444,8 @@
       "parent_id": "INT-00005",
       "timestamp": "2025-11-25T01:00:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102325"
     },
     {
       "id": "INT-00126",
@@ -1317,7 +1457,8 @@
       "parent_id": "INT-00006",
       "timestamp": "2026-01-06T03:52:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102330"
     },
     {
       "id": "INT-00127",
@@ -1329,7 +1470,8 @@
       "parent_id": "INT-00006",
       "timestamp": "2025-12-25T20:09:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102335"
     },
     {
       "id": "INT-00128",
@@ -1341,7 +1483,8 @@
       "parent_id": "INT-00006",
       "timestamp": "2025-11-11T15:20:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102341"
     },
     {
       "id": "INT-00129",
@@ -1353,7 +1496,8 @@
       "parent_id": "INT-00006",
       "timestamp": "2026-01-01T18:51:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102346"
     },
     {
       "id": "INT-00130",
@@ -1365,7 +1509,8 @@
       "parent_id": "INT-00006",
       "timestamp": "2025-11-10T22:03:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102351"
     },
     {
       "id": "INT-00131",
@@ -1377,7 +1522,8 @@
       "parent_id": "INT-00007",
       "timestamp": "2026-01-09T13:47:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102356"
     },
     {
       "id": "INT-00132",
@@ -1389,7 +1535,8 @@
       "parent_id": "INT-00007",
       "timestamp": "2026-02-08T19:20:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102363"
     },
     {
       "id": "INT-00133",
@@ -1401,7 +1548,8 @@
       "parent_id": "INT-00007",
       "timestamp": "2025-11-11T13:43:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102368"
     },
     {
       "id": "INT-00134",
@@ -1413,7 +1561,8 @@
       "parent_id": "INT-00007",
       "timestamp": "2025-12-23T19:28:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102374"
     },
     {
       "id": "INT-00135",
@@ -1425,7 +1574,8 @@
       "parent_id": "INT-00007",
       "timestamp": "2025-11-25T19:44:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102379"
     },
     {
       "id": "INT-00136",
@@ -1437,7 +1587,8 @@
       "parent_id": "INT-00008",
       "timestamp": "2026-01-25T22:38:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102384"
     },
     {
       "id": "INT-00137",
@@ -1449,7 +1600,8 @@
       "parent_id": "INT-00008",
       "timestamp": "2025-12-02T11:40:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102391"
     },
     {
       "id": "INT-00138",
@@ -1461,7 +1613,8 @@
       "parent_id": "INT-00008",
       "timestamp": "2025-12-31T09:56:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102413"
     },
     {
       "id": "INT-00139",
@@ -1473,7 +1626,8 @@
       "parent_id": "INT-00008",
       "timestamp": "2026-02-01T14:51:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102419"
     },
     {
       "id": "INT-00140",
@@ -1485,7 +1639,8 @@
       "parent_id": "INT-00008",
       "timestamp": "2026-01-26T19:30:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102424"
     },
     {
       "id": "INT-00141",
@@ -1497,7 +1652,8 @@
       "parent_id": "INT-00009",
       "timestamp": "2026-01-29T05:55:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102429"
     },
     {
       "id": "INT-00142",
@@ -1509,7 +1665,8 @@
       "parent_id": "INT-00009",
       "timestamp": "2025-11-10T05:55:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102436"
     },
     {
       "id": "INT-00143",
@@ -1521,7 +1678,8 @@
       "parent_id": "INT-00009",
       "timestamp": "2025-11-28T02:46:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102442"
     },
     {
       "id": "INT-00144",
@@ -1533,7 +1691,8 @@
       "parent_id": "INT-00009",
       "timestamp": "2025-12-24T23:43:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102447"
     },
     {
       "id": "INT-00145",
@@ -1545,7 +1704,8 @@
       "parent_id": "INT-00009",
       "timestamp": "2025-12-18T07:28:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102452"
     },
     {
       "id": "INT-00146",
@@ -1557,7 +1717,8 @@
       "parent_id": "INT-00010",
       "timestamp": "2025-12-18T12:26:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102457"
     },
     {
       "id": "INT-00147",
@@ -1569,7 +1730,8 @@
       "parent_id": "INT-00010",
       "timestamp": "2025-11-27T09:38:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102464"
     },
     {
       "id": "INT-00148",
@@ -1581,7 +1743,8 @@
       "parent_id": "INT-00010",
       "timestamp": "2025-11-22T19:45:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102469"
     },
     {
       "id": "INT-00149",
@@ -1593,7 +1756,8 @@
       "parent_id": "INT-00010",
       "timestamp": "2025-11-27T18:14:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102474"
     },
     {
       "id": "INT-00150",
@@ -1605,7 +1769,8 @@
       "parent_id": "INT-00010",
       "timestamp": "2025-12-02T10:11:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102480"
     },
     {
       "id": "INT-00151",
@@ -1617,7 +1782,8 @@
       "parent_id": "INT-00011",
       "timestamp": "2025-11-27T04:35:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102485"
     },
     {
       "id": "INT-00152",
@@ -1629,7 +1795,8 @@
       "parent_id": "INT-00011",
       "timestamp": "2026-02-02T01:26:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102492"
     },
     {
       "id": "INT-00153",
@@ -1641,7 +1808,8 @@
       "parent_id": "INT-00011",
       "timestamp": "2026-01-18T01:39:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102499"
     },
     {
       "id": "INT-00154",
@@ -1653,7 +1821,8 @@
       "parent_id": "INT-00011",
       "timestamp": "2026-01-20T22:27:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102505"
     },
     {
       "id": "INT-00155",
@@ -1665,7 +1834,8 @@
       "parent_id": "INT-00011",
       "timestamp": "2026-01-17T21:24:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102510"
     },
     {
       "id": "INT-00156",
@@ -1677,7 +1847,8 @@
       "parent_id": "INT-00012",
       "timestamp": "2025-12-18T16:13:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102516"
     },
     {
       "id": "INT-00157",
@@ -1689,7 +1860,8 @@
       "parent_id": "INT-00012",
       "timestamp": "2026-01-26T12:32:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102521"
     },
     {
       "id": "INT-00158",
@@ -1701,7 +1873,8 @@
       "parent_id": "INT-00012",
       "timestamp": "2026-01-26T16:57:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102526"
     },
     {
       "id": "INT-00159",
@@ -1713,7 +1886,8 @@
       "parent_id": "INT-00012",
       "timestamp": "2025-11-23T09:10:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102531"
     },
     {
       "id": "INT-00160",
@@ -1725,7 +1899,8 @@
       "parent_id": "INT-00012",
       "timestamp": "2025-12-18T06:14:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102536"
     },
     {
       "id": "INT-00161",
@@ -1737,7 +1912,8 @@
       "parent_id": "INT-00013",
       "timestamp": "2026-01-23T17:54:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102541"
     },
     {
       "id": "INT-00162",
@@ -1749,7 +1925,8 @@
       "parent_id": "INT-00013",
       "timestamp": "2026-01-17T18:47:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102548"
     },
     {
       "id": "INT-00163",
@@ -1761,7 +1938,8 @@
       "parent_id": "INT-00013",
       "timestamp": "2025-12-07T09:57:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102554"
     },
     {
       "id": "INT-00164",
@@ -1773,7 +1951,8 @@
       "parent_id": "INT-00013",
       "timestamp": "2025-12-07T21:46:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102559"
     },
     {
       "id": "INT-00165",
@@ -1785,7 +1964,8 @@
       "parent_id": "INT-00013",
       "timestamp": "2025-11-30T07:29:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102564"
     },
     {
       "id": "INT-00166",
@@ -1797,7 +1977,8 @@
       "parent_id": "INT-00014",
       "timestamp": "2025-11-15T04:23:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102569"
     },
     {
       "id": "INT-00167",
@@ -1809,7 +1990,8 @@
       "parent_id": "INT-00014",
       "timestamp": "2025-11-21T04:25:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102574"
     },
     {
       "id": "INT-00168",
@@ -1821,7 +2003,8 @@
       "parent_id": "INT-00014",
       "timestamp": "2025-11-29T16:48:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102579"
     },
     {
       "id": "INT-00169",
@@ -1833,7 +2016,8 @@
       "parent_id": "INT-00014",
       "timestamp": "2026-01-26T00:11:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102587"
     },
     {
       "id": "INT-00170",
@@ -1845,7 +2029,8 @@
       "parent_id": "INT-00014",
       "timestamp": "2026-01-03T19:45:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102592"
     },
     {
       "id": "INT-00171",
@@ -1857,7 +2042,8 @@
       "parent_id": "INT-00015",
       "timestamp": "2025-11-19T01:17:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102597"
     },
     {
       "id": "INT-00172",
@@ -1869,7 +2055,8 @@
       "parent_id": "INT-00015",
       "timestamp": "2025-11-19T15:11:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102604"
     },
     {
       "id": "INT-00173",
@@ -1881,7 +2068,8 @@
       "parent_id": "INT-00015",
       "timestamp": "2025-12-15T22:15:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102614"
     },
     {
       "id": "INT-00174",
@@ -1893,7 +2081,8 @@
       "parent_id": "INT-00015",
       "timestamp": "2026-01-25T03:41:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102620"
     },
     {
       "id": "INT-00175",
@@ -1905,7 +2094,8 @@
       "parent_id": "INT-00015",
       "timestamp": "2026-01-15T16:02:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102625"
     },
     {
       "id": "INT-00176",
@@ -1917,7 +2107,8 @@
       "parent_id": "INT-00016",
       "timestamp": "2025-11-28T21:08:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102630"
     },
     {
       "id": "INT-00177",
@@ -1929,7 +2120,8 @@
       "parent_id": "INT-00016",
       "timestamp": "2025-11-28T12:00:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102635"
     },
     {
       "id": "INT-00178",
@@ -1941,7 +2133,8 @@
       "parent_id": "INT-00016",
       "timestamp": "2025-12-25T04:15:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102640"
     },
     {
       "id": "INT-00179",
@@ -1953,7 +2146,8 @@
       "parent_id": "INT-00016",
       "timestamp": "2026-01-03T09:00:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102646"
     },
     {
       "id": "INT-00180",
@@ -1965,7 +2159,8 @@
       "parent_id": "INT-00016",
       "timestamp": "2025-12-10T23:42:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102651"
     },
     {
       "id": "INT-00181",
@@ -1977,7 +2172,8 @@
       "parent_id": "INT-00017",
       "timestamp": "2026-01-16T12:46:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102656"
     },
     {
       "id": "INT-00182",
@@ -1989,7 +2185,8 @@
       "parent_id": "INT-00017",
       "timestamp": "2026-01-21T04:25:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102663"
     },
     {
       "id": "INT-00183",
@@ -2001,7 +2198,8 @@
       "parent_id": "INT-00017",
       "timestamp": "2025-12-16T02:37:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102668"
     },
     {
       "id": "INT-00184",
@@ -2013,7 +2211,8 @@
       "parent_id": "INT-00017",
       "timestamp": "2025-12-03T23:41:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102673"
     },
     {
       "id": "INT-00185",
@@ -2025,7 +2224,8 @@
       "parent_id": "INT-00017",
       "timestamp": "2026-01-30T23:23:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102680"
     },
     {
       "id": "INT-00186",
@@ -2037,7 +2237,8 @@
       "parent_id": "INT-00018",
       "timestamp": "2026-02-06T10:26:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102685"
     },
     {
       "id": "INT-00187",
@@ -2049,7 +2250,8 @@
       "parent_id": "INT-00018",
       "timestamp": "2025-11-14T16:29:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102690"
     },
     {
       "id": "INT-00188",
@@ -2061,7 +2263,8 @@
       "parent_id": "INT-00018",
       "timestamp": "2025-12-30T23:52:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102695"
     },
     {
       "id": "INT-00189",
@@ -2073,7 +2276,8 @@
       "parent_id": "INT-00018",
       "timestamp": "2026-01-29T01:18:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102701"
     },
     {
       "id": "INT-00190",
@@ -2085,7 +2289,8 @@
       "parent_id": "INT-00018",
       "timestamp": "2025-11-24T21:56:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102706"
     },
     {
       "id": "INT-00191",
@@ -2097,7 +2302,8 @@
       "parent_id": "INT-00019",
       "timestamp": "2026-01-02T18:07:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102711"
     },
     {
       "id": "INT-00192",
@@ -2109,7 +2315,8 @@
       "parent_id": "INT-00019",
       "timestamp": "2025-12-10T18:54:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102718"
     },
     {
       "id": "INT-00193",
@@ -2121,7 +2328,8 @@
       "parent_id": "INT-00019",
       "timestamp": "2026-01-20T04:55:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102724"
     },
     {
       "id": "INT-00194",
@@ -2133,7 +2341,8 @@
       "parent_id": "INT-00019",
       "timestamp": "2025-12-25T03:05:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102729"
     },
     {
       "id": "INT-00195",
@@ -2145,7 +2354,8 @@
       "parent_id": "INT-00019",
       "timestamp": "2026-01-20T18:26:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102734"
     },
     {
       "id": "INT-00196",
@@ -2157,7 +2367,8 @@
       "parent_id": "INT-00020",
       "timestamp": "2025-12-21T16:48:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102739"
     },
     {
       "id": "INT-00197",
@@ -2169,7 +2380,8 @@
       "parent_id": "INT-00020",
       "timestamp": "2025-12-21T00:46:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102745"
     },
     {
       "id": "INT-00198",
@@ -2181,7 +2393,8 @@
       "parent_id": "INT-00020",
       "timestamp": "2026-01-15T14:19:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102750"
     },
     {
       "id": "INT-00199",
@@ -2193,7 +2406,8 @@
       "parent_id": "INT-00020",
       "timestamp": "2025-12-14T11:30:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102757"
     },
     {
       "id": "INT-00200",
@@ -2205,7 +2419,8 @@
       "parent_id": "INT-00020",
       "timestamp": "2025-12-24T13:20:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102763"
     },
     {
       "id": "INT-00201",
@@ -2217,7 +2432,8 @@
       "parent_id": "INT-00021",
       "timestamp": "2025-11-14T09:24:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102770"
     },
     {
       "id": "INT-00202",
@@ -2229,7 +2445,8 @@
       "parent_id": "INT-00021",
       "timestamp": "2026-01-08T05:08:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102778"
     },
     {
       "id": "INT-00203",
@@ -2241,7 +2458,8 @@
       "parent_id": "INT-00021",
       "timestamp": "2025-12-30T16:10:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102783"
     },
     {
       "id": "INT-00204",
@@ -2253,7 +2471,8 @@
       "parent_id": "INT-00021",
       "timestamp": "2025-12-16T02:05:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102788"
     },
     {
       "id": "INT-00205",
@@ -2265,7 +2484,8 @@
       "parent_id": "INT-00021",
       "timestamp": "2025-12-28T00:20:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102793"
     },
     {
       "id": "INT-00206",
@@ -2277,7 +2497,8 @@
       "parent_id": "INT-00022",
       "timestamp": "2026-02-04T14:47:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102799"
     },
     {
       "id": "INT-00207",
@@ -2289,7 +2510,8 @@
       "parent_id": "INT-00022",
       "timestamp": "2026-01-19T08:03:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102804"
     },
     {
       "id": "INT-00208",
@@ -2301,7 +2523,8 @@
       "parent_id": "INT-00022",
       "timestamp": "2025-11-20T01:15:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102809"
     },
     {
       "id": "INT-00209",
@@ -2313,7 +2536,8 @@
       "parent_id": "INT-00022",
       "timestamp": "2026-01-26T17:23:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102814"
     },
     {
       "id": "INT-00210",
@@ -2325,7 +2549,8 @@
       "parent_id": "INT-00022",
       "timestamp": "2025-12-01T10:59:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102819"
     },
     {
       "id": "INT-00211",
@@ -2337,7 +2562,8 @@
       "parent_id": "INT-00023",
       "timestamp": "2025-11-24T23:56:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102824"
     },
     {
       "id": "INT-00212",
@@ -2349,7 +2575,8 @@
       "parent_id": "INT-00023",
       "timestamp": "2026-01-23T22:05:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102831"
     },
     {
       "id": "INT-00213",
@@ -2361,7 +2588,8 @@
       "parent_id": "INT-00023",
       "timestamp": "2025-11-12T01:08:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102836"
     },
     {
       "id": "INT-00214",
@@ -2373,7 +2601,8 @@
       "parent_id": "INT-00023",
       "timestamp": "2025-12-31T07:30:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102842"
     },
     {
       "id": "INT-00215",
@@ -2385,7 +2614,8 @@
       "parent_id": "INT-00023",
       "timestamp": "2025-11-15T15:48:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102847"
     },
     {
       "id": "INT-00216",
@@ -2397,7 +2627,8 @@
       "parent_id": "INT-00024",
       "timestamp": "2026-02-05T06:12:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102852"
     },
     {
       "id": "INT-00217",
@@ -2409,7 +2640,8 @@
       "parent_id": "INT-00024",
       "timestamp": "2026-01-18T05:00:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102859"
     },
     {
       "id": "INT-00218",
@@ -2421,7 +2653,8 @@
       "parent_id": "INT-00024",
       "timestamp": "2025-12-03T16:37:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102864"
     },
     {
       "id": "INT-00219",
@@ -2433,7 +2666,8 @@
       "parent_id": "INT-00024",
       "timestamp": "2025-12-17T16:31:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102869"
     },
     {
       "id": "INT-00220",
@@ -2445,7 +2679,8 @@
       "parent_id": "INT-00024",
       "timestamp": "2025-12-03T20:48:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102874"
     },
     {
       "id": "INT-00221",
@@ -2457,7 +2692,8 @@
       "parent_id": "INT-00025",
       "timestamp": "2025-12-25T05:45:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102880"
     },
     {
       "id": "INT-00222",
@@ -2469,7 +2705,8 @@
       "parent_id": "INT-00025",
       "timestamp": "2025-12-14T20:10:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102887"
     },
     {
       "id": "INT-00223",
@@ -2481,7 +2718,8 @@
       "parent_id": "INT-00025",
       "timestamp": "2025-12-27T06:17:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102892"
     },
     {
       "id": "INT-00224",
@@ -2493,7 +2731,8 @@
       "parent_id": "INT-00025",
       "timestamp": "2026-01-25T20:17:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102899"
     },
     {
       "id": "INT-00225",
@@ -2505,7 +2744,8 @@
       "parent_id": "INT-00025",
       "timestamp": "2025-12-06T10:57:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102904"
     },
     {
       "id": "INT-00226",
@@ -2517,7 +2757,8 @@
       "parent_id": "INT-00026",
       "timestamp": "2025-11-28T00:52:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102909"
     },
     {
       "id": "INT-00227",
@@ -2529,7 +2770,8 @@
       "parent_id": "INT-00026",
       "timestamp": "2026-01-13T19:11:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102914"
     },
     {
       "id": "INT-00228",
@@ -2541,7 +2783,8 @@
       "parent_id": "INT-00026",
       "timestamp": "2026-01-27T10:51:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102920"
     },
     {
       "id": "INT-00229",
@@ -2553,7 +2796,8 @@
       "parent_id": "INT-00026",
       "timestamp": "2026-01-01T08:08:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102925"
     },
     {
       "id": "INT-00230",
@@ -2565,7 +2809,8 @@
       "parent_id": "INT-00026",
       "timestamp": "2026-01-25T20:54:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102930"
     },
     {
       "id": "INT-00231",
@@ -2577,7 +2822,8 @@
       "parent_id": "INT-00027",
       "timestamp": "2026-01-04T02:18:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102935"
     },
     {
       "id": "INT-00232",
@@ -2589,7 +2835,8 @@
       "parent_id": "INT-00027",
       "timestamp": "2026-01-16T12:29:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102942"
     },
     {
       "id": "INT-00233",
@@ -2601,7 +2848,8 @@
       "parent_id": "INT-00027",
       "timestamp": "2026-01-13T05:00:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102949"
     },
     {
       "id": "INT-00234",
@@ -2613,7 +2861,8 @@
       "parent_id": "INT-00027",
       "timestamp": "2025-12-03T11:06:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102955"
     },
     {
       "id": "INT-00235",
@@ -2625,7 +2874,8 @@
       "parent_id": "INT-00027",
       "timestamp": "2026-01-16T09:52:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102960"
     },
     {
       "id": "INT-00236",
@@ -2637,7 +2887,8 @@
       "parent_id": "INT-00028",
       "timestamp": "2026-01-20T05:22:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102965"
     },
     {
       "id": "INT-00237",
@@ -2649,7 +2900,8 @@
       "parent_id": "INT-00028",
       "timestamp": "2025-12-26T04:29:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102970"
     },
     {
       "id": "INT-00238",
@@ -2661,7 +2913,8 @@
       "parent_id": "INT-00028",
       "timestamp": "2025-12-17T21:37:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.102975"
     },
     {
       "id": "INT-00239",
@@ -2673,7 +2926,8 @@
       "parent_id": "INT-00028",
       "timestamp": "2025-12-24T00:47:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102980"
     },
     {
       "id": "INT-00240",
@@ -2685,7 +2939,8 @@
       "parent_id": "INT-00028",
       "timestamp": "2026-01-05T09:20:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.102985"
     },
     {
       "id": "INT-00241",
@@ -2697,7 +2952,8 @@
       "parent_id": "INT-00029",
       "timestamp": "2025-12-28T10:35:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102990"
     },
     {
       "id": "INT-00242",
@@ -2709,7 +2965,8 @@
       "parent_id": "INT-00029",
       "timestamp": "2025-12-02T05:59:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.102997"
     },
     {
       "id": "INT-00243",
@@ -2721,7 +2978,8 @@
       "parent_id": "INT-00029",
       "timestamp": "2025-12-27T11:15:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103003"
     },
     {
       "id": "INT-00244",
@@ -2733,7 +2991,8 @@
       "parent_id": "INT-00029",
       "timestamp": "2026-01-20T14:12:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103008"
     },
     {
       "id": "INT-00245",
@@ -2745,7 +3004,8 @@
       "parent_id": "INT-00029",
       "timestamp": "2025-12-19T22:12:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103013"
     },
     {
       "id": "INT-00246",
@@ -2757,7 +3017,8 @@
       "parent_id": "INT-00030",
       "timestamp": "2025-12-11T00:35:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103018"
     },
     {
       "id": "INT-00247",
@@ -2769,7 +3030,8 @@
       "parent_id": "INT-00030",
       "timestamp": "2025-11-13T16:34:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103023"
     },
     {
       "id": "INT-00248",
@@ -2781,7 +3043,8 @@
       "parent_id": "INT-00030",
       "timestamp": "2026-01-15T19:39:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103028"
     },
     {
       "id": "INT-00249",
@@ -2793,7 +3056,8 @@
       "parent_id": "INT-00030",
       "timestamp": "2026-01-09T04:50:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103037"
     },
     {
       "id": "INT-00250",
@@ -2805,7 +3069,8 @@
       "parent_id": "INT-00030",
       "timestamp": "2026-01-04T21:34:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103042"
     },
     {
       "id": "INT-00251",
@@ -2817,7 +3082,8 @@
       "parent_id": "INT-00031",
       "timestamp": "2025-12-24T12:48:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103047"
     },
     {
       "id": "INT-00252",
@@ -2829,7 +3095,8 @@
       "parent_id": "INT-00031",
       "timestamp": "2026-01-30T14:07:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103054"
     },
     {
       "id": "INT-00253",
@@ -2841,7 +3108,8 @@
       "parent_id": "INT-00031",
       "timestamp": "2025-12-26T13:44:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103059"
     },
     {
       "id": "INT-00254",
@@ -2853,7 +3121,8 @@
       "parent_id": "INT-00031",
       "timestamp": "2025-11-18T20:56:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103064"
     },
     {
       "id": "INT-00255",
@@ -2865,7 +3134,8 @@
       "parent_id": "INT-00031",
       "timestamp": "2026-01-21T12:04:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103069"
     },
     {
       "id": "INT-00256",
@@ -2877,7 +3147,8 @@
       "parent_id": "INT-00032",
       "timestamp": "2025-11-13T08:53:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103075"
     },
     {
       "id": "INT-00257",
@@ -2889,7 +3160,8 @@
       "parent_id": "INT-00032",
       "timestamp": "2025-12-18T14:51:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103080"
     },
     {
       "id": "INT-00258",
@@ -2901,7 +3173,8 @@
       "parent_id": "INT-00032",
       "timestamp": "2025-12-10T22:12:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103085"
     },
     {
       "id": "INT-00259",
@@ -2913,7 +3186,8 @@
       "parent_id": "INT-00032",
       "timestamp": "2026-01-12T03:26:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103090"
     },
     {
       "id": "INT-00260",
@@ -2925,7 +3199,8 @@
       "parent_id": "INT-00032",
       "timestamp": "2026-01-02T02:58:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103095"
     },
     {
       "id": "INT-00261",
@@ -2937,7 +3212,8 @@
       "parent_id": "INT-00033",
       "timestamp": "2026-01-21T10:45:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103100"
     },
     {
       "id": "INT-00262",
@@ -2949,7 +3225,8 @@
       "parent_id": "INT-00033",
       "timestamp": "2026-01-30T11:34:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103107"
     },
     {
       "id": "INT-00263",
@@ -2961,7 +3238,8 @@
       "parent_id": "INT-00033",
       "timestamp": "2026-01-08T07:27:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103112"
     },
     {
       "id": "INT-00264",
@@ -2973,7 +3251,8 @@
       "parent_id": "INT-00033",
       "timestamp": "2026-01-31T03:09:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103118"
     },
     {
       "id": "INT-00265",
@@ -2985,7 +3264,8 @@
       "parent_id": "INT-00033",
       "timestamp": "2026-01-14T18:45:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103125"
     },
     {
       "id": "INT-00266",
@@ -2997,7 +3277,8 @@
       "parent_id": "INT-00034",
       "timestamp": "2025-12-08T11:34:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103130"
     },
     {
       "id": "INT-00267",
@@ -3009,7 +3290,8 @@
       "parent_id": "INT-00034",
       "timestamp": "2025-12-26T12:36:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103136"
     },
     {
       "id": "INT-00268",
@@ -3021,7 +3303,8 @@
       "parent_id": "INT-00034",
       "timestamp": "2025-12-31T23:03:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103141"
     },
     {
       "id": "INT-00269",
@@ -3033,7 +3316,8 @@
       "parent_id": "INT-00034",
       "timestamp": "2025-12-11T15:05:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103146"
     },
     {
       "id": "INT-00270",
@@ -3045,7 +3329,8 @@
       "parent_id": "INT-00034",
       "timestamp": "2026-01-19T23:29:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103151"
     },
     {
       "id": "INT-00271",
@@ -3057,7 +3342,8 @@
       "parent_id": "INT-00035",
       "timestamp": "2025-12-29T19:40:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103156"
     },
     {
       "id": "INT-00272",
@@ -3069,7 +3355,8 @@
       "parent_id": "INT-00035",
       "timestamp": "2025-12-17T14:36:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103164"
     },
     {
       "id": "INT-00273",
@@ -3081,7 +3368,8 @@
       "parent_id": "INT-00035",
       "timestamp": "2025-11-18T20:27:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103169"
     },
     {
       "id": "INT-00274",
@@ -3093,7 +3381,8 @@
       "parent_id": "INT-00035",
       "timestamp": "2025-12-21T00:04:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103174"
     },
     {
       "id": "INT-00275",
@@ -3105,7 +3394,8 @@
       "parent_id": "INT-00035",
       "timestamp": "2026-01-30T16:35:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103181"
     },
     {
       "id": "INT-00276",
@@ -3117,7 +3407,8 @@
       "parent_id": "INT-00036",
       "timestamp": "2025-11-13T07:58:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103186"
     },
     {
       "id": "INT-00277",
@@ -3129,7 +3420,8 @@
       "parent_id": "INT-00036",
       "timestamp": "2026-01-24T08:47:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103191"
     },
     {
       "id": "INT-00278",
@@ -3141,7 +3433,8 @@
       "parent_id": "INT-00036",
       "timestamp": "2025-12-18T14:30:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103196"
     },
     {
       "id": "INT-00279",
@@ -3153,7 +3446,8 @@
       "parent_id": "INT-00036",
       "timestamp": "2026-01-29T04:47:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103202"
     },
     {
       "id": "INT-00280",
@@ -3165,7 +3459,8 @@
       "parent_id": "INT-00036",
       "timestamp": "2026-01-09T23:11:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103207"
     },
     {
       "id": "INT-00281",
@@ -3177,7 +3472,8 @@
       "parent_id": "INT-00037",
       "timestamp": "2026-01-28T17:25:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103214"
     },
     {
       "id": "INT-00282",
@@ -3189,7 +3485,8 @@
       "parent_id": "INT-00037",
       "timestamp": "2025-11-13T05:27:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103221"
     },
     {
       "id": "INT-00283",
@@ -3201,7 +3498,8 @@
       "parent_id": "INT-00037",
       "timestamp": "2026-01-09T00:11:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103226"
     },
     {
       "id": "INT-00284",
@@ -3213,7 +3511,8 @@
       "parent_id": "INT-00037",
       "timestamp": "2026-01-15T23:46:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103231"
     },
     {
       "id": "INT-00285",
@@ -3225,7 +3524,8 @@
       "parent_id": "INT-00037",
       "timestamp": "2026-01-08T07:15:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103236"
     },
     {
       "id": "INT-00286",
@@ -3237,7 +3537,8 @@
       "parent_id": "INT-00038",
       "timestamp": "2025-12-03T09:02:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103242"
     },
     {
       "id": "INT-00287",
@@ -3249,7 +3550,8 @@
       "parent_id": "INT-00038",
       "timestamp": "2025-12-04T23:37:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103247"
     },
     {
       "id": "INT-00288",
@@ -3261,7 +3563,8 @@
       "parent_id": "INT-00038",
       "timestamp": "2026-02-05T10:05:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103252"
     },
     {
       "id": "INT-00289",
@@ -3273,7 +3576,8 @@
       "parent_id": "INT-00038",
       "timestamp": "2025-12-22T14:45:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103257"
     },
     {
       "id": "INT-00290",
@@ -3285,7 +3589,8 @@
       "parent_id": "INT-00038",
       "timestamp": "2025-12-14T10:02:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103262"
     },
     {
       "id": "INT-00291",
@@ -3297,7 +3602,8 @@
       "parent_id": "INT-00039",
       "timestamp": "2026-01-28T05:57:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103268"
     },
     {
       "id": "INT-00292",
@@ -3309,7 +3615,8 @@
       "parent_id": "INT-00039",
       "timestamp": "2025-12-16T23:26:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103275"
     },
     {
       "id": "INT-00293",
@@ -3321,7 +3628,8 @@
       "parent_id": "INT-00039",
       "timestamp": "2025-12-23T03:58:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103280"
     },
     {
       "id": "INT-00294",
@@ -3333,7 +3641,8 @@
       "parent_id": "INT-00039",
       "timestamp": "2026-01-23T05:47:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103285"
     },
     {
       "id": "INT-00295",
@@ -3345,7 +3654,8 @@
       "parent_id": "INT-00039",
       "timestamp": "2025-12-27T04:33:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103290"
     },
     {
       "id": "INT-00296",
@@ -3357,7 +3667,8 @@
       "parent_id": "INT-00040",
       "timestamp": "2026-02-01T16:46:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103296"
     },
     {
       "id": "INT-00297",
@@ -3369,7 +3680,8 @@
       "parent_id": "INT-00040",
       "timestamp": "2026-02-02T05:49:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103303"
     },
     {
       "id": "INT-00298",
@@ -3381,7 +3693,8 @@
       "parent_id": "INT-00040",
       "timestamp": "2025-12-25T10:10:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103308"
     },
     {
       "id": "INT-00299",
@@ -3393,7 +3706,8 @@
       "parent_id": "INT-00040",
       "timestamp": "2026-01-04T13:55:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103313"
     },
     {
       "id": "INT-00300",
@@ -3405,7 +3719,8 @@
       "parent_id": "INT-00040",
       "timestamp": "2025-11-25T17:49:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103318"
     },
     {
       "id": "INT-00301",
@@ -3417,7 +3732,8 @@
       "parent_id": "INT-00041",
       "timestamp": "2025-12-15T18:56:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103325"
     },
     {
       "id": "INT-00302",
@@ -3429,7 +3745,8 @@
       "parent_id": "INT-00041",
       "timestamp": "2026-01-23T19:29:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103333"
     },
     {
       "id": "INT-00303",
@@ -3441,7 +3758,8 @@
       "parent_id": "INT-00041",
       "timestamp": "2026-01-05T15:59:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103338"
     },
     {
       "id": "INT-00304",
@@ -3453,7 +3771,8 @@
       "parent_id": "INT-00041",
       "timestamp": "2026-01-09T20:02:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103343"
     },
     {
       "id": "INT-00305",
@@ -3465,7 +3784,8 @@
       "parent_id": "INT-00041",
       "timestamp": "2026-02-07T16:23:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103348"
     },
     {
       "id": "INT-00306",
@@ -3477,7 +3797,8 @@
       "parent_id": "INT-00042",
       "timestamp": "2026-01-26T10:19:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103353"
     },
     {
       "id": "INT-00307",
@@ -3489,7 +3810,8 @@
       "parent_id": "INT-00042",
       "timestamp": "2025-11-13T03:05:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103359"
     },
     {
       "id": "INT-00308",
@@ -3501,7 +3823,8 @@
       "parent_id": "INT-00042",
       "timestamp": "2026-02-02T10:55:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103364"
     },
     {
       "id": "INT-00309",
@@ -3513,7 +3836,8 @@
       "parent_id": "INT-00042",
       "timestamp": "2026-02-03T18:58:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103369"
     },
     {
       "id": "INT-00310",
@@ -3525,7 +3849,8 @@
       "parent_id": "INT-00042",
       "timestamp": "2026-01-21T19:14:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103374"
     },
     {
       "id": "INT-00311",
@@ -3537,7 +3862,8 @@
       "parent_id": "INT-00043",
       "timestamp": "2026-01-21T18:02:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103379"
     },
     {
       "id": "INT-00312",
@@ -3549,7 +3875,8 @@
       "parent_id": "INT-00043",
       "timestamp": "2026-01-01T15:54:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103386"
     },
     {
       "id": "INT-00313",
@@ -3561,7 +3888,8 @@
       "parent_id": "INT-00043",
       "timestamp": "2025-12-09T19:38:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103404"
     },
     {
       "id": "INT-00314",
@@ -3573,7 +3901,8 @@
       "parent_id": "INT-00043",
       "timestamp": "2025-11-18T04:32:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103409"
     },
     {
       "id": "INT-00315",
@@ -3585,7 +3914,8 @@
       "parent_id": "INT-00043",
       "timestamp": "2026-01-02T15:57:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103414"
     },
     {
       "id": "INT-00316",
@@ -3597,7 +3927,8 @@
       "parent_id": "INT-00044",
       "timestamp": "2025-12-26T02:40:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103419"
     },
     {
       "id": "INT-00317",
@@ -3609,7 +3940,8 @@
       "parent_id": "INT-00044",
       "timestamp": "2026-02-03T04:40:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103426"
     },
     {
       "id": "INT-00318",
@@ -3621,7 +3953,8 @@
       "parent_id": "INT-00044",
       "timestamp": "2026-02-02T23:30:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103432"
     },
     {
       "id": "INT-00319",
@@ -3633,7 +3966,8 @@
       "parent_id": "INT-00044",
       "timestamp": "2026-02-07T23:36:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103437"
     },
     {
       "id": "INT-00320",
@@ -3645,7 +3979,8 @@
       "parent_id": "INT-00044",
       "timestamp": "2026-01-17T10:44:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103442"
     },
     {
       "id": "INT-00321",
@@ -3657,7 +3992,8 @@
       "parent_id": "INT-00045",
       "timestamp": "2025-12-15T23:38:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103447"
     },
     {
       "id": "INT-00322",
@@ -3669,7 +4005,8 @@
       "parent_id": "INT-00045",
       "timestamp": "2026-01-14T03:54:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103454"
     },
     {
       "id": "INT-00323",
@@ -3681,7 +4018,8 @@
       "parent_id": "INT-00045",
       "timestamp": "2026-01-20T21:34:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103460"
     },
     {
       "id": "INT-00324",
@@ -3693,7 +4031,8 @@
       "parent_id": "INT-00045",
       "timestamp": "2025-12-07T03:46:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103465"
     },
     {
       "id": "INT-00325",
@@ -3705,7 +4044,8 @@
       "parent_id": "INT-00045",
       "timestamp": "2025-11-17T07:39:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103470"
     },
     {
       "id": "INT-00326",
@@ -3717,7 +4057,8 @@
       "parent_id": "INT-00046",
       "timestamp": "2025-12-25T06:04:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103477"
     },
     {
       "id": "INT-00327",
@@ -3729,7 +4070,8 @@
       "parent_id": "INT-00046",
       "timestamp": "2025-12-02T07:28:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103482"
     },
     {
       "id": "INT-00328",
@@ -3741,7 +4083,8 @@
       "parent_id": "INT-00046",
       "timestamp": "2025-11-29T23:24:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103488"
     },
     {
       "id": "INT-00329",
@@ -3753,7 +4096,8 @@
       "parent_id": "INT-00046",
       "timestamp": "2026-01-26T04:48:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103498"
     },
     {
       "id": "INT-00330",
@@ -3765,7 +4109,8 @@
       "parent_id": "INT-00046",
       "timestamp": "2025-12-17T17:48:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103504"
     },
     {
       "id": "INT-00331",
@@ -3777,7 +4122,8 @@
       "parent_id": "INT-00047",
       "timestamp": "2025-12-08T21:58:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103509"
     },
     {
       "id": "INT-00332",
@@ -3789,7 +4135,8 @@
       "parent_id": "INT-00047",
       "timestamp": "2025-11-20T20:44:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103516"
     },
     {
       "id": "INT-00333",
@@ -3801,7 +4148,8 @@
       "parent_id": "INT-00047",
       "timestamp": "2025-12-01T12:09:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103521"
     },
     {
       "id": "INT-00334",
@@ -3813,7 +4161,8 @@
       "parent_id": "INT-00047",
       "timestamp": "2025-11-30T10:18:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103526"
     },
     {
       "id": "INT-00335",
@@ -3825,7 +4174,8 @@
       "parent_id": "INT-00047",
       "timestamp": "2026-01-03T08:21:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103531"
     },
     {
       "id": "INT-00336",
@@ -3837,7 +4187,8 @@
       "parent_id": "INT-00048",
       "timestamp": "2025-12-31T08:22:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103536"
     },
     {
       "id": "INT-00337",
@@ -3849,7 +4200,8 @@
       "parent_id": "INT-00048",
       "timestamp": "2026-01-02T14:46:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103541"
     },
     {
       "id": "INT-00338",
@@ -3861,7 +4213,8 @@
       "parent_id": "INT-00048",
       "timestamp": "2025-11-29T07:29:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103546"
     },
     {
       "id": "INT-00339",
@@ -3873,7 +4226,8 @@
       "parent_id": "INT-00048",
       "timestamp": "2025-11-28T17:18:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103551"
     },
     {
       "id": "INT-00340",
@@ -3885,7 +4239,8 @@
       "parent_id": "INT-00048",
       "timestamp": "2026-01-16T23:15:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103557"
     },
     {
       "id": "INT-00341",
@@ -3897,7 +4252,8 @@
       "parent_id": "INT-00049",
       "timestamp": "2025-12-28T21:26:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103562"
     },
     {
       "id": "INT-00342",
@@ -3909,7 +4265,8 @@
       "parent_id": "INT-00049",
       "timestamp": "2025-11-30T06:19:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103569"
     },
     {
       "id": "INT-00343",
@@ -3921,7 +4278,8 @@
       "parent_id": "INT-00049",
       "timestamp": "2025-11-27T19:35:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103574"
     },
     {
       "id": "INT-00344",
@@ -3933,7 +4291,8 @@
       "parent_id": "INT-00049",
       "timestamp": "2025-12-25T22:53:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103581"
     },
     {
       "id": "INT-00345",
@@ -3945,7 +4304,8 @@
       "parent_id": "INT-00049",
       "timestamp": "2025-12-25T07:23:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103586"
     },
     {
       "id": "INT-00346",
@@ -3957,7 +4317,8 @@
       "parent_id": "INT-00050",
       "timestamp": "2025-12-01T13:05:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103591"
     },
     {
       "id": "INT-00347",
@@ -3969,7 +4330,8 @@
       "parent_id": "INT-00050",
       "timestamp": "2026-01-09T11:03:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103597"
     },
     {
       "id": "INT-00348",
@@ -3981,7 +4343,8 @@
       "parent_id": "INT-00050",
       "timestamp": "2025-11-23T13:33:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103602"
     },
     {
       "id": "INT-00349",
@@ -3993,7 +4356,8 @@
       "parent_id": "INT-00050",
       "timestamp": "2026-01-12T12:04:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103607"
     },
     {
       "id": "INT-00350",
@@ -4005,7 +4369,8 @@
       "parent_id": "INT-00050",
       "timestamp": "2026-01-04T20:04:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103612"
     },
     {
       "id": "INT-00351",
@@ -4017,7 +4382,8 @@
       "parent_id": "INT-00051",
       "timestamp": "2025-11-14T06:07:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103619"
     },
     {
       "id": "INT-00352",
@@ -4029,7 +4395,8 @@
       "parent_id": "INT-00051",
       "timestamp": "2026-02-03T11:34:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103626"
     },
     {
       "id": "INT-00353",
@@ -4041,7 +4408,8 @@
       "parent_id": "INT-00051",
       "timestamp": "2026-01-01T13:07:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103631"
     },
     {
       "id": "INT-00354",
@@ -4053,7 +4421,8 @@
       "parent_id": "INT-00051",
       "timestamp": "2025-11-15T23:13:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103637"
     },
     {
       "id": "INT-00355",
@@ -4065,7 +4434,8 @@
       "parent_id": "INT-00051",
       "timestamp": "2026-01-27T17:18:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103642"
     },
     {
       "id": "INT-00356",
@@ -4077,7 +4447,8 @@
       "parent_id": "INT-00052",
       "timestamp": "2025-11-15T09:37:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103647"
     },
     {
       "id": "INT-00357",
@@ -4089,7 +4460,8 @@
       "parent_id": "INT-00052",
       "timestamp": "2026-01-01T14:30:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103652"
     },
     {
       "id": "INT-00358",
@@ -4101,7 +4473,8 @@
       "parent_id": "INT-00052",
       "timestamp": "2025-12-04T14:48:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103658"
     },
     {
       "id": "INT-00359",
@@ -4113,7 +4486,8 @@
       "parent_id": "INT-00052",
       "timestamp": "2026-01-08T05:01:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103663"
     },
     {
       "id": "INT-00360",
@@ -4125,7 +4499,8 @@
       "parent_id": "INT-00052",
       "timestamp": "2025-11-26T00:27:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103670"
     },
     {
       "id": "INT-00361",
@@ -4137,7 +4512,8 @@
       "parent_id": "INT-00053",
       "timestamp": "2025-12-19T04:38:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103675"
     },
     {
       "id": "INT-00362",
@@ -4149,7 +4525,8 @@
       "parent_id": "INT-00053",
       "timestamp": "2025-11-11T22:26:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103682"
     },
     {
       "id": "INT-00363",
@@ -4161,7 +4538,8 @@
       "parent_id": "INT-00053",
       "timestamp": "2026-01-17T19:52:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103688"
     },
     {
       "id": "INT-00364",
@@ -4173,7 +4551,8 @@
       "parent_id": "INT-00053",
       "timestamp": "2026-01-22T12:50:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103693"
     },
     {
       "id": "INT-00365",
@@ -4185,7 +4564,8 @@
       "parent_id": "INT-00053",
       "timestamp": "2025-12-14T16:02:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103698"
     },
     {
       "id": "INT-00366",
@@ -4197,7 +4577,8 @@
       "parent_id": "INT-00054",
       "timestamp": "2025-11-27T03:18:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103703"
     },
     {
       "id": "INT-00367",
@@ -4209,7 +4590,8 @@
       "parent_id": "INT-00054",
       "timestamp": "2026-01-03T00:24:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103708"
     },
     {
       "id": "INT-00368",
@@ -4221,7 +4603,8 @@
       "parent_id": "INT-00054",
       "timestamp": "2025-11-21T22:17:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103713"
     },
     {
       "id": "INT-00369",
@@ -4233,7 +4616,8 @@
       "parent_id": "INT-00054",
       "timestamp": "2025-12-27T18:26:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103718"
     },
     {
       "id": "INT-00370",
@@ -4245,7 +4629,8 @@
       "parent_id": "INT-00054",
       "timestamp": "2025-11-13T19:55:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103723"
     },
     {
       "id": "INT-00371",
@@ -4257,7 +4642,8 @@
       "parent_id": "INT-00055",
       "timestamp": "2026-01-24T14:33:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103728"
     },
     {
       "id": "INT-00372",
@@ -4269,7 +4655,8 @@
       "parent_id": "INT-00055",
       "timestamp": "2025-11-15T06:58:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103735"
     },
     {
       "id": "INT-00373",
@@ -4281,7 +4668,8 @@
       "parent_id": "INT-00055",
       "timestamp": "2025-12-27T09:31:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103740"
     },
     {
       "id": "INT-00374",
@@ -4293,7 +4681,8 @@
       "parent_id": "INT-00055",
       "timestamp": "2025-12-11T19:13:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103745"
     },
     {
       "id": "INT-00375",
@@ -4305,7 +4694,8 @@
       "parent_id": "INT-00055",
       "timestamp": "2025-11-11T00:29:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103750"
     },
     {
       "id": "INT-00376",
@@ -4317,7 +4707,8 @@
       "parent_id": "INT-00056",
       "timestamp": "2025-12-10T23:03:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103758"
     },
     {
       "id": "INT-00377",
@@ -4329,7 +4720,8 @@
       "parent_id": "INT-00056",
       "timestamp": "2026-02-02T00:35:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103765"
     },
     {
       "id": "INT-00378",
@@ -4341,7 +4733,8 @@
       "parent_id": "INT-00056",
       "timestamp": "2025-12-05T09:08:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103770"
     },
     {
       "id": "INT-00379",
@@ -4353,7 +4746,8 @@
       "parent_id": "INT-00056",
       "timestamp": "2025-11-15T13:17:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103775"
     },
     {
       "id": "INT-00380",
@@ -4365,7 +4759,8 @@
       "parent_id": "INT-00056",
       "timestamp": "2026-01-08T09:37:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103780"
     },
     {
       "id": "INT-00381",
@@ -4377,7 +4772,8 @@
       "parent_id": "INT-00057",
       "timestamp": "2025-12-08T14:44:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103785"
     },
     {
       "id": "INT-00382",
@@ -4389,7 +4785,8 @@
       "parent_id": "INT-00057",
       "timestamp": "2026-02-05T13:43:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103792"
     },
     {
       "id": "INT-00383",
@@ -4401,7 +4798,8 @@
       "parent_id": "INT-00057",
       "timestamp": "2025-12-30T01:45:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103798"
     },
     {
       "id": "INT-00384",
@@ -4413,7 +4811,8 @@
       "parent_id": "INT-00057",
       "timestamp": "2025-11-15T23:29:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103803"
     },
     {
       "id": "INT-00385",
@@ -4425,7 +4824,8 @@
       "parent_id": "INT-00057",
       "timestamp": "2025-11-19T20:31:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103808"
     },
     {
       "id": "INT-00386",
@@ -4437,7 +4837,8 @@
       "parent_id": "INT-00058",
       "timestamp": "2025-11-17T02:22:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103813"
     },
     {
       "id": "INT-00387",
@@ -4449,7 +4850,8 @@
       "parent_id": "INT-00058",
       "timestamp": "2026-01-08T06:04:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103818"
     },
     {
       "id": "INT-00388",
@@ -4461,7 +4863,8 @@
       "parent_id": "INT-00058",
       "timestamp": "2026-01-08T22:01:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103823"
     },
     {
       "id": "INT-00389",
@@ -4473,7 +4876,8 @@
       "parent_id": "INT-00058",
       "timestamp": "2025-11-19T06:00:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103829"
     },
     {
       "id": "INT-00390",
@@ -4485,7 +4889,8 @@
       "parent_id": "INT-00058",
       "timestamp": "2025-11-12T17:36:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103834"
     },
     {
       "id": "INT-00391",
@@ -4497,7 +4902,8 @@
       "parent_id": "INT-00059",
       "timestamp": "2026-01-09T04:05:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103839"
     },
     {
       "id": "INT-00392",
@@ -4509,7 +4915,8 @@
       "parent_id": "INT-00059",
       "timestamp": "2025-12-04T14:54:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103848"
     },
     {
       "id": "INT-00393",
@@ -4521,7 +4928,8 @@
       "parent_id": "INT-00059",
       "timestamp": "2026-01-21T08:35:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103853"
     },
     {
       "id": "INT-00394",
@@ -4533,7 +4941,8 @@
       "parent_id": "INT-00059",
       "timestamp": "2025-12-02T05:56:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103859"
     },
     {
       "id": "INT-00395",
@@ -4545,7 +4954,8 @@
       "parent_id": "INT-00059",
       "timestamp": "2026-01-06T10:49:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103864"
     },
     {
       "id": "INT-00396",
@@ -4557,7 +4967,8 @@
       "parent_id": "INT-00060",
       "timestamp": "2026-02-07T11:42:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103869"
     },
     {
       "id": "INT-00397",
@@ -4569,7 +4980,8 @@
       "parent_id": "INT-00060",
       "timestamp": "2026-02-04T17:16:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103875"
     },
     {
       "id": "INT-00398",
@@ -4581,7 +4993,8 @@
       "parent_id": "INT-00060",
       "timestamp": "2025-12-01T22:40:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103880"
     },
     {
       "id": "INT-00399",
@@ -4593,7 +5006,8 @@
       "parent_id": "INT-00060",
       "timestamp": "2026-01-17T22:21:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103885"
     },
     {
       "id": "INT-00400",
@@ -4605,7 +5019,8 @@
       "parent_id": "INT-00060",
       "timestamp": "2026-01-27T22:32:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103890"
     },
     {
       "id": "INT-00401",
@@ -4617,7 +5032,8 @@
       "parent_id": "INT-00061",
       "timestamp": "2025-11-26T21:40:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103895"
     },
     {
       "id": "INT-00402",
@@ -4629,7 +5045,8 @@
       "parent_id": "INT-00061",
       "timestamp": "2026-01-07T21:33:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103903"
     },
     {
       "id": "INT-00403",
@@ -4641,7 +5058,8 @@
       "parent_id": "INT-00061",
       "timestamp": "2025-11-17T21:30:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103910"
     },
     {
       "id": "INT-00404",
@@ -4653,7 +5071,8 @@
       "parent_id": "INT-00061",
       "timestamp": "2025-12-25T02:42:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103915"
     },
     {
       "id": "INT-00405",
@@ -4665,7 +5084,8 @@
       "parent_id": "INT-00061",
       "timestamp": "2025-11-16T21:18:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103920"
     },
     {
       "id": "INT-00406",
@@ -4677,7 +5097,8 @@
       "parent_id": "INT-00062",
       "timestamp": "2026-01-25T02:33:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.103925"
     },
     {
       "id": "INT-00407",
@@ -4689,7 +5110,8 @@
       "parent_id": "INT-00062",
       "timestamp": "2025-11-26T10:43:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103931"
     },
     {
       "id": "INT-00408",
@@ -4701,7 +5123,8 @@
       "parent_id": "INT-00062",
       "timestamp": "2025-12-09T14:50:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103938"
     },
     {
       "id": "INT-00409",
@@ -4713,7 +5136,8 @@
       "parent_id": "INT-00062",
       "timestamp": "2026-01-31T11:55:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103943"
     },
     {
       "id": "INT-00410",
@@ -4725,7 +5149,8 @@
       "parent_id": "INT-00062",
       "timestamp": "2025-11-19T16:51:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103948"
     },
     {
       "id": "INT-00411",
@@ -4737,7 +5162,8 @@
       "parent_id": "INT-00063",
       "timestamp": "2025-12-10T14:47:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103953"
     },
     {
       "id": "INT-00412",
@@ -4749,7 +5175,8 @@
       "parent_id": "INT-00063",
       "timestamp": "2026-01-06T15:00:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103960"
     },
     {
       "id": "INT-00413",
@@ -4761,7 +5188,8 @@
       "parent_id": "INT-00063",
       "timestamp": "2025-11-21T20:22:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103965"
     },
     {
       "id": "INT-00414",
@@ -4773,7 +5201,8 @@
       "parent_id": "INT-00063",
       "timestamp": "2026-01-08T04:48:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103970"
     },
     {
       "id": "INT-00415",
@@ -4785,7 +5214,8 @@
       "parent_id": "INT-00063",
       "timestamp": "2025-12-19T04:02:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103976"
     },
     {
       "id": "INT-00416",
@@ -4797,7 +5227,8 @@
       "parent_id": "INT-00064",
       "timestamp": "2025-12-09T23:57:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.103981"
     },
     {
       "id": "INT-00417",
@@ -4809,7 +5240,8 @@
       "parent_id": "INT-00064",
       "timestamp": "2025-11-19T23:58:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103986"
     },
     {
       "id": "INT-00418",
@@ -4821,7 +5253,8 @@
       "parent_id": "INT-00064",
       "timestamp": "2025-11-20T16:11:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103991"
     },
     {
       "id": "INT-00419",
@@ -4833,7 +5266,8 @@
       "parent_id": "INT-00064",
       "timestamp": "2025-12-29T10:27:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.103996"
     },
     {
       "id": "INT-00420",
@@ -4845,7 +5279,8 @@
       "parent_id": "INT-00064",
       "timestamp": "2025-12-31T13:45:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104001"
     },
     {
       "id": "INT-00421",
@@ -4857,7 +5292,8 @@
       "parent_id": "INT-00065",
       "timestamp": "2025-12-19T02:19:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104006"
     },
     {
       "id": "INT-00422",
@@ -4869,7 +5305,8 @@
       "parent_id": "INT-00065",
       "timestamp": "2026-01-01T20:20:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104013"
     },
     {
       "id": "INT-00423",
@@ -4881,7 +5318,8 @@
       "parent_id": "INT-00065",
       "timestamp": "2025-12-17T01:50:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104018"
     },
     {
       "id": "INT-00424",
@@ -4893,7 +5331,8 @@
       "parent_id": "INT-00065",
       "timestamp": "2026-01-30T16:12:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104025"
     },
     {
       "id": "INT-00425",
@@ -4905,7 +5344,8 @@
       "parent_id": "INT-00065",
       "timestamp": "2025-12-01T16:41:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104030"
     },
     {
       "id": "INT-00426",
@@ -4917,7 +5357,8 @@
       "parent_id": "INT-00066",
       "timestamp": "2026-02-05T22:14:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104036"
     },
     {
       "id": "INT-00427",
@@ -4929,7 +5370,8 @@
       "parent_id": "INT-00066",
       "timestamp": "2025-11-27T00:36:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104041"
     },
     {
       "id": "INT-00428",
@@ -4941,7 +5383,8 @@
       "parent_id": "INT-00066",
       "timestamp": "2025-11-25T09:16:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104048"
     },
     {
       "id": "INT-00429",
@@ -4953,7 +5396,8 @@
       "parent_id": "INT-00066",
       "timestamp": "2026-01-03T05:02:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104053"
     },
     {
       "id": "INT-00430",
@@ -4965,7 +5409,8 @@
       "parent_id": "INT-00066",
       "timestamp": "2025-11-11T22:44:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104058"
     },
     {
       "id": "INT-00431",
@@ -4977,7 +5422,8 @@
       "parent_id": "INT-00067",
       "timestamp": "2026-01-03T08:19:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104063"
     },
     {
       "id": "INT-00432",
@@ -4989,7 +5435,8 @@
       "parent_id": "INT-00067",
       "timestamp": "2025-12-14T18:20:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104070"
     },
     {
       "id": "INT-00433",
@@ -5001,7 +5448,8 @@
       "parent_id": "INT-00067",
       "timestamp": "2025-11-24T15:44:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104075"
     },
     {
       "id": "INT-00434",
@@ -5013,7 +5461,8 @@
       "parent_id": "INT-00067",
       "timestamp": "2025-12-21T16:56:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104080"
     },
     {
       "id": "INT-00435",
@@ -5025,7 +5474,8 @@
       "parent_id": "INT-00067",
       "timestamp": "2026-01-30T14:25:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104086"
     },
     {
       "id": "INT-00436",
@@ -5037,7 +5487,8 @@
       "parent_id": "INT-00068",
       "timestamp": "2025-11-22T09:23:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104091"
     },
     {
       "id": "INT-00437",
@@ -5049,7 +5500,8 @@
       "parent_id": "INT-00068",
       "timestamp": "2026-01-31T03:23:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104096"
     },
     {
       "id": "INT-00438",
@@ -5061,7 +5513,8 @@
       "parent_id": "INT-00068",
       "timestamp": "2026-01-21T13:44:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104101"
     },
     {
       "id": "INT-00439",
@@ -5073,7 +5526,8 @@
       "parent_id": "INT-00068",
       "timestamp": "2026-01-07T16:31:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104106"
     },
     {
       "id": "INT-00440",
@@ -5085,7 +5539,8 @@
       "parent_id": "INT-00068",
       "timestamp": "2025-12-15T02:47:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104113"
     },
     {
       "id": "INT-00441",
@@ -5097,7 +5552,8 @@
       "parent_id": "INT-00069",
       "timestamp": "2026-01-07T20:51:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104118"
     },
     {
       "id": "INT-00442",
@@ -5109,7 +5565,8 @@
       "parent_id": "INT-00069",
       "timestamp": "2026-01-28T09:59:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104125"
     },
     {
       "id": "INT-00443",
@@ -5121,7 +5578,8 @@
       "parent_id": "INT-00069",
       "timestamp": "2026-01-24T03:16:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104131"
     },
     {
       "id": "INT-00444",
@@ -5133,7 +5591,8 @@
       "parent_id": "INT-00069",
       "timestamp": "2025-12-19T19:54:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104136"
     },
     {
       "id": "INT-00445",
@@ -5145,7 +5604,8 @@
       "parent_id": "INT-00069",
       "timestamp": "2025-11-23T14:16:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104142"
     },
     {
       "id": "INT-00446",
@@ -5157,7 +5617,8 @@
       "parent_id": "INT-00070",
       "timestamp": "2026-01-10T10:48:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104147"
     },
     {
       "id": "INT-00447",
@@ -5169,7 +5630,8 @@
       "parent_id": "INT-00070",
       "timestamp": "2025-11-22T23:17:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104152"
     },
     {
       "id": "INT-00448",
@@ -5181,7 +5643,8 @@
       "parent_id": "INT-00070",
       "timestamp": "2025-11-13T19:15:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104157"
     },
     {
       "id": "INT-00449",
@@ -5193,7 +5656,8 @@
       "parent_id": "INT-00070",
       "timestamp": "2026-01-09T02:16:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104162"
     },
     {
       "id": "INT-00450",
@@ -5205,7 +5669,8 @@
       "parent_id": "INT-00070",
       "timestamp": "2025-11-16T10:25:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104167"
     },
     {
       "id": "INT-00451",
@@ -5217,7 +5682,8 @@
       "parent_id": "INT-00071",
       "timestamp": "2025-12-16T09:57:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104173"
     },
     {
       "id": "INT-00452",
@@ -5229,7 +5695,8 @@
       "parent_id": "INT-00071",
       "timestamp": "2026-02-08T10:48:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104180"
     },
     {
       "id": "INT-00453",
@@ -5241,7 +5708,8 @@
       "parent_id": "INT-00071",
       "timestamp": "2026-01-22T18:54:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104187"
     },
     {
       "id": "INT-00454",
@@ -5253,7 +5721,8 @@
       "parent_id": "INT-00071",
       "timestamp": "2025-11-16T15:09:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104192"
     },
     {
       "id": "INT-00455",
@@ -5265,7 +5734,8 @@
       "parent_id": "INT-00071",
       "timestamp": "2026-01-21T00:05:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104197"
     },
     {
       "id": "INT-00456",
@@ -5277,7 +5747,8 @@
       "parent_id": "INT-00072",
       "timestamp": "2026-01-25T04:58:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104204"
     },
     {
       "id": "INT-00457",
@@ -5289,7 +5760,8 @@
       "parent_id": "INT-00072",
       "timestamp": "2025-12-28T09:49:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104209"
     },
     {
       "id": "INT-00458",
@@ -5301,7 +5773,8 @@
       "parent_id": "INT-00072",
       "timestamp": "2025-12-22T23:28:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104215"
     },
     {
       "id": "INT-00459",
@@ -5313,7 +5786,8 @@
       "parent_id": "INT-00072",
       "timestamp": "2026-01-16T09:19:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104220"
     },
     {
       "id": "INT-00460",
@@ -5325,7 +5799,8 @@
       "parent_id": "INT-00072",
       "timestamp": "2026-02-02T18:17:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104226"
     },
     {
       "id": "INT-00461",
@@ -5337,7 +5812,8 @@
       "parent_id": "INT-00073",
       "timestamp": "2025-12-12T10:00:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104231"
     },
     {
       "id": "INT-00462",
@@ -5349,7 +5825,8 @@
       "parent_id": "INT-00073",
       "timestamp": "2025-12-30T10:35:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104238"
     },
     {
       "id": "INT-00463",
@@ -5361,7 +5838,8 @@
       "parent_id": "INT-00073",
       "timestamp": "2025-12-13T20:08:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104243"
     },
     {
       "id": "INT-00464",
@@ -5373,7 +5851,8 @@
       "parent_id": "INT-00073",
       "timestamp": "2025-12-15T01:39:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104248"
     },
     {
       "id": "INT-00465",
@@ -5385,7 +5864,8 @@
       "parent_id": "INT-00073",
       "timestamp": "2025-12-14T14:14:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104253"
     },
     {
       "id": "INT-00466",
@@ -5397,7 +5877,8 @@
       "parent_id": "INT-00074",
       "timestamp": "2026-01-09T10:26:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104259"
     },
     {
       "id": "INT-00467",
@@ -5409,7 +5890,8 @@
       "parent_id": "INT-00074",
       "timestamp": "2025-11-23T17:25:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104264"
     },
     {
       "id": "INT-00468",
@@ -5421,7 +5903,8 @@
       "parent_id": "INT-00074",
       "timestamp": "2026-01-14T12:08:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104269"
     },
     {
       "id": "INT-00469",
@@ -5433,7 +5916,8 @@
       "parent_id": "INT-00074",
       "timestamp": "2025-12-12T09:28:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104274"
     },
     {
       "id": "INT-00470",
@@ -5445,7 +5929,8 @@
       "parent_id": "INT-00074",
       "timestamp": "2025-11-23T02:25:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104279"
     },
     {
       "id": "INT-00471",
@@ -5457,7 +5942,8 @@
       "parent_id": "INT-00075",
       "timestamp": "2025-11-12T13:58:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104284"
     },
     {
       "id": "INT-00472",
@@ -5469,7 +5955,8 @@
       "parent_id": "INT-00075",
       "timestamp": "2025-12-30T11:27:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104293"
     },
     {
       "id": "INT-00473",
@@ -5481,7 +5968,8 @@
       "parent_id": "INT-00075",
       "timestamp": "2025-12-08T00:28:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104298"
     },
     {
       "id": "INT-00474",
@@ -5493,7 +5981,8 @@
       "parent_id": "INT-00075",
       "timestamp": "2025-11-27T15:50:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104303"
     },
     {
       "id": "INT-00475",
@@ -5505,7 +5994,8 @@
       "parent_id": "INT-00075",
       "timestamp": "2025-11-25T20:29:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104308"
     },
     {
       "id": "INT-00476",
@@ -5517,7 +6007,8 @@
       "parent_id": "INT-00076",
       "timestamp": "2026-01-18T16:03:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104314"
     },
     {
       "id": "INT-00477",
@@ -5529,7 +6020,8 @@
       "parent_id": "INT-00076",
       "timestamp": "2026-01-27T21:09:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104319"
     },
     {
       "id": "INT-00478",
@@ -5541,7 +6033,8 @@
       "parent_id": "INT-00076",
       "timestamp": "2025-12-12T06:01:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104324"
     },
     {
       "id": "INT-00479",
@@ -5553,7 +6046,8 @@
       "parent_id": "INT-00076",
       "timestamp": "2025-11-27T02:25:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104331"
     },
     {
       "id": "INT-00480",
@@ -5565,7 +6059,8 @@
       "parent_id": "INT-00076",
       "timestamp": "2026-01-08T04:18:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104337"
     },
     {
       "id": "INT-00481",
@@ -5577,7 +6072,8 @@
       "parent_id": "INT-00077",
       "timestamp": "2025-11-28T18:42:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104342"
     },
     {
       "id": "INT-00482",
@@ -5589,7 +6085,8 @@
       "parent_id": "INT-00077",
       "timestamp": "2025-12-05T12:38:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104352"
     },
     {
       "id": "INT-00483",
@@ -5601,7 +6098,8 @@
       "parent_id": "INT-00077",
       "timestamp": "2025-12-11T21:41:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104357"
     },
     {
       "id": "INT-00484",
@@ -5613,7 +6111,8 @@
       "parent_id": "INT-00077",
       "timestamp": "2025-11-22T12:09:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104363"
     },
     {
       "id": "INT-00485",
@@ -5625,7 +6124,8 @@
       "parent_id": "INT-00077",
       "timestamp": "2025-12-19T00:58:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104368"
     },
     {
       "id": "INT-00486",
@@ -5637,7 +6137,8 @@
       "parent_id": "INT-00078",
       "timestamp": "2025-12-16T09:33:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104373"
     },
     {
       "id": "INT-00487",
@@ -5649,7 +6150,8 @@
       "parent_id": "INT-00078",
       "timestamp": "2025-12-28T01:32:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104378"
     },
     {
       "id": "INT-00488",
@@ -5661,7 +6163,8 @@
       "parent_id": "INT-00078",
       "timestamp": "2026-01-14T19:29:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104385"
     },
     {
       "id": "INT-00489",
@@ -5673,7 +6176,8 @@
       "parent_id": "INT-00078",
       "timestamp": "2025-11-09T20:21:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104391"
     },
     {
       "id": "INT-00490",
@@ -5685,7 +6189,8 @@
       "parent_id": "INT-00078",
       "timestamp": "2025-11-27T20:27:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104405"
     },
     {
       "id": "INT-00491",
@@ -5697,7 +6202,8 @@
       "parent_id": "INT-00079",
       "timestamp": "2026-01-06T23:31:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104411"
     },
     {
       "id": "INT-00492",
@@ -5709,7 +6215,8 @@
       "parent_id": "INT-00079",
       "timestamp": "2026-01-16T08:59:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104418"
     },
     {
       "id": "INT-00493",
@@ -5721,7 +6228,8 @@
       "parent_id": "INT-00079",
       "timestamp": "2026-01-30T18:59:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104423"
     },
     {
       "id": "INT-00494",
@@ -5733,7 +6241,8 @@
       "parent_id": "INT-00079",
       "timestamp": "2025-11-13T13:06:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104429"
     },
     {
       "id": "INT-00495",
@@ -5745,7 +6254,8 @@
       "parent_id": "INT-00079",
       "timestamp": "2025-12-19T04:03:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104434"
     },
     {
       "id": "INT-00496",
@@ -5757,7 +6267,8 @@
       "parent_id": "INT-00080",
       "timestamp": "2026-01-16T12:46:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104439"
     },
     {
       "id": "INT-00497",
@@ -5769,7 +6280,8 @@
       "parent_id": "INT-00080",
       "timestamp": "2025-12-26T06:33:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104444"
     },
     {
       "id": "INT-00498",
@@ -5781,7 +6293,8 @@
       "parent_id": "INT-00080",
       "timestamp": "2026-01-30T03:24:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104449"
     },
     {
       "id": "INT-00499",
@@ -5793,7 +6306,8 @@
       "parent_id": "INT-00080",
       "timestamp": "2025-11-21T22:27:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104454"
     },
     {
       "id": "INT-00500",
@@ -5805,7 +6319,8 @@
       "parent_id": "INT-00080",
       "timestamp": "2025-11-10T20:07:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104459"
     },
     {
       "id": "INT-00501",
@@ -5817,7 +6332,8 @@
       "parent_id": "INT-00081",
       "timestamp": "2025-11-11T08:19:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104465"
     },
     {
       "id": "INT-00502",
@@ -5829,7 +6345,8 @@
       "parent_id": "INT-00081",
       "timestamp": "2026-01-29T04:54:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104472"
     },
     {
       "id": "INT-00503",
@@ -5841,7 +6358,8 @@
       "parent_id": "INT-00081",
       "timestamp": "2026-01-11T06:33:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104477"
     },
     {
       "id": "INT-00504",
@@ -5853,7 +6371,8 @@
       "parent_id": "INT-00081",
       "timestamp": "2026-02-02T04:32:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104484"
     },
     {
       "id": "INT-00505",
@@ -5865,7 +6384,8 @@
       "parent_id": "INT-00081",
       "timestamp": "2026-01-08T09:01:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104491"
     },
     {
       "id": "INT-00506",
@@ -5877,7 +6397,8 @@
       "parent_id": "INT-00082",
       "timestamp": "2026-02-07T05:24:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104496"
     },
     {
       "id": "INT-00507",
@@ -5889,7 +6410,8 @@
       "parent_id": "INT-00082",
       "timestamp": "2025-12-08T20:35:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104502"
     },
     {
       "id": "INT-00508",
@@ -5901,7 +6423,8 @@
       "parent_id": "INT-00082",
       "timestamp": "2025-12-03T03:51:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104507"
     },
     {
       "id": "INT-00509",
@@ -5913,7 +6436,8 @@
       "parent_id": "INT-00082",
       "timestamp": "2026-01-13T06:57:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104512"
     },
     {
       "id": "INT-00510",
@@ -5925,7 +6449,8 @@
       "parent_id": "INT-00082",
       "timestamp": "2025-12-21T21:19:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104517"
     },
     {
       "id": "INT-00511",
@@ -5937,7 +6462,8 @@
       "parent_id": "INT-00083",
       "timestamp": "2026-01-31T13:24:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104522"
     },
     {
       "id": "INT-00512",
@@ -5949,7 +6475,8 @@
       "parent_id": "INT-00083",
       "timestamp": "2026-01-21T00:05:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104532"
     },
     {
       "id": "INT-00513",
@@ -5961,7 +6488,8 @@
       "parent_id": "INT-00083",
       "timestamp": "2025-11-13T17:29:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104538"
     },
     {
       "id": "INT-00514",
@@ -5973,7 +6501,8 @@
       "parent_id": "INT-00083",
       "timestamp": "2026-01-08T22:27:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104543"
     },
     {
       "id": "INT-00515",
@@ -5985,7 +6514,8 @@
       "parent_id": "INT-00083",
       "timestamp": "2025-11-23T04:28:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104548"
     },
     {
       "id": "INT-00516",
@@ -5997,7 +6527,8 @@
       "parent_id": "INT-00084",
       "timestamp": "2025-12-15T17:41:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104553"
     },
     {
       "id": "INT-00517",
@@ -6009,7 +6540,8 @@
       "parent_id": "INT-00084",
       "timestamp": "2025-11-29T19:59:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104558"
     },
     {
       "id": "INT-00518",
@@ -6021,7 +6553,8 @@
       "parent_id": "INT-00084",
       "timestamp": "2026-01-07T12:23:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104563"
     },
     {
       "id": "INT-00519",
@@ -6033,7 +6566,8 @@
       "parent_id": "INT-00084",
       "timestamp": "2026-02-08T01:15:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104569"
     },
     {
       "id": "INT-00520",
@@ -6045,7 +6579,8 @@
       "parent_id": "INT-00084",
       "timestamp": "2025-11-21T12:05:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104576"
     },
     {
       "id": "INT-00521",
@@ -6057,7 +6592,8 @@
       "parent_id": "INT-00085",
       "timestamp": "2026-01-02T20:47:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104581"
     },
     {
       "id": "INT-00522",
@@ -6069,7 +6605,8 @@
       "parent_id": "INT-00085",
       "timestamp": "2026-02-08T07:55:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104589"
     },
     {
       "id": "INT-00523",
@@ -6081,7 +6618,8 @@
       "parent_id": "INT-00085",
       "timestamp": "2026-01-25T13:09:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104594"
     },
     {
       "id": "INT-00524",
@@ -6093,7 +6631,8 @@
       "parent_id": "INT-00085",
       "timestamp": "2026-01-15T06:09:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104599"
     },
     {
       "id": "INT-00525",
@@ -6105,7 +6644,8 @@
       "parent_id": "INT-00085",
       "timestamp": "2025-11-29T09:52:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104604"
     },
     {
       "id": "INT-00526",
@@ -6117,7 +6657,8 @@
       "parent_id": "INT-00086",
       "timestamp": "2025-12-09T21:54:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104609"
     },
     {
       "id": "INT-00527",
@@ -6129,7 +6670,8 @@
       "parent_id": "INT-00086",
       "timestamp": "2025-11-13T08:04:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104615"
     },
     {
       "id": "INT-00528",
@@ -6141,7 +6683,8 @@
       "parent_id": "INT-00086",
       "timestamp": "2026-01-10T06:40:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104620"
     },
     {
       "id": "INT-00529",
@@ -6153,7 +6696,8 @@
       "parent_id": "INT-00086",
       "timestamp": "2026-02-01T13:33:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104625"
     },
     {
       "id": "INT-00530",
@@ -6165,7 +6709,8 @@
       "parent_id": "INT-00086",
       "timestamp": "2025-11-20T15:18:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104632"
     },
     {
       "id": "INT-00531",
@@ -6177,7 +6722,8 @@
       "parent_id": "INT-00087",
       "timestamp": "2026-02-05T00:37:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104637"
     },
     {
       "id": "INT-00532",
@@ -6189,7 +6735,8 @@
       "parent_id": "INT-00087",
       "timestamp": "2025-11-10T11:43:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104644"
     },
     {
       "id": "INT-00533",
@@ -6201,7 +6748,8 @@
       "parent_id": "INT-00087",
       "timestamp": "2026-01-12T18:36:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104649"
     },
     {
       "id": "INT-00534",
@@ -6213,7 +6761,8 @@
       "parent_id": "INT-00087",
       "timestamp": "2025-12-29T08:50:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104655"
     },
     {
       "id": "INT-00535",
@@ -6225,7 +6774,8 @@
       "parent_id": "INT-00087",
       "timestamp": "2026-02-02T17:31:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104660"
     },
     {
       "id": "INT-00536",
@@ -6237,7 +6787,8 @@
       "parent_id": "INT-00088",
       "timestamp": "2026-01-17T02:58:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104667"
     },
     {
       "id": "INT-00537",
@@ -6249,7 +6800,8 @@
       "parent_id": "INT-00088",
       "timestamp": "2026-01-28T19:59:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104672"
     },
     {
       "id": "INT-00538",
@@ -6261,7 +6813,8 @@
       "parent_id": "INT-00088",
       "timestamp": "2025-12-22T00:11:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104677"
     },
     {
       "id": "INT-00539",
@@ -6273,7 +6826,8 @@
       "parent_id": "INT-00088",
       "timestamp": "2026-01-10T16:35:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104682"
     },
     {
       "id": "INT-00540",
@@ -6285,7 +6839,8 @@
       "parent_id": "INT-00088",
       "timestamp": "2026-01-13T02:14:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104688"
     },
     {
       "id": "INT-00541",
@@ -6297,7 +6852,8 @@
       "parent_id": "INT-00089",
       "timestamp": "2025-11-23T23:43:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104693"
     },
     {
       "id": "INT-00542",
@@ -6309,7 +6865,8 @@
       "parent_id": "INT-00089",
       "timestamp": "2025-12-17T21:23:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104700"
     },
     {
       "id": "INT-00543",
@@ -6321,7 +6878,8 @@
       "parent_id": "INT-00089",
       "timestamp": "2026-01-14T10:32:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104705"
     },
     {
       "id": "INT-00544",
@@ -6333,7 +6891,8 @@
       "parent_id": "INT-00089",
       "timestamp": "2026-01-17T07:07:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104711"
     },
     {
       "id": "INT-00545",
@@ -6345,7 +6904,8 @@
       "parent_id": "INT-00089",
       "timestamp": "2025-11-30T23:22:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104716"
     },
     {
       "id": "INT-00546",
@@ -6357,7 +6917,8 @@
       "parent_id": "INT-00090",
       "timestamp": "2025-12-23T05:39:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104721"
     },
     {
       "id": "INT-00547",
@@ -6369,7 +6930,8 @@
       "parent_id": "INT-00090",
       "timestamp": "2025-12-22T23:39:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104726"
     },
     {
       "id": "INT-00548",
@@ -6381,7 +6943,8 @@
       "parent_id": "INT-00090",
       "timestamp": "2025-12-05T06:38:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104731"
     },
     {
       "id": "INT-00549",
@@ -6393,7 +6956,8 @@
       "parent_id": "INT-00090",
       "timestamp": "2026-01-29T10:03:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104737"
     },
     {
       "id": "INT-00550",
@@ -6405,7 +6969,8 @@
       "parent_id": "INT-00090",
       "timestamp": "2026-01-02T08:19:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104742"
     },
     {
       "id": "INT-00551",
@@ -6417,7 +6982,8 @@
       "parent_id": "INT-00091",
       "timestamp": "2025-11-29T21:42:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104747"
     },
     {
       "id": "INT-00552",
@@ -6429,7 +6995,8 @@
       "parent_id": "INT-00091",
       "timestamp": "2025-11-26T23:57:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104756"
     },
     {
       "id": "INT-00553",
@@ -6441,7 +7008,8 @@
       "parent_id": "INT-00091",
       "timestamp": "2025-11-25T04:16:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104762"
     },
     {
       "id": "INT-00554",
@@ -6453,7 +7021,8 @@
       "parent_id": "INT-00091",
       "timestamp": "2025-12-07T15:59:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104767"
     },
     {
       "id": "INT-00555",
@@ -6465,7 +7034,8 @@
       "parent_id": "INT-00091",
       "timestamp": "2025-12-16T07:13:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104774"
     },
     {
       "id": "INT-00556",
@@ -6477,7 +7047,8 @@
       "parent_id": "INT-00092",
       "timestamp": "2025-11-13T10:04:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104779"
     },
     {
       "id": "INT-00557",
@@ -6489,7 +7060,8 @@
       "parent_id": "INT-00092",
       "timestamp": "2025-11-17T16:12:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104785"
     },
     {
       "id": "INT-00558",
@@ -6501,7 +7073,8 @@
       "parent_id": "INT-00092",
       "timestamp": "2025-12-08T11:49:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104790"
     },
     {
       "id": "INT-00559",
@@ -6513,7 +7086,8 @@
       "parent_id": "INT-00092",
       "timestamp": "2025-11-22T09:20:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104795"
     },
     {
       "id": "INT-00560",
@@ -6525,7 +7099,8 @@
       "parent_id": "INT-00092",
       "timestamp": "2025-11-29T10:32:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104800"
     },
     {
       "id": "INT-00561",
@@ -6537,7 +7112,8 @@
       "parent_id": "INT-00093",
       "timestamp": "2026-01-02T12:23:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104805"
     },
     {
       "id": "INT-00562",
@@ -6549,7 +7125,8 @@
       "parent_id": "INT-00093",
       "timestamp": "2025-12-08T13:56:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104813"
     },
     {
       "id": "INT-00563",
@@ -6561,7 +7138,8 @@
       "parent_id": "INT-00093",
       "timestamp": "2026-01-24T03:18:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104818"
     },
     {
       "id": "INT-00564",
@@ -6573,7 +7151,8 @@
       "parent_id": "INT-00093",
       "timestamp": "2026-02-06T08:53:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104823"
     },
     {
       "id": "INT-00565",
@@ -6585,7 +7164,8 @@
       "parent_id": "INT-00093",
       "timestamp": "2025-11-29T23:28:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104828"
     },
     {
       "id": "INT-00566",
@@ -6597,7 +7177,8 @@
       "parent_id": "INT-00094",
       "timestamp": "2025-12-24T03:04:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104833"
     },
     {
       "id": "INT-00567",
@@ -6609,7 +7190,8 @@
       "parent_id": "INT-00094",
       "timestamp": "2025-12-12T19:24:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104838"
     },
     {
       "id": "INT-00568",
@@ -6621,7 +7203,8 @@
       "parent_id": "INT-00094",
       "timestamp": "2025-12-21T01:28:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104846"
     },
     {
       "id": "INT-00569",
@@ -6633,7 +7216,8 @@
       "parent_id": "INT-00094",
       "timestamp": "2025-12-28T08:10:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104851"
     },
     {
       "id": "INT-00570",
@@ -6645,7 +7229,8 @@
       "parent_id": "INT-00094",
       "timestamp": "2025-11-15T14:38:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104856"
     },
     {
       "id": "INT-00571",
@@ -6657,7 +7242,8 @@
       "parent_id": "INT-00095",
       "timestamp": "2026-01-13T12:31:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104861"
     },
     {
       "id": "INT-00572",
@@ -6669,7 +7255,8 @@
       "parent_id": "INT-00095",
       "timestamp": "2025-11-15T06:12:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104869"
     },
     {
       "id": "INT-00573",
@@ -6681,7 +7268,8 @@
       "parent_id": "INT-00095",
       "timestamp": "2026-01-24T13:05:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104874"
     },
     {
       "id": "INT-00574",
@@ -6693,7 +7281,8 @@
       "parent_id": "INT-00095",
       "timestamp": "2026-02-07T16:00:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104879"
     },
     {
       "id": "INT-00575",
@@ -6705,7 +7294,8 @@
       "parent_id": "INT-00095",
       "timestamp": "2025-12-08T07:59:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104884"
     },
     {
       "id": "INT-00576",
@@ -6717,7 +7307,8 @@
       "parent_id": "INT-00096",
       "timestamp": "2025-11-16T03:09:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104890"
     },
     {
       "id": "INT-00577",
@@ -6729,7 +7320,8 @@
       "parent_id": "INT-00096",
       "timestamp": "2025-12-26T00:21:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104895"
     },
     {
       "id": "INT-00578",
@@ -6741,7 +7333,8 @@
       "parent_id": "INT-00096",
       "timestamp": "2025-12-21T02:54:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104900"
     },
     {
       "id": "INT-00579",
@@ -6753,7 +7346,8 @@
       "parent_id": "INT-00096",
       "timestamp": "2025-11-27T09:35:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104905"
     },
     {
       "id": "INT-00580",
@@ -6765,7 +7359,8 @@
       "parent_id": "INT-00096",
       "timestamp": "2025-12-22T13:36:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104910"
     },
     {
       "id": "INT-00581",
@@ -6777,7 +7372,8 @@
       "parent_id": "INT-00097",
       "timestamp": "2026-01-13T13:41:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104917"
     },
     {
       "id": "INT-00582",
@@ -6789,7 +7385,8 @@
       "parent_id": "INT-00097",
       "timestamp": "2025-11-18T07:58:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104924"
     },
     {
       "id": "INT-00583",
@@ -6801,7 +7398,8 @@
       "parent_id": "INT-00097",
       "timestamp": "2026-01-16T08:47:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104929"
     },
     {
       "id": "INT-00584",
@@ -6813,7 +7411,8 @@
       "parent_id": "INT-00097",
       "timestamp": "2025-12-06T06:12:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104936"
     },
     {
       "id": "INT-00585",
@@ -6825,7 +7424,8 @@
       "parent_id": "INT-00097",
       "timestamp": "2026-01-13T22:57:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104942"
     },
     {
       "id": "INT-00586",
@@ -6837,7 +7437,8 @@
       "parent_id": "INT-00098",
       "timestamp": "2025-12-06T06:54:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104947"
     },
     {
       "id": "INT-00587",
@@ -6849,7 +7450,8 @@
       "parent_id": "INT-00098",
       "timestamp": "2026-01-18T00:44:01.101607",
       "sentiment": "negative",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104952"
     },
     {
       "id": "INT-00588",
@@ -6861,7 +7463,8 @@
       "parent_id": "INT-00098",
       "timestamp": "2026-01-07T19:25:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104957"
     },
     {
       "id": "INT-00589",
@@ -6873,7 +7476,8 @@
       "parent_id": "INT-00098",
       "timestamp": "2025-12-02T05:04:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104963"
     },
     {
       "id": "INT-00590",
@@ -6885,7 +7489,8 @@
       "parent_id": "INT-00098",
       "timestamp": "2025-11-23T08:44:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104968"
     },
     {
       "id": "INT-00591",
@@ -6897,7 +7502,8 @@
       "parent_id": "INT-00099",
       "timestamp": "2026-01-05T18:04:01.101607",
       "sentiment": "positive",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104973"
     },
     {
       "id": "INT-00592",
@@ -6909,7 +7515,8 @@
       "parent_id": "INT-00099",
       "timestamp": "2025-12-24T08:17:01.101607",
       "sentiment": "negative",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104980"
     },
     {
       "id": "INT-00593",
@@ -6921,7 +7528,8 @@
       "parent_id": "INT-00099",
       "timestamp": "2026-01-18T19:28:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.104985"
     },
     {
       "id": "INT-00594",
@@ -6933,7 +7541,8 @@
       "parent_id": "INT-00099",
       "timestamp": "2026-01-02T12:18:01.101607",
       "sentiment": "neutral",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.104991"
     },
     {
       "id": "INT-00595",
@@ -6945,7 +7554,8 @@
       "parent_id": "INT-00099",
       "timestamp": "2026-01-15T00:52:01.101607",
       "sentiment": "positive",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.104996"
     },
     {
       "id": "INT-00596",
@@ -6957,7 +7567,8 @@
       "parent_id": "INT-00100",
       "timestamp": "2026-01-23T18:48:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.105001"
     },
     {
       "id": "INT-00597",
@@ -6969,7 +7580,8 @@
       "parent_id": "INT-00100",
       "timestamp": "2025-12-30T08:34:01.101607",
       "sentiment": "neutral",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.105006"
     },
     {
       "id": "INT-00598",
@@ -6981,7 +7593,8 @@
       "parent_id": "INT-00100",
       "timestamp": "2025-11-13T01:59:01.101607",
       "sentiment": "positive",
-      "channel": "web"
+      "channel": "web",
+      "extracted_at": "2026-02-07T20:14:01.105011"
     },
     {
       "id": "INT-00599",
@@ -6993,7 +7606,8 @@
       "parent_id": "INT-00100",
       "timestamp": "2025-12-04T12:05:01.101607",
       "sentiment": "negative",
-      "channel": "mobile"
+      "channel": "mobile",
+      "extracted_at": "2026-02-07T20:14:01.105018"
     },
     {
       "id": "INT-00600",
@@ -7005,7 +7619,8 @@
       "parent_id": "INT-00100",
       "timestamp": "2025-12-29T14:31:01.101607",
       "sentiment": "neutral",
-      "channel": "email"
+      "channel": "email",
+      "extracted_at": "2026-02-07T20:14:01.105024"
     }
   ]
 }

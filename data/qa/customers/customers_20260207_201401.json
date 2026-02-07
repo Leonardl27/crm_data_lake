@@ -1,10 +1,9 @@
 {
   "metadata": {
     "source": "RandomUser API",
-    "qa_extracted_at": "2026-02-07T20:14:01.001482",
-    "promoted_at": "2026-02-07T20:14:01.113324",
+    "extracted_at": "2026-02-07T20:14:01.001482",
     "record_count": 50,
-    "layer": "PROD"
+    "layer": "QA"
   },
   "data": [
     {
@@ -26,7 +25,8 @@
       "age": 33,
       "registered_date": "2002-09-08T04:28:06.530Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/22.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000347"
     },
     {
       "id": "CUST-00002",
@@ -47,7 +47,8 @@
       "age": 28,
       "registered_date": "2011-02-10T08:58:11.323Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/43.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000358"
     },
     {
       "id": "CUST-00003",
@@ -68,7 +69,8 @@
       "age": 80,
       "registered_date": "2015-11-25T17:52:14.148Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/49.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000361"
     },
     {
       "id": "CUST-00004",
@@ -89,7 +91,8 @@
       "age": 66,
       "registered_date": "2022-02-17T23:36:46.923Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/9.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000364"
     },
     {
       "id": "CUST-00005",
@@ -110,7 +113,8 @@
       "age": 59,
       "registered_date": "2020-05-28T02:40:10.118Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/43.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000366"
     },
     {
       "id": "CUST-00006",
@@ -131,7 +135,8 @@
       "age": 35,
       "registered_date": "2007-10-02T13:19:59.173Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/76.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000369"
     },
     {
       "id": "CUST-00007",
@@ -152,7 +157,8 @@
       "age": 47,
       "registered_date": "2003-01-03T09:56:18.216Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/79.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000375"
     },
     {
       "id": "CUST-00008",
@@ -173,7 +179,8 @@
       "age": 30,
       "registered_date": "2015-06-16T23:36:03.445Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/84.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000381"
     },
     {
       "id": "CUST-00009",
@@ -194,7 +201,8 @@
       "age": 63,
       "registered_date": "2003-06-29T21:07:32.710Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/3.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000385"
     },
     {
       "id": "CUST-00010",
@@ -215,7 +223,8 @@
       "age": 35,
       "registered_date": "2010-12-24T16:30:06.666Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/13.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000388"
     },
     {
       "id": "CUST-00011",
@@ -236,7 +245,8 @@
       "age": 32,
       "registered_date": "2002-11-21T07:28:18.809Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/69.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000407"
     },
     {
       "id": "CUST-00012",
@@ -257,7 +267,8 @@
       "age": 75,
       "registered_date": "2009-08-16T01:19:40.303Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/80.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000411"
     },
     {
       "id": "CUST-00013",
@@ -278,7 +289,8 @@
       "age": 59,
       "registered_date": "2012-01-14T20:23:16.103Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/18.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000413"
     },
     {
       "id": "CUST-00014",
@@ -299,7 +311,8 @@
       "age": 66,
       "registered_date": "2019-04-19T16:11:14.585Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/9.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000415"
     },
     {
       "id": "CUST-00015",
@@ -320,7 +333,8 @@
       "age": 42,
       "registered_date": "2008-09-07T07:36:00.784Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/79.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000418"
     },
     {
       "id": "CUST-00016",
@@ -341,7 +355,8 @@
       "age": 73,
       "registered_date": "2018-07-30T00:45:49.230Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/90.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000420"
     },
     {
       "id": "CUST-00017",
@@ -362,7 +377,8 @@
       "age": 68,
       "registered_date": "2006-01-18T22:49:29.137Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/46.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000422"
     },
     {
       "id": "CUST-00018",
@@ -383,7 +399,8 @@
       "age": 53,
       "registered_date": "2022-05-04T00:14:26.707Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/50.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000424"
     },
     {
       "id": "CUST-00019",
@@ -404,7 +421,8 @@
       "age": 78,
       "registered_date": "2010-08-21T11:19:54.186Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/38.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000427"
     },
     {
       "id": "CUST-00020",
@@ -425,7 +443,8 @@
       "age": 80,
       "registered_date": "2011-05-09T15:59:31.980Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/96.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000429"
     },
     {
       "id": "CUST-00021",
@@ -446,7 +465,8 @@
       "age": 43,
       "registered_date": "2004-08-08T14:47:32.773Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/77.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000433"
     },
     {
       "id": "CUST-00022",
@@ -467,7 +487,8 @@
       "age": 30,
       "registered_date": "2008-08-24T19:18:01.377Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/60.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000435"
     },
     {
       "id": "CUST-00023",
@@ -488,7 +509,8 @@
       "age": 35,
       "registered_date": "2018-04-16T19:00:06.421Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/72.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000440"
     },
     {
       "id": "CUST-00024",
@@ -509,7 +531,8 @@
       "age": 71,
       "registered_date": "2005-10-14T13:52:01.008Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/87.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000442"
     },
     {
       "id": "CUST-00025",
@@ -530,7 +553,8 @@
       "age": 68,
       "registered_date": "2010-07-28T08:38:01.431Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/55.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000446"
     },
     {
       "id": "CUST-00026",
@@ -551,7 +575,8 @@
       "age": 41,
       "registered_date": "2020-10-09T06:30:55.755Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/83.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000448"
     },
     {
       "id": "CUST-00027",
@@ -572,7 +597,8 @@
       "age": 48,
       "registered_date": "2017-06-30T14:55:36.198Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/53.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000451"
     },
     {
       "id": "CUST-00028",
@@ -593,7 +619,8 @@
       "age": 26,
       "registered_date": "2019-04-08T10:04:42.505Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/94.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000453"
     },
     {
       "id": "CUST-00029",
@@ -614,7 +641,8 @@
       "age": 25,
       "registered_date": "2017-03-30T20:01:46.626Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/28.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000455"
     },
     {
       "id": "CUST-00030",
@@ -635,7 +663,8 @@
       "age": 25,
       "registered_date": "2014-01-22T08:31:48.944Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/63.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000457"
     },
     {
       "id": "CUST-00031",
@@ -656,7 +685,8 @@
       "age": 40,
       "registered_date": "2012-05-25T23:22:56.226Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/51.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000461"
     },
     {
       "id": "CUST-00032",
@@ -677,7 +707,8 @@
       "age": 63,
       "registered_date": "2017-10-06T12:26:28.961Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/45.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000463"
     },
     {
       "id": "CUST-00033",
@@ -698,7 +729,8 @@
       "age": 49,
       "registered_date": "2003-01-02T20:57:16.064Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/17.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000465"
     },
     {
       "id": "CUST-00034",
@@ -719,7 +751,8 @@
       "age": 35,
       "registered_date": "2013-11-23T12:02:38.782Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/91.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000468"
     },
     {
       "id": "CUST-00035",
@@ -740,7 +773,8 @@
       "age": 67,
       "registered_date": "2017-02-09T20:01:20.559Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/25.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000470"
     },
     {
       "id": "CUST-00036",
@@ -761,7 +795,8 @@
       "age": 33,
       "registered_date": "2006-09-14T04:19:47.206Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/20.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000472"
     },
     {
       "id": "CUST-00037",
@@ -782,7 +817,8 @@
       "age": 43,
       "registered_date": "2022-05-07T15:13:36.401Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/35.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000474"
     },
     {
       "id": "CUST-00038",
@@ -803,7 +839,8 @@
       "age": 40,
       "registered_date": "2020-04-12T21:50:56.472Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/79.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000476"
     },
     {
       "id": "CUST-00039",
@@ -824,7 +861,8 @@
       "age": 57,
       "registered_date": "2017-05-31T07:15:07.541Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/85.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000478"
     },
     {
       "id": "CUST-00040",
@@ -845,7 +883,8 @@
       "age": 46,
       "registered_date": "2016-11-11T07:48:35.525Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/86.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000482"
     },
     {
       "id": "CUST-00041",
@@ -866,7 +905,8 @@
       "age": 68,
       "registered_date": "2005-05-21T07:53:45.469Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/90.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000488"
     },
     {
       "id": "CUST-00042",
@@ -887,7 +927,8 @@
       "age": 58,
       "registered_date": "2015-01-25T23:45:16.487Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/89.jpg",
-      "nationality": "GB"
+      "nationality": "GB",
+      "extracted_at": "2026-02-07T20:14:01.000491"
     },
     {
       "id": "CUST-00043",
@@ -908,7 +949,8 @@
       "age": 25,
       "registered_date": "2003-07-05T00:00:00.920Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/53.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000493"
     },
     {
       "id": "CUST-00044",
@@ -929,7 +971,8 @@
       "age": 58,
       "registered_date": "2020-12-12T08:19:35.369Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/68.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000495"
     },
     {
       "id": "CUST-00045",
@@ -950,7 +993,8 @@
       "age": 60,
       "registered_date": "2012-03-11T06:03:18.785Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/26.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000497"
     },
     {
       "id": "CUST-00046",
@@ -971,7 +1015,8 @@
       "age": 43,
       "registered_date": "2006-09-12T09:50:28.724Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/13.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000500"
     },
     {
       "id": "CUST-00047",
@@ -992,7 +1037,8 @@
       "age": 38,
       "registered_date": "2016-02-05T05:26:14.870Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/29.jpg",
-      "nationality": "US"
+      "nationality": "US",
+      "extracted_at": "2026-02-07T20:14:01.000502"
     },
     {
       "id": "CUST-00048",
@@ -1013,7 +1059,8 @@
       "age": 44,
       "registered_date": "2021-08-03T22:59:23.745Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/90.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000504"
     },
     {
       "id": "CUST-00049",
@@ -1034,7 +1081,8 @@
       "age": 49,
       "registered_date": "2013-08-19T00:24:38.030Z",
       "picture_url": "https://randomuser.me/api/portraits/med/men/40.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000506"
     },
     {
       "id": "CUST-00050",
@@ -1055,7 +1103,8 @@
       "age": 44,
       "registered_date": "2019-05-07T02:19:08.009Z",
       "picture_url": "https://randomuser.me/api/portraits/med/women/27.jpg",
-      "nationality": "CA"
+      "nationality": "CA",
+      "extracted_at": "2026-02-07T20:14:01.000508"
     }
   ]
 }

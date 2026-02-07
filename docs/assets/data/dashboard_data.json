@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-02-07T20:00:57.813089",
+  "generated_at": "2026-02-07T20:14:01.125106",
   "customers": {
-    "total_count": 25,
+    "total_count": 50,
     "by_nationality": {
-      "CA": 10,
-      "US": 8,
-      "GB": 7
+      "GB": 16,
+      "US": 20,
+      "CA": 14
     },
     "by_gender": {
-      "male": 13,
-      "female": 12
+      "female": 27,
+      "male": 23
     },
     "age_distribution": {
-      "18-25": 0,
-      "26-35": 4,
-      "36-45": 6,
-      "46-55": 4,
-      "56+": 11
+      "18-25": 3,
+      "26-35": 11,
+      "36-45": 10,
+      "46-55": 6,
+      "56+": 20
     }
   },
   "interactions": {
@@ -26,14 +26,14 @@
       "comment": 500
     },
     "by_sentiment": {
-      "positive": 185,
-      "neutral": 210,
-      "negative": 205
+      "positive": 193,
+      "neutral": 194,
+      "negative": 213
     },
     "by_channel": {
-      "email": 212,
-      "mobile": 217,
-      "web": 171
+      "web": 207,
+      "email": 189,
+      "mobile": 204
     }
   }
 }
