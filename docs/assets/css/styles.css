@@ -124,6 +124,15 @@ section h2 {
     border-left: 4px solid var(--primary-color);
 }
 
+.stat-card.highlight {
+    border-left-color: var(--success-color);
+    background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+}
+
+.stat-card.highlight .stat-value {
+    color: var(--success-color);
+}
+
 .stat-value {
     font-size: 2.5rem;
     font-weight: 700;
@@ -134,6 +143,79 @@ section h2 {
     color: var(--text-muted);
     margin-top: 0.5rem;
     font-size: 0.9rem;
+}
+
+/* Funnel Section */
+.funnel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 2rem;
+    background: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.funnel-stage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border-radius: 8px;
+    min-width: 120px;
+}
+
+.funnel-count {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.funnel-label {
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.funnel-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--text-muted);
+    padding: 0 0.5rem;
+}
+
+.funnel-arrow::before {
+    content: "→";
+    font-size: 1.5rem;
+}
+
+.conversion-rate {
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: var(--success-color);
+    background: #d1fae5;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    margin-top: 0.25rem;
+}
+
+/* Notice */
+.notice {
+    background: #fef3c7;
+    border: 1px solid #f59e0b;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.notice code {
+    background: #fde68a;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-family: monospace;
 }
 
 /* Charts Grid */
@@ -197,6 +279,34 @@ section h2 {
     margin-right: 0.5rem;
 }
 
+/* Data Model Section */
+.data-model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    padding: 2rem;
+    background: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.entity {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+.relation {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
 /* Footer */
 footer {
     text-align: center;
@@ -235,5 +345,17 @@ footer a:hover {
 
     .charts-grid {
         grid-template-columns: 1fr;
+    }
+
+    .funnel-container {
+        flex-direction: column;
+    }
+
+    .funnel-arrow {
+        transform: rotate(90deg);
+    }
+
+    .data-model {
+        flex-direction: column;
     }
 }

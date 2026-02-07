@@ -1,0 +1,230 @@
+{
+  "metadata": {
+    "source": "Life Insurance Data Generator (Faker)",
+    "extracted_at": "2026-02-07T21:30:21.094260+00:00",
+    "record_count": 20,
+    "layer": "QA"
+  },
+  "data": [
+    {
+      "Agent_ID__c": "AGT-00001",
+      "Name": "Allison Hill",
+      "Email": "donaldgarcia@mcclain.com",
+      "Phone": "833-589-0838",
+      "License_Number__c": "INS70291817",
+      "Region__c": "Pennsylvania",
+      "Years_Experience__c": 21,
+      "Specialization__c": "Term Life",
+      "Active__c": false
+    },
+    {
+      "Agent_ID__c": "AGT-00002",
+      "Name": "Sean Blake",
+      "Email": "helenpeterson@lewis.com",
+      "Phone": "361-855-9407",
+      "License_Number__c": "INS20576383",
+      "Region__c": "Oklahoma",
+      "Years_Experience__c": 9,
+      "Specialization__c": "Whole Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00003",
+      "Name": "Mark Mcclure",
+      "Email": "barbara10@perez.com",
+      "Phone": "664-375-2553",
+      "License_Number__c": "INS91756179",
+      "Region__c": "South Dakota",
+      "Years_Experience__c": 24,
+      "Specialization__c": "Term Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00004",
+      "Name": "Nicholas Martin",
+      "Email": "onelson@hawkins.com",
+      "Phone": "505.964.1395",
+      "License_Number__c": "INS63100814",
+      "Region__c": "Tennessee",
+      "Years_Experience__c": 29,
+      "Specialization__c": "Final Expense",
+      "Active__c": false
+    },
+    {
+      "Agent_ID__c": "AGT-00005",
+      "Name": "Derek Wright",
+      "Email": "julie69@cox-osborn.com",
+      "Phone": "671.201.2269x16697",
+      "License_Number__c": "INS25374874",
+      "Region__c": "Utah",
+      "Years_Experience__c": 14,
+      "Specialization__c": "Term Life",
+      "Active__c": false
+    },
+    {
+      "Agent_ID__c": "AGT-00006",
+      "Name": "Nicole Mack",
+      "Email": "daniel62@smith-bowen.com",
+      "Phone": "728.914.8932x52880",
+      "License_Number__c": "INS12614124",
+      "Region__c": "Delaware",
+      "Years_Experience__c": 7,
+      "Specialization__c": "Whole Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00007",
+      "Name": "Sherry Decker",
+      "Email": "john39@miller.com",
+      "Phone": "001-682-827-8248x96383",
+      "License_Number__c": "INS97225156",
+      "Region__c": "Mississippi",
+      "Years_Experience__c": 1,
+      "Specialization__c": "Final Expense",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00008",
+      "Name": "Joseph Martinez",
+      "Email": "calebsmith@hall.com",
+      "Phone": "510.451.8347",
+      "License_Number__c": "INS86644106",
+      "Region__c": "Oregon",
+      "Years_Experience__c": 21,
+      "Specialization__c": "Final Expense",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00009",
+      "Name": "Richard Aguirre",
+      "Email": "clintonhopkins@henderson-owens.com",
+      "Phone": "+1-610-965-1333x87262",
+      "License_Number__c": "INS43528453",
+      "Region__c": "California",
+      "Years_Experience__c": 15,
+      "Specialization__c": "Final Expense",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00010",
+      "Name": "Scott Pierce",
+      "Email": "pearsonamber@novak.com",
+      "Phone": "(977)436-0260x64746",
+      "License_Number__c": "INS35487660",
+      "Region__c": "Maine",
+      "Years_Experience__c": 28,
+      "Specialization__c": "Term Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00011",
+      "Name": "Anthony Fitzgerald",
+      "Email": "adkinsbrian@woods.com",
+      "Phone": "312.819.1361x93990",
+      "License_Number__c": "INS98231132",
+      "Region__c": "Pennsylvania",
+      "Years_Experience__c": 6,
+      "Specialization__c": "Variable Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00012",
+      "Name": "Emily Green",
+      "Email": "john62@brewer.com",
+      "Phone": "6794911838",
+      "License_Number__c": "INS56843172",
+      "Region__c": "California",
+      "Years_Experience__c": 5,
+      "Specialization__c": "Whole Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00013",
+      "Name": "Jaclyn Moore",
+      "Email": "cheryl80@montoya.com",
+      "Phone": "911-682-4493x534",
+      "License_Number__c": "INS16818112",
+      "Region__c": "Colorado",
+      "Years_Experience__c": 11,
+      "Specialization__c": "Term Life",
+      "Active__c": false
+    },
+    {
+      "Agent_ID__c": "AGT-00014",
+      "Name": "Sandra Williams",
+      "Email": "kellie42@ramos.com",
+      "Phone": "428-205-9826",
+      "License_Number__c": "INS51373735",
+      "Region__c": "Mississippi",
+      "Years_Experience__c": 4,
+      "Specialization__c": "Universal Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00015",
+      "Name": "Rebecca Valencia",
+      "Email": "jason31@deleon-henson.biz",
+      "Phone": "+1-423-322-6025x634",
+      "License_Number__c": "INS61343880",
+      "Region__c": "Arizona",
+      "Years_Experience__c": 20,
+      "Specialization__c": "Universal Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00016",
+      "Name": "Courtney Velasquez",
+      "Email": "ybailey@walker.com",
+      "Phone": "(454)614-5868x5014",
+      "License_Number__c": "INS15134794",
+      "Region__c": "Connecticut",
+      "Years_Experience__c": 24,
+      "Specialization__c": "Variable Life",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00017",
+      "Name": "Haley Hartman",
+      "Email": "gobrien@cruz.com",
+      "Phone": "706-308-8356x159",
+      "License_Number__c": "INS50308572",
+      "Region__c": "North Carolina",
+      "Years_Experience__c": 30,
+      "Specialization__c": "Variable Life",
+      "Active__c": false
+    },
+    {
+      "Agent_ID__c": "AGT-00018",
+      "Name": "Jason Powell",
+      "Email": "angela36@bentley.org",
+      "Phone": "001-746-980-4436",
+      "License_Number__c": "INS69295515",
+      "Region__c": "New Hampshire",
+      "Years_Experience__c": 10,
+      "Specialization__c": "Final Expense",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00019",
+      "Name": "Kayla Leon",
+      "Email": "donnacampbell@schultz.com",
+      "Phone": "+1-543-832-0037x91769",
+      "License_Number__c": "INS76354180",
+      "Region__c": "Montana",
+      "Years_Experience__c": 12,
+      "Specialization__c": "Final Expense",
+      "Active__c": true
+    },
+    {
+      "Agent_ID__c": "AGT-00020",
+      "Name": "Matthew Smith",
+      "Email": "osbornejeffery@holmes.com",
+      "Phone": "927.488.9579x868",
+      "License_Number__c": "INS73709724",
+      "Region__c": "New Hampshire",
+      "Years_Experience__c": 3,
+      "Specialization__c": "Term Life",
+      "Active__c": true
+    }
+  ]
+}

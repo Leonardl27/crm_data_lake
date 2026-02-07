@@ -1,4 +1,4 @@
-name: CRM Data Lake ETL Pipeline
+name: Life Insurance Data Lake ETL Pipeline
 
 on:
   # Run on manual trigger

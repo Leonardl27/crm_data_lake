@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRM Data Lake Dashboard</title>
+    <title>Life Insurance Data Lake Dashboard</title>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>CRM Data Lake Dashboard</h1>
+            <h1>Life Insurance Data Lake</h1>
             <p class="subtitle">Data Engineering Portfolio Project</p>
             <div id="last-updated" class="meta-info"></div>
         </header>
@@ -19,37 +19,37 @@
             <h2>Data Architecture</h2>
             <div class="architecture-diagram">
                 <div class="arch-box source">
-                    <h4>External APIs</h4>
+                    <h4>Data Generator</h4>
                     <ul>
-                        <li>RandomUser API</li>
-                        <li>JSONPlaceholder API</li>
+                        <li>Faker Library</li>
+                        <li>Custom Life Insurance</li>
                     </ul>
                 </div>
-                <div class="arch-arrow">→</div>
+                <div class="arch-arrow">-></div>
                 <div class="arch-box qa">
                     <h4>QA Layer</h4>
                     <ul>
                         <li>Raw data ingestion</li>
                         <li>Quality checks</li>
-                        <li>Validation rules</li>
+                        <li>FK validation</li>
                     </ul>
                 </div>
-                <div class="arch-arrow">→</div>
+                <div class="arch-arrow">-></div>
                 <div class="arch-box prod">
                     <h4>PROD Layer</h4>
                     <ul>
                         <li>Cleaned data</li>
-                        <li>Standardized format</li>
-                        <li>Ready for analytics</li>
+                        <li>Validated</li>
+                        <li>Analytics-ready</li>
                     </ul>
                 </div>
-                <div class="arch-arrow">→</div>
+                <div class="arch-arrow">-></div>
                 <div class="arch-box viz">
                     <h4>Visualization</h4>
                     <ul>
                         <li>GitHub Pages</li>
                         <li>Chart.js</li>
-                        <li>Interactive dashboards</li>
+                        <li>Interactive</li>
                     </ul>
                 </div>
             </div>
@@ -60,55 +60,122 @@
             <div class="stats-grid">
                 <div class="stat-card">
                     <div class="stat-value" id="total-customers">-</div>
-                    <div class="stat-label">Total Customers</div>
+                    <div class="stat-label">Customers</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value" id="total-interactions">-</div>
-                    <div class="stat-label">Total Interactions</div>
+                    <div class="stat-value" id="total-quotes">-</div>
+                    <div class="stat-label">Quotes</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value" id="data-quality">-</div>
-                    <div class="stat-label">Data Quality Score</div>
+                    <div class="stat-value" id="total-applications">-</div>
+                    <div class="stat-label">Applications</div>
                 </div>
                 <div class="stat-card">
-                    <div class="stat-value" id="pipeline-status">Active</div>
-                    <div class="stat-label">Pipeline Status</div>
+                    <div class="stat-value" id="total-policies">-</div>
+                    <div class="stat-label">Policies</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="total-claims">-</div>
+                    <div class="stat-label">Claims</div>
+                </div>
+                <div class="stat-card highlight">
+                    <div class="stat-value" id="approval-rate">-</div>
+                    <div class="stat-label">Approval Rate</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="funnel-section">
+            <h2>Conversion Funnel</h2>
+            <div class="funnel-container">
+                <div class="funnel-stage" id="funnel-quotes">
+                    <span class="funnel-count">-</span>
+                    <span class="funnel-label">Quotes</span>
+                </div>
+                <div class="funnel-arrow">
+                    <span class="conversion-rate" id="conv-quote-app">-</span>
+                </div>
+                <div class="funnel-stage" id="funnel-applications">
+                    <span class="funnel-count">-</span>
+                    <span class="funnel-label">Applications</span>
+                </div>
+                <div class="funnel-arrow">
+                    <span class="conversion-rate" id="conv-app-policy">-</span>
+                </div>
+                <div class="funnel-stage" id="funnel-policies">
+                    <span class="funnel-count">-</span>
+                    <span class="funnel-label">Policies</span>
+                </div>
+                <div class="funnel-arrow">
+                    <span class="conversion-rate" id="conv-policy-claim">-</span>
+                </div>
+                <div class="funnel-stage" id="funnel-claims">
+                    <span class="funnel-count">-</span>
+                    <span class="funnel-label">Claims</span>
                 </div>
             </div>
         </section>
 
         <section class="charts-section">
-            <h2>Customer Analytics</h2>
+            <h2>Quote Analytics</h2>
             <div class="charts-grid">
                 <div class="chart-card">
-                    <h3>Customers by Nationality</h3>
-                    <canvas id="nationalityChart"></canvas>
+                    <h3>Quotes by Product Type</h3>
+                    <canvas id="productTypeChart"></canvas>
                 </div>
                 <div class="chart-card">
-                    <h3>Gender Distribution</h3>
-                    <canvas id="genderChart"></canvas>
+                    <h3>Quote Status Distribution</h3>
+                    <canvas id="quoteStatusChart"></canvas>
                 </div>
                 <div class="chart-card">
-                    <h3>Age Distribution</h3>
-                    <canvas id="ageChart"></canvas>
+                    <h3>Quote Source</h3>
+                    <canvas id="quoteSourceChart"></canvas>
                 </div>
             </div>
         </section>
 
         <section class="charts-section">
-            <h2>Interaction Analytics</h2>
+            <h2>Underwriting Analytics</h2>
             <div class="charts-grid">
                 <div class="chart-card">
-                    <h3>Interactions by Type</h3>
-                    <canvas id="typeChart"></canvas>
+                    <h3>Underwriting Status</h3>
+                    <canvas id="underwritingChart"></canvas>
                 </div>
                 <div class="chart-card">
-                    <h3>Sentiment Analysis</h3>
-                    <canvas id="sentimentChart"></canvas>
+                    <h3>Health Class Distribution</h3>
+                    <canvas id="healthClassChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="charts-section">
+            <h2>Policy Analytics</h2>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>Policies by Status</h3>
+                    <canvas id="policyStatusChart"></canvas>
                 </div>
                 <div class="chart-card">
-                    <h3>Channel Distribution</h3>
-                    <canvas id="channelChart"></canvas>
+                    <h3>Premium Distribution (Monthly)</h3>
+                    <canvas id="premiumChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Payment Frequency</h3>
+                    <canvas id="paymentFreqChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="charts-section">
+            <h2>Claims Analytics</h2>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>Claims by Type</h3>
+                    <canvas id="claimTypeChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Claims by Status</h3>
+                    <canvas id="claimStatusChart"></canvas>
                 </div>
             </div>
         </section>
@@ -117,21 +184,21 @@
             <h2>Technologies Used</h2>
             <div class="tech-grid">
                 <div class="tech-card">
-                    <h4>Data Engineering</h4>
+                    <h4>Data Generation</h4>
                     <ul>
-                        <li>Python</li>
-                        <li>Pandas</li>
-                        <li>REST APIs</li>
-                        <li>JSON</li>
+                        <li>Python Faker</li>
+                        <li>Custom schemas</li>
+                        <li>Realistic relationships</li>
+                        <li>Conversion modeling</li>
                     </ul>
                 </div>
                 <div class="tech-card">
                     <h4>Data Quality</h4>
                     <ul>
-                        <li>Pydantic validation</li>
-                        <li>Schema enforcement</li>
-                        <li>Duplicate detection</li>
-                        <li>Null handling</li>
+                        <li>Schema validation</li>
+                        <li>FK integrity checks</li>
+                        <li>Enum validation</li>
+                        <li>Date sequence checks</li>
                     </ul>
                 </div>
                 <div class="tech-card">
@@ -153,9 +220,24 @@
             </div>
         </section>
 
+        <section class="data-model-section">
+            <h2>Data Model</h2>
+            <div class="data-model">
+                <div class="entity">Customer</div>
+                <div class="relation">1:N</div>
+                <div class="entity">Quote</div>
+                <div class="relation">1:1</div>
+                <div class="entity">Application</div>
+                <div class="relation">1:1</div>
+                <div class="entity">Policy</div>
+                <div class="relation">1:N</div>
+                <div class="entity">Claim</div>
+            </div>
+        </section>
+
         <footer>
-            <p>Built with Python, Chart.js, and GitHub Actions</p>
-            <p><a href="https://github.com/yourusername/crm_data_lake">View Source on GitHub</a></p>
+            <p>Built with Python, Faker, Chart.js, and GitHub Actions</p>
+            <p><a href="https://github.com/Leonardl27/crm_data_lake">View Source on GitHub</a></p>
         </footer>
     </div>
 

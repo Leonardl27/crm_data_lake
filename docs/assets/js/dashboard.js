@@ -1,15 +1,31 @@
 /**
- * CRM Data Lake Dashboard
+ * Life Insurance Data Lake Dashboard
  * Loads and visualizes data from the PROD layer
  */
 
 const COLORS = {
-    primary: ['#3b82f6', '#2563eb', '#1d4ed8', '#1e40af', '#1e3a8a'],
-    accent: ['#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#ec4899'],
-    pastel: ['#93c5fd', '#86efac', '#fcd34d', '#fca5a5', '#c4b5fd']
+    primary: ['#1e3a5f', '#2c5282', '#3182ce', '#4299e1', '#63b3ed'],
+    accent: ['#38a169', '#d69e2e', '#e53e3e', '#805ad5', '#ed64a6'],
+    status: {
+        'Active': '#38a169',
+        'Approved': '#38a169',
+        'Paid': '#2f855a',
+        'Pending': '#d69e2e',
+        'In Review': '#dd6b20',
+        'Declined': '#e53e3e',
+        'Denied': '#e53e3e',
+        'Lapsed': '#a0aec0',
+        'Closed': '#718096'
+    },
+    products: {
+        'Term Life': '#3182ce',
+        'Whole Life': '#2c5282',
+        'Universal Life': '#38a169',
+        'Variable Life': '#805ad5',
+        'Final Expense': '#d69e2e'
+    }
 };
 
-// Chart.js default configuration
 Chart.defaults.font.family = "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
 Chart.defaults.plugins.legend.position = 'bottom';
 Chart.defaults.plugins.legend.labels.usePointStyle = true;
@@ -40,10 +56,8 @@ function showNoDataMessage() {
         const notice = document.createElement('div');
         notice.className = 'notice';
         notice.innerHTML = `
-            <p style="text-align: center; padding: 2rem; background: #fef3c7; border-radius: 8px; color: #92400e;">
-                <strong>No data available yet.</strong><br>
-                Run the pipeline with: <code>python pipelines/run_pipeline.py</code>
-            </p>
+            <p><strong>No data available yet.</strong><br>
+            Run the pipeline with: <code>python pipelines/run_pipeline.py</code></p>
         `;
         statsSection.insertBefore(notice, statsSection.querySelector('.stats-grid'));
     }
@@ -53,17 +67,23 @@ function showNoDataMessage() {
  * Update statistics cards
  */
 function updateStats(data) {
-    if (data.customers) {
-        document.getElementById('total-customers').textContent =
-            data.customers.total_count.toLocaleString();
-    }
+    const summary = data.summary || {};
 
-    if (data.interactions) {
-        document.getElementById('total-interactions').textContent =
-            data.interactions.total_count.toLocaleString();
-    }
+    document.getElementById('total-customers').textContent =
+        (summary.total_customers || 0).toLocaleString();
+    document.getElementById('total-quotes').textContent =
+        (summary.total_quotes || 0).toLocaleString();
+    document.getElementById('total-applications').textContent =
+        (summary.total_applications || 0).toLocaleString();
+    document.getElementById('total-policies').textContent =
+        (summary.total_policies || 0).toLocaleString();
+    document.getElementById('total-claims').textContent =
+        (summary.total_claims || 0).toLocaleString();
 
-    document.getElementById('data-quality').textContent = '100%';
+    if (data.applications?.approval_rate) {
+        document.getElementById('approval-rate').textContent =
+            data.applications.approval_rate + '%';
+    }
 
     // Update last updated timestamp
     const lastUpdated = document.getElementById('last-updated');
@@ -74,14 +94,43 @@ function updateStats(data) {
 }
 
 /**
- * Create nationality chart (Doughnut)
+ * Update conversion funnel
  */
-function createNationalityChart(data) {
-    const ctx = document.getElementById('nationalityChart');
-    if (!ctx || !data.customers?.by_nationality) return;
+function updateFunnel(data) {
+    const funnel = data.funnel || {};
 
-    const labels = Object.keys(data.customers.by_nationality);
-    const values = Object.values(data.customers.by_nationality);
+    // Update counts
+    const quotesEl = document.querySelector('#funnel-quotes .funnel-count');
+    const appsEl = document.querySelector('#funnel-applications .funnel-count');
+    const policiesEl = document.querySelector('#funnel-policies .funnel-count');
+    const claimsEl = document.querySelector('#funnel-claims .funnel-count');
+
+    if (quotesEl) quotesEl.textContent = (funnel.quotes || 0).toLocaleString();
+    if (appsEl) appsEl.textContent = (funnel.applications || 0).toLocaleString();
+    if (policiesEl) policiesEl.textContent = (funnel.policies || 0).toLocaleString();
+    if (claimsEl) claimsEl.textContent = (funnel.claims || 0).toLocaleString();
+
+    // Update conversion rates
+    const rates = funnel.conversion_rates || {};
+    document.getElementById('conv-quote-app').textContent =
+        (rates.quote_to_application || 0) + '%';
+    document.getElementById('conv-app-policy').textContent =
+        (rates.application_to_policy || 0) + '%';
+    document.getElementById('conv-policy-claim').textContent =
+        (rates.policy_to_claim || 0) + '%';
+}
+
+/**
+ * Create product type chart
+ */
+function createProductTypeChart(data) {
+    const ctx = document.getElementById('productTypeChart');
+    if (!ctx || !data.quotes?.by_product_type) return;
+
+    const byType = data.quotes.by_product_type;
+    const labels = Object.keys(byType);
+    const values = Object.values(byType);
+    const colors = labels.map(l => COLORS.products[l] || COLORS.primary[0]);
 
     new Chart(ctx, {
         type: 'doughnut',
@@ -89,7 +138,7 @@ function createNationalityChart(data) {
             labels: labels,
             datasets: [{
                 data: values,
-                backgroundColor: COLORS.primary,
+                backgroundColor: colors,
                 borderWidth: 2,
                 borderColor: '#fff'
             }]
@@ -97,25 +146,52 @@ function createNationalityChart(data) {
         options: {
             responsive: true,
             plugins: {
-                legend: {
-                    position: 'right'
-                }
+                legend: { position: 'right' }
             }
         }
     });
 }
 
 /**
- * Create gender chart (Pie)
+ * Create quote status chart
  */
-function createGenderChart(data) {
-    const ctx = document.getElementById('genderChart');
-    if (!ctx || !data.customers?.by_gender) return;
+function createQuoteStatusChart(data) {
+    const ctx = document.getElementById('quoteStatusChart');
+    if (!ctx || !data.quotes?.by_status) return;
 
-    const labels = Object.keys(data.customers.by_gender).map(
-        g => g.charAt(0).toUpperCase() + g.slice(1)
-    );
-    const values = Object.values(data.customers.by_gender);
+    const byStatus = data.quotes.by_status;
+    const labels = Object.keys(byStatus);
+    const values = Object.values(byStatus);
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Quotes',
+                data: values,
+                backgroundColor: COLORS.primary[2],
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+}
+
+/**
+ * Create quote source chart
+ */
+function createQuoteSourceChart(data) {
+    const ctx = document.getElementById('quoteSourceChart');
+    if (!ctx || !data.quotes?.by_source) return;
+
+    const bySource = data.quotes.by_source;
+    const labels = Object.keys(bySource);
+    const values = Object.values(bySource);
 
     new Chart(ctx, {
         type: 'pie',
@@ -123,68 +199,140 @@ function createGenderChart(data) {
             labels: labels,
             datasets: [{
                 data: values,
-                backgroundColor: ['#3b82f6', '#ec4899'],
+                backgroundColor: COLORS.accent,
                 borderWidth: 2,
                 borderColor: '#fff'
             }]
         },
-        options: {
-            responsive: true
-        }
+        options: { responsive: true }
     });
 }
 
 /**
- * Create age distribution chart (Bar)
+ * Create underwriting status chart
  */
-function createAgeChart(data) {
-    const ctx = document.getElementById('ageChart');
-    if (!ctx || !data.customers?.age_distribution) return;
+function createUnderwritingChart(data) {
+    const ctx = document.getElementById('underwritingChart');
+    if (!ctx || !data.applications?.by_underwriting_status) return;
 
-    const labels = Object.keys(data.customers.age_distribution);
-    const values = Object.values(data.customers.age_distribution);
+    const byStatus = data.applications.by_underwriting_status;
+    const labels = Object.keys(byStatus);
+    const values = Object.values(byStatus);
+    const colors = labels.map(l => COLORS.status[l] || COLORS.primary[0]);
 
     new Chart(ctx, {
         type: 'bar',
         data: {
             labels: labels,
             datasets: [{
-                label: 'Customers',
+                label: 'Applications',
                 data: values,
-                backgroundColor: '#3b82f6',
+                backgroundColor: colors,
                 borderRadius: 4
             }]
         },
         options: {
             responsive: true,
-            plugins: {
-                legend: {
-                    display: false
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    ticks: {
-                        stepSize: 5
-                    }
-                }
-            }
+            indexAxis: 'y',
+            plugins: { legend: { display: false } },
+            scales: { x: { beginAtZero: true } }
         }
     });
 }
 
 /**
- * Create interaction type chart (Doughnut)
+ * Create health class chart
  */
-function createTypeChart(data) {
-    const ctx = document.getElementById('typeChart');
-    if (!ctx || !data.interactions?.by_type) return;
+function createHealthClassChart(data) {
+    const ctx = document.getElementById('healthClassChart');
+    if (!ctx || !data.applications?.by_health_class) return;
 
-    const labels = Object.keys(data.interactions.by_type).map(
-        t => t.charAt(0).toUpperCase() + t.slice(1)
-    );
-    const values = Object.values(data.interactions.by_type);
+    const byClass = data.applications.by_health_class;
+    const labels = Object.keys(byClass);
+    const values = Object.values(byClass);
+
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: values,
+                backgroundColor: ['#38a169', '#48bb78', '#68d391', '#9ae6b4', '#c6f6d5'],
+                borderWidth: 2,
+                borderColor: '#fff'
+            }]
+        },
+        options: { responsive: true }
+    });
+}
+
+/**
+ * Create policy status chart
+ */
+function createPolicyStatusChart(data) {
+    const ctx = document.getElementById('policyStatusChart');
+    if (!ctx || !data.policies?.by_status) return;
+
+    const byStatus = data.policies.by_status;
+    const labels = Object.keys(byStatus);
+    const values = Object.values(byStatus);
+    const colors = labels.map(l => COLORS.status[l] || COLORS.primary[0]);
+
+    new Chart(ctx, {
+        type: 'pie',
+        data: {
+            labels: labels,
+            datasets: [{
+                data: values,
+                backgroundColor: colors,
+                borderWidth: 2,
+                borderColor: '#fff'
+            }]
+        },
+        options: { responsive: true }
+    });
+}
+
+/**
+ * Create premium distribution chart
+ */
+function createPremiumChart(data) {
+    const ctx = document.getElementById('premiumChart');
+    if (!ctx || !data.policies?.premium_distribution) return;
+
+    const dist = data.policies.premium_distribution;
+    const labels = Object.keys(dist).map(k => '$' + k);
+    const values = Object.values(dist);
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Policies',
+                data: values,
+                backgroundColor: COLORS.primary[1],
+                borderRadius: 4
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: { legend: { display: false } },
+            scales: { y: { beginAtZero: true } }
+        }
+    });
+}
+
+/**
+ * Create payment frequency chart
+ */
+function createPaymentFreqChart(data) {
+    const ctx = document.getElementById('paymentFreqChart');
+    if (!ctx || !data.policies?.by_payment_frequency) return;
+
+    const byFreq = data.policies.by_payment_frequency;
+    const labels = Object.keys(byFreq);
+    const values = Object.values(byFreq);
 
     new Chart(ctx, {
         type: 'doughnut',
@@ -197,86 +345,63 @@ function createTypeChart(data) {
                 borderColor: '#fff'
             }]
         },
-        options: {
-            responsive: true
-        }
+        options: { responsive: true }
     });
 }
 
 /**
- * Create sentiment chart (Polar Area)
+ * Create claim type chart
  */
-function createSentimentChart(data) {
-    const ctx = document.getElementById('sentimentChart');
-    if (!ctx || !data.interactions?.by_sentiment) return;
+function createClaimTypeChart(data) {
+    const ctx = document.getElementById('claimTypeChart');
+    if (!ctx || !data.claims?.by_type) return;
 
-    const sentimentColors = {
-        'positive': '#10b981',
-        'neutral': '#6b7280',
-        'negative': '#ef4444'
-    };
-
-    const labels = Object.keys(data.interactions.by_sentiment).map(
-        s => s.charAt(0).toUpperCase() + s.slice(1)
-    );
-    const values = Object.values(data.interactions.by_sentiment);
-    const colors = Object.keys(data.interactions.by_sentiment).map(
-        s => sentimentColors[s] || '#6b7280'
-    );
+    const byType = data.claims.by_type;
+    const labels = Object.keys(byType);
+    const values = Object.values(byType);
 
     new Chart(ctx, {
-        type: 'polarArea',
+        type: 'doughnut',
         data: {
             labels: labels,
             datasets: [{
                 data: values,
-                backgroundColor: colors.map(c => c + '99'),
-                borderColor: colors,
-                borderWidth: 2
+                backgroundColor: ['#e53e3e', '#ed8936', '#ecc94b', '#48bb78'],
+                borderWidth: 2,
+                borderColor: '#fff'
             }]
         },
-        options: {
-            responsive: true
-        }
+        options: { responsive: true }
     });
 }
 
 /**
- * Create channel chart (Bar)
+ * Create claim status chart
  */
-function createChannelChart(data) {
-    const ctx = document.getElementById('channelChart');
-    if (!ctx || !data.interactions?.by_channel) return;
+function createClaimStatusChart(data) {
+    const ctx = document.getElementById('claimStatusChart');
+    if (!ctx || !data.claims?.by_status) return;
 
-    const labels = Object.keys(data.interactions.by_channel).map(
-        c => c.charAt(0).toUpperCase() + c.slice(1)
-    );
-    const values = Object.values(data.interactions.by_channel);
+    const byStatus = data.claims.by_status;
+    const labels = Object.keys(byStatus);
+    const values = Object.values(byStatus);
+    const colors = labels.map(l => COLORS.status[l] || COLORS.primary[0]);
 
     new Chart(ctx, {
         type: 'bar',
         data: {
             labels: labels,
             datasets: [{
-                label: 'Interactions',
+                label: 'Claims',
                 data: values,
-                backgroundColor: ['#8b5cf6', '#06b6d4', '#f59e0b'],
+                backgroundColor: colors,
                 borderRadius: 4
             }]
         },
         options: {
             responsive: true,
-            indexAxis: 'y',
-            plugins: {
-                legend: {
-                    display: false
-                }
-            },
-            scales: {
-                x: {
-                    beginAtZero: true
-                }
-            }
+            plugins: { legend: { display: false } },
+            scales: { y: { beginAtZero: true } }
         }
     });
 }
@@ -294,13 +419,20 @@ async function initDashboard() {
     // Update stats
     updateStats(data);
 
+    // Update funnel
+    updateFunnel(data);
+
     // Create all charts
-    createNationalityChart(data);
-    createGenderChart(data);
-    createAgeChart(data);
-    createTypeChart(data);
-    createSentimentChart(data);
-    createChannelChart(data);
+    createProductTypeChart(data);
+    createQuoteStatusChart(data);
+    createQuoteSourceChart(data);
+    createUnderwritingChart(data);
+    createHealthClassChart(data);
+    createPolicyStatusChart(data);
+    createPremiumChart(data);
+    createPaymentFreqChart(data);
+    createClaimTypeChart(data);
+    createClaimStatusChart(data);
 }
 
 // Initialize when DOM is ready
