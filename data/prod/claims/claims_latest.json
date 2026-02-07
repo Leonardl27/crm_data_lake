@@ -1,26 +1,10 @@
 {
   "metadata": {
     "source": "Life Insurance Data Generator (Faker)",
-    "qa_extracted_at": "2026-02-07T21:30:30.043499+00:00",
-    "promoted_at": "2026-02-07T21:30:30.261238+00:00",
-    "record_count": 1,
+    "qa_extracted_at": "2026-02-07T21:33:07.439575+00:00",
+    "promoted_at": "2026-02-07T21:33:07.445691+00:00",
+    "record_count": 0,
     "layer": "PROD"
   },
-  "data": [
-    {
-      "Claim_ID__c": "CLM-000001",
-      "Policy_ID__c": "POL-000056",
-      "Customer_ID__c": "CUST-00435",
-      "Policy_Number__c": "LI4703402229",
-      "Claim_Type__c": "Death Benefit",
-      "Claim_Amount__c": 500000,
-      "Filed_Date__c": "2025-09-07",
-      "Status__c": "Denied",
-      "Processed_Date__c": "2025-10-29",
-      "Payout_Amount__c": 0,
-      "Denial_Reason__c": "Documentation incomplete",
-      "Adjuster_ID__c": "ADJ-00004",
-      "Notes__c": "She finish small large either reduce consider interview. Civil there scientist increase environmental."
-    }
-  ]
+  "data": []
 }

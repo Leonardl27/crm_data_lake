@@ -1,133 +1,128 @@
 {
-  "generated_at": "2026-02-07T21:30:30.262232+00:00",
+  "generated_at": "2026-02-07T21:33:07.445818+00:00",
   "summary": {
-    "total_customers": 500,
+    "total_customers": 50,
     "total_agents": 20,
-    "total_quotes": 750,
-    "total_applications": 225,
-    "total_policies": 77,
-    "total_claims": 1
+    "total_quotes": 78,
+    "total_applications": 23,
+    "total_policies": 12,
+    "total_claims": 0
   },
   "customers": {
-    "total_count": 500,
+    "total_count": 50,
     "by_gender": {
-      "Female": 252,
-      "Male": 248
+      "Female": 13,
+      "Male": 37
     },
     "by_employment": {
-      "Self-Employed": 102,
-      "Retired": 149,
-      "Employed": 121,
-      "Unemployed": 128
+      "Self-Employed": 9,
+      "Retired": 13,
+      "Employed": 13,
+      "Unemployed": 15
     },
-    "smoker_count": 113,
+    "smoker_count": 12,
     "age_distribution": {
-      "18-30": 110,
-      "31-40": 89,
-      "41-50": 87,
-      "51-60": 77,
-      "61+": 137
+      "18-30": 12,
+      "31-40": 10,
+      "41-50": 10,
+      "51-60": 5,
+      "61+": 13
     },
-    "avg_income": 274363.69
+    "avg_income": 287066.76
   },
   "quotes": {
-    "total_count": 750,
+    "total_count": 78,
     "by_product_type": {
-      "Whole Life": 150,
-      "Term Life": 150,
-      "Final Expense": 181,
-      "Universal Life": 137,
-      "Variable Life": 132
+      "Final Expense": 15,
+      "Term Life": 15,
+      "Whole Life": 13,
+      "Universal Life": 17,
+      "Variable Life": 18
     },
     "by_status": {
-      "Sent": 138,
-      "Viewed": 155,
-      "Expired": 150,
-      "Draft": 146,
-      "Converted": 161
+      "Draft": 19,
+      "Viewed": 14,
+      "Converted": 15,
+      "Sent": 16,
+      "Expired": 14
     },
     "by_source": {
-      "Phone": 205,
-      "Web": 192,
-      "Referral": 169,
-      "Agent": 184
+      "Web": 20,
+      "Phone": 21,
+      "Agent": 22,
+      "Referral": 15
     },
-    "avg_coverage": 671866.67,
-    "avg_premium": 1452.34
+    "avg_coverage": 709935.9,
+    "avg_premium": 1487.2
   },
   "applications": {
-    "total_count": 225,
+    "total_count": 23,
     "by_underwriting_status": {
-      "In Review": 33,
-      "Pending": 30,
-      "Approved": 110,
-      "Declined": 40,
-      "Referred": 12
+      "Approved": 18,
+      "Declined": 1,
+      "Referred": 3,
+      "In Review": 1
     },
     "by_health_class": {
-      "Standard Plus": 64,
-      "Standard": 53,
-      "Preferred": 64,
-      "Preferred Plus": 18,
-      "Substandard": 26
+      "Preferred": 6,
+      "Preferred Plus": 4,
+      "Standard Plus": 4,
+      "Standard": 5,
+      "Substandard": 4
     },
-    "approval_rate": 48.9,
-    "avg_risk_score": 54.3,
-    "medical_exam_required_pct": 66.7
+    "approval_rate": 78.3,
+    "avg_risk_score": 55.7,
+    "medical_exam_required_pct": 73.9
   },
   "policies": {
-    "total_count": 77,
+    "total_count": 12,
     "by_status": {
-      "Surrendered": 4,
-      "Active": 66,
-      "Lapsed": 4,
-      "Paid Up": 3
+      "Terminated": 1,
+      "Lapsed": 1,
+      "Active": 9,
+      "Paid Up": 1
     },
     "by_product_type": {
-      "Whole Life": 13,
-      "Final Expense": 25,
-      "Universal Life": 10,
-      "Term Life": 17,
-      "Variable Life": 12
+      "Term Life": 3,
+      "Final Expense": 4,
+      "Whole Life": 1,
+      "Variable Life": 3,
+      "Universal Life": 1
     },
     "by_payment_frequency": {
-      "Quarterly": 22,
-      "Annual": 23,
-      "Monthly": 14,
-      "Semi-Annual": 18
+      "Semi-Annual": 2,
+      "Monthly": 3,
+      "Quarterly": 4,
+      "Annual": 3
     },
-    "total_coverage": 54175000,
+    "total_coverage": 5950000,
     "total_premium_annual": 0,
     "premium_distribution": {
-      "0-100": 12,
-      "100-250": 7,
-      "250-500": 7,
-      "500-1000": 12,
-      "1000+": 39
+      "0-100": 2,
+      "100-250": 3,
+      "250-500": 1,
+      "500-1000": 2,
+      "1000+": 4
     }
   },
   "claims": {
-    "total_count": 1,
-    "by_type": {
-      "Death Benefit": 1
-    },
-    "by_status": {
-      "Denied": 1
-    },
-    "total_claimed": 500000,
+    "total_count": 0,
+    "by_type": {},
+    "by_status": {},
+    "total_claimed": 0,
     "total_paid": 0,
-    "avg_processing_days": 52.0,
-    "approval_rate": 0.0
+    "avg_processing_days": 0,
+    "approval_rate": 0
   },
   "funnel": {
-    "quotes": 750,
-    "applications": 225,
-    "policies": 77,
-    "claims": 1,
+    "quotes": 78,
+    "applications": 23,
+    "policies": 12,
+    "claims": 0,
     "conversion_rates": {
-      "quote_to_application": 30.0,
-      "application_to_policy": 34.2,
-      "policy_to_claim": 1.3
+      "quote_to_application": 29.5,
+      "application_to_policy": 52.2,
+      "policy_to_claim": 0.0
     }
   }
 }
