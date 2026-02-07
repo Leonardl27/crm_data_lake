@@ -1,0 +1,536 @@
+{
+  "metadata": {
+    "source": "RandomUser API",
+    "qa_extracted_at": "2026-02-07T20:00:57.316267",
+    "promoted_at": "2026-02-07T20:00:57.797559",
+    "record_count": 25,
+    "layer": "PROD"
+  },
+  "data": [
+    {
+      "id": "CUST-00001",
+      "email": "liam.cote@example.com",
+      "first_name": "Liam",
+      "last_name": "C\u00f4t\u00e9",
+      "gender": "male",
+      "phone": "X02 H05-7373",
+      "cell": "S15 Q54-0500",
+      "address": {
+        "street": "1004 Stanley Way",
+        "city": "Bath",
+        "state": "New Brunswick",
+        "country": "Canada",
+        "postcode": "R7C 1T1"
+      },
+      "date_of_birth": "1948-06-20T00:47:40.404Z",
+      "age": 77,
+      "registered_date": "2010-11-20T16:26:50.481Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/55.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00002",
+      "email": "leta.wright@example.com",
+      "first_name": "Leta",
+      "last_name": "Wright",
+      "gender": "female",
+      "phone": "(309) 410-3408",
+      "cell": "(328) 591-4960",
+      "address": {
+        "street": "8457 Poplar Dr",
+        "city": "Winston\u2013Salem",
+        "state": "Nebraska",
+        "country": "United States",
+        "postcode": "36304"
+      },
+      "date_of_birth": "1959-04-22T11:31:20.903Z",
+      "age": 66,
+      "registered_date": "2017-03-13T20:21:50.612Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/38.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00003",
+      "email": "charles.grant@example.com",
+      "first_name": "Charles",
+      "last_name": "Grant",
+      "gender": "male",
+      "phone": "016977 1333",
+      "cell": "07666 451439",
+      "address": {
+        "street": "1328 Main Road",
+        "city": "Sunderland",
+        "state": "Durham",
+        "country": "United Kingdom",
+        "postcode": "E99 1HH"
+      },
+      "date_of_birth": "1977-12-22T05:17:22.767Z",
+      "age": 48,
+      "registered_date": "2004-12-05T17:33:27.834Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/35.jpg",
+      "nationality": "GB"
+    },
+    {
+      "id": "CUST-00004",
+      "email": "fernando.clark@example.com",
+      "first_name": "Fernando",
+      "last_name": "Clark",
+      "gender": "male",
+      "phone": "(309) 270-0158",
+      "cell": "(788) 328-9723",
+      "address": {
+        "street": "9832 W 6th St",
+        "city": "Hialeah",
+        "state": "Michigan",
+        "country": "United States",
+        "postcode": "44634"
+      },
+      "date_of_birth": "1973-10-25T04:20:42.586Z",
+      "age": 52,
+      "registered_date": "2008-12-30T22:48:28.814Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/93.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00005",
+      "email": "alvin.mitchell@example.com",
+      "first_name": "Alvin",
+      "last_name": "Mitchell",
+      "gender": "male",
+      "phone": "(422) 646-0136",
+      "cell": "(913) 853-3375",
+      "address": {
+        "street": "5918 Lone Wolf Trail",
+        "city": "Stockton",
+        "state": "New Jersey",
+        "country": "United States",
+        "postcode": "61942"
+      },
+      "date_of_birth": "1983-09-19T11:28:46.516Z",
+      "age": 42,
+      "registered_date": "2016-06-07T10:27:07.714Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/0.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00006",
+      "email": "emma.abraham@example.com",
+      "first_name": "Emma",
+      "last_name": "Abraham",
+      "gender": "female",
+      "phone": "Z63 Y94-3029",
+      "cell": "S57 H29-7386",
+      "address": {
+        "street": "3131 22nd Ave",
+        "city": "Inverness",
+        "state": "Nunavut",
+        "country": "Canada",
+        "postcode": "Z1R 7J7"
+      },
+      "date_of_birth": "1996-03-08T10:16:07.048Z",
+      "age": 29,
+      "registered_date": "2006-09-30T10:34:21.702Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/62.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00007",
+      "email": "jen.hoffman@example.com",
+      "first_name": "Jen",
+      "last_name": "Hoffman",
+      "gender": "female",
+      "phone": "01748 09325",
+      "cell": "07826 555045",
+      "address": {
+        "street": "1847 Church Street",
+        "city": "Sheffield",
+        "state": "Lincolnshire",
+        "country": "United Kingdom",
+        "postcode": "J2X 5JA"
+      },
+      "date_of_birth": "1946-04-25T17:03:37.029Z",
+      "age": 79,
+      "registered_date": "2013-06-26T19:59:34.618Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/52.jpg",
+      "nationality": "GB"
+    },
+    {
+      "id": "CUST-00008",
+      "email": "harper.addy@example.com",
+      "first_name": "Harper",
+      "last_name": "Addy",
+      "gender": "female",
+      "phone": "J80 X34-9931",
+      "cell": "D41 H09-3184",
+      "address": {
+        "street": "9973 Tecumseh Rd",
+        "city": "Lasalle",
+        "state": "Yukon",
+        "country": "Canada",
+        "postcode": "U4J 6P0"
+      },
+      "date_of_birth": "1954-08-11T15:48:45.569Z",
+      "age": 71,
+      "registered_date": "2015-06-06T01:42:38.665Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/16.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00009",
+      "email": "walter.price@example.com",
+      "first_name": "Walter",
+      "last_name": "Price",
+      "gender": "male",
+      "phone": "016977 7383",
+      "cell": "07181 913038",
+      "address": {
+        "street": "503 Kingsway",
+        "city": "Sunderland",
+        "state": "Grampian",
+        "country": "United Kingdom",
+        "postcode": "KB40 3HH"
+      },
+      "date_of_birth": "1969-02-15T17:37:24.934Z",
+      "age": 56,
+      "registered_date": "2007-06-04T13:30:12.427Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/58.jpg",
+      "nationality": "GB"
+    },
+    {
+      "id": "CUST-00010",
+      "email": "sam.bailey@example.com",
+      "first_name": "Sam",
+      "last_name": "Bailey",
+      "gender": "male",
+      "phone": "015395 75572",
+      "cell": "07843 688452",
+      "address": {
+        "street": "434 Park Road",
+        "city": "Derby",
+        "state": "County Londonderry",
+        "country": "United Kingdom",
+        "postcode": "G66 0FW"
+      },
+      "date_of_birth": "1989-06-19T05:27:22.321Z",
+      "age": 36,
+      "registered_date": "2022-05-05T10:56:43.229Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/35.jpg",
+      "nationality": "GB"
+    },
+    {
+      "id": "CUST-00011",
+      "email": "amelia.howell@example.com",
+      "first_name": "Amelia",
+      "last_name": "Howell",
+      "gender": "female",
+      "phone": "(520) 500-5202",
+      "cell": "(826) 599-6151",
+      "address": {
+        "street": "5487 Mockingbird Ln",
+        "city": "Tucson",
+        "state": "Wyoming",
+        "country": "United States",
+        "postcode": "15416"
+      },
+      "date_of_birth": "1955-06-10T11:28:29.523Z",
+      "age": 70,
+      "registered_date": "2005-02-12T16:29:24.253Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/25.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00012",
+      "email": "loretta.steeves@example.com",
+      "first_name": "Loretta",
+      "last_name": "Steeves",
+      "gender": "female",
+      "phone": "(902) 777-2376",
+      "cell": "(583) 751-2240",
+      "address": {
+        "street": "898 Saddle Dr",
+        "city": "Lancaster",
+        "state": "Connecticut",
+        "country": "United States",
+        "postcode": "36723"
+      },
+      "date_of_birth": "1997-03-15T03:37:20.277Z",
+      "age": 28,
+      "registered_date": "2010-03-21T18:54:11.307Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/95.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00013",
+      "email": "jorge.wells@example.com",
+      "first_name": "Jorge",
+      "last_name": "Wells",
+      "gender": "male",
+      "phone": "01403 27798",
+      "cell": "07602 777142",
+      "address": {
+        "street": "4845 George Street",
+        "city": "Nottingham",
+        "state": "Clwyd",
+        "country": "United Kingdom",
+        "postcode": "Q4Y 7QW"
+      },
+      "date_of_birth": "1960-05-03T02:52:27.604Z",
+      "age": 65,
+      "registered_date": "2003-04-01T08:38:06.465Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/60.jpg",
+      "nationality": "GB"
+    },
+    {
+      "id": "CUST-00014",
+      "email": "david.scott@example.com",
+      "first_name": "David",
+      "last_name": "Scott",
+      "gender": "male",
+      "phone": "Q57 L98-8356",
+      "cell": "F91 G35-6036",
+      "address": {
+        "street": "6089 Concession Road 23",
+        "city": "Havelock",
+        "state": "Manitoba",
+        "country": "Canada",
+        "postcode": "Z2V 3B9"
+      },
+      "date_of_birth": "1999-10-03T14:32:33.682Z",
+      "age": 26,
+      "registered_date": "2013-05-07T11:47:13.042Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/48.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00015",
+      "email": "dylan.gregory@example.com",
+      "first_name": "Dylan",
+      "last_name": "Gregory",
+      "gender": "male",
+      "phone": "(363) 748-2295",
+      "cell": "(221) 472-0872",
+      "address": {
+        "street": "2726 Railroad St",
+        "city": "West Jordan",
+        "state": "Maine",
+        "country": "United States",
+        "postcode": "93120"
+      },
+      "date_of_birth": "1960-02-08T18:57:45.890Z",
+      "age": 65,
+      "registered_date": "2019-12-20T05:37:18.045Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/65.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00016",
+      "email": "anthony.gagnon@example.com",
+      "first_name": "Anthony",
+      "last_name": "Gagnon",
+      "gender": "male",
+      "phone": "E28 O89-6789",
+      "cell": "N06 Q84-5050",
+      "address": {
+        "street": "3500 Brock Rd",
+        "city": "Belmont",
+        "state": "British Columbia",
+        "country": "Canada",
+        "postcode": "E7M 8T0"
+      },
+      "date_of_birth": "1982-05-18T16:13:20.583Z",
+      "age": 43,
+      "registered_date": "2007-05-12T16:16:13.254Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/12.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00017",
+      "email": "brandie.cooper@example.com",
+      "first_name": "Brandie",
+      "last_name": "Cooper",
+      "gender": "female",
+      "phone": "(454) 312-1888",
+      "cell": "(707) 385-1477",
+      "address": {
+        "street": "5716 Mockingbird Ln",
+        "city": "Ennis",
+        "state": "New Hampshire",
+        "country": "United States",
+        "postcode": "63824"
+      },
+      "date_of_birth": "1986-12-07T21:17:05.805Z",
+      "age": 39,
+      "registered_date": "2017-02-24T11:50:36.210Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/78.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00018",
+      "email": "samuel.barnaby@example.com",
+      "first_name": "Samuel",
+      "last_name": "Barnaby",
+      "gender": "male",
+      "phone": "Z19 J34-8186",
+      "cell": "S64 G91-2569",
+      "address": {
+        "street": "8378 King St",
+        "city": "Wellington",
+        "state": "British Columbia",
+        "country": "Canada",
+        "postcode": "Y5G 4F1"
+      },
+      "date_of_birth": "1989-04-17T05:47:12.342Z",
+      "age": 36,
+      "registered_date": "2002-08-22T04:00:17.909Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/14.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00019",
+      "email": "avery.lo@example.com",
+      "first_name": "Avery",
+      "last_name": "Lo",
+      "gender": "female",
+      "phone": "T83 J20-7920",
+      "cell": "D08 K33-8918",
+      "address": {
+        "street": "6148 Dufferin St",
+        "city": "Southampton",
+        "state": "Saskatchewan",
+        "country": "Canada",
+        "postcode": "O2R 0R4"
+      },
+      "date_of_birth": "1978-01-20T18:13:37.748Z",
+      "age": 48,
+      "registered_date": "2018-03-07T19:00:55.244Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/24.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00020",
+      "email": "leo.ginnish@example.com",
+      "first_name": "Leo",
+      "last_name": "Ginnish",
+      "gender": "male",
+      "phone": "M58 B17-1855",
+      "cell": "S97 G78-5976",
+      "address": {
+        "street": "6216 Wellington St",
+        "city": "Trenton",
+        "state": "Saskatchewan",
+        "country": "Canada",
+        "postcode": "X1X 1R9"
+      },
+      "date_of_birth": "1977-07-27T21:16:28.499Z",
+      "age": 48,
+      "registered_date": "2015-05-05T18:35:57.881Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/7.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00021",
+      "email": "nicolas.thompson@example.com",
+      "first_name": "Nicolas",
+      "last_name": "Thompson",
+      "gender": "male",
+      "phone": "L32 M92-6271",
+      "cell": "P84 C17-6706",
+      "address": {
+        "street": "9320 Arctic Way",
+        "city": "Richmond",
+        "state": "Qu\u00e9bec",
+        "country": "Canada",
+        "postcode": "P5F 8Q6"
+      },
+      "date_of_birth": "1986-11-09T09:16:49.422Z",
+      "age": 39,
+      "registered_date": "2019-03-26T14:38:03.003Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/men/49.jpg",
+      "nationality": "CA"
+    },
+    {
+      "id": "CUST-00022",
+      "email": "charlotte.simpson@example.com",
+      "first_name": "Charlotte",
+      "last_name": "Simpson",
+      "gender": "female",
+      "phone": "024 3996 1373",
+      "cell": "07445 689900",
+      "address": {
+        "street": "5552 Grange Road",
+        "city": "Chester",
+        "state": "Greater Manchester",
+        "country": "United Kingdom",
+        "postcode": "E0W 7NQ"
+      },
+      "date_of_birth": "1959-07-06T13:39:13.644Z",
+      "age": 66,
+      "registered_date": "2002-04-21T19:01:35.818Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/50.jpg",
+      "nationality": "GB"
+    },
+    {
+      "id": "CUST-00023",
+      "email": "phyllis.kelley@example.com",
+      "first_name": "Phyllis",
+      "last_name": "Kelley",
+      "gender": "female",
+      "phone": "(998) 386-8386",
+      "cell": "(910) 770-1050",
+      "address": {
+        "street": "3047 Spring St",
+        "city": "Murfreesboro",
+        "state": "Minnesota",
+        "country": "United States",
+        "postcode": "12801"
+      },
+      "date_of_birth": "1965-07-28T14:52:34.126Z",
+      "age": 60,
+      "registered_date": "2009-06-04T11:03:35.841Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/75.jpg",
+      "nationality": "US"
+    },
+    {
+      "id": "CUST-00024",
+      "email": "sam.perkins@example.com",
+      "first_name": "Sam",
+      "last_name": "Perkins",
+      "gender": "female",
+      "phone": "016973 39124",
+      "cell": "07633 829746",
+      "address": {
+        "street": "6381 Mill Lane",
+        "city": "Canterbury",
+        "state": "South Glamorgan",
+        "country": "United Kingdom",
+        "postcode": "NN83 3TH"
+      },
+      "date_of_birth": "1995-09-30T02:54:08.346Z",
+      "age": 30,
+      "registered_date": "2006-08-11T02:32:37.232Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/84.jpg",
+      "nationality": "GB"
+    },
+    {
+      "id": "CUST-00025",
+      "email": "harper.pelletier@example.com",
+      "first_name": "Harper",
+      "last_name": "Pelletier",
+      "gender": "female",
+      "phone": "A50 X43-5567",
+      "cell": "L19 W60-4564",
+      "address": {
+        "street": "753 Oak St",
+        "city": "Minto",
+        "state": "Nova Scotia",
+        "country": "Canada",
+        "postcode": "A6I 3I8"
+      },
+      "date_of_birth": "1964-02-04T08:54:12.248Z",
+      "age": 62,
+      "registered_date": "2005-09-18T07:36:29.751Z",
+      "picture_url": "https://randomuser.me/api/portraits/med/women/33.jpg",
+      "nationality": "CA"
+    }
+  ]
+}

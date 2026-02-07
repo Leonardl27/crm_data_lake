@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Data Lake Dashboard</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CRM Data Lake Dashboard</h1>
+            <p class="subtitle">Data Engineering Portfolio Project</p>
+            <div id="last-updated" class="meta-info"></div>
+        </header>
+
+        <section class="architecture-section">
+            <h2>Data Architecture</h2>
+            <div class="architecture-diagram">
+                <div class="arch-box source">
+                    <h4>External APIs</h4>
+                    <ul>
+                        <li>RandomUser API</li>
+                        <li>JSONPlaceholder API</li>
+                    </ul>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-box qa">
+                    <h4>QA Layer</h4>
+                    <ul>
+                        <li>Raw data ingestion</li>
+                        <li>Quality checks</li>
+                        <li>Validation rules</li>
+                    </ul>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-box prod">
+                    <h4>PROD Layer</h4>
+                    <ul>
+                        <li>Cleaned data</li>
+                        <li>Standardized format</li>
+                        <li>Ready for analytics</li>
+                    </ul>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-box viz">
+                    <h4>Visualization</h4>
+                    <ul>
+                        <li>GitHub Pages</li>
+                        <li>Chart.js</li>
+                        <li>Interactive dashboards</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <h2>Data Summary</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value" id="total-customers">-</div>
+                    <div class="stat-label">Total Customers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="total-interactions">-</div>
+                    <div class="stat-label">Total Interactions</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="data-quality">-</div>
+                    <div class="stat-label">Data Quality Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value" id="pipeline-status">Active</div>
+                    <div class="stat-label">Pipeline Status</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="charts-section">
+            <h2>Customer Analytics</h2>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>Customers by Nationality</h3>
+                    <canvas id="nationalityChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Gender Distribution</h3>
+                    <canvas id="genderChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Age Distribution</h3>
+                    <canvas id="ageChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="charts-section">
+            <h2>Interaction Analytics</h2>
+            <div class="charts-grid">
+                <div class="chart-card">
+                    <h3>Interactions by Type</h3>
+                    <canvas id="typeChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Sentiment Analysis</h3>
+                    <canvas id="sentimentChart"></canvas>
+                </div>
+                <div class="chart-card">
+                    <h3>Channel Distribution</h3>
+                    <canvas id="channelChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <section class="tech-section">
+            <h2>Technologies Used</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <h4>Data Engineering</h4>
+                    <ul>
+                        <li>Python</li>
+                        <li>Pandas</li>
+                        <li>REST APIs</li>
+                        <li>JSON</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h4>Data Quality</h4>
+                    <ul>
+                        <li>Pydantic validation</li>
+                        <li>Schema enforcement</li>
+                        <li>Duplicate detection</li>
+                        <li>Null handling</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h4>Automation</h4>
+                    <ul>
+                        <li>GitHub Actions</li>
+                        <li>Scheduled pipelines</li>
+                        <li>CI/CD workflows</li>
+                    </ul>
+                </div>
+                <div class="tech-card">
+                    <h4>Visualization</h4>
+                    <ul>
+                        <li>Chart.js</li>
+                        <li>GitHub Pages</li>
+                        <li>Responsive design</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>Built with Python, Chart.js, and GitHub Actions</p>
+            <p><a href="https://github.com/yourusername/crm_data_lake">View Source on GitHub</a></p>
+        </footer>
+    </div>
+
+    <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

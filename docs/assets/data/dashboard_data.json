@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-02-07T20:00:57.813089",
+  "customers": {
+    "total_count": 25,
+    "by_nationality": {
+      "CA": 10,
+      "US": 8,
+      "GB": 7
+    },
+    "by_gender": {
+      "male": 13,
+      "female": 12
+    },
+    "age_distribution": {
+      "18-25": 0,
+      "26-35": 4,
+      "36-45": 6,
+      "46-55": 4,
+      "56+": 11
+    }
+  },
+  "interactions": {
+    "total_count": 600,
+    "by_type": {
+      "post": 100,
+      "comment": 500
+    },
+    "by_sentiment": {
+      "positive": 185,
+      "neutral": 210,
+      "negative": 205
+    },
+    "by_channel": {
+      "email": 212,
+      "mobile": 217,
+      "web": 171
+    }
+  }
+}
