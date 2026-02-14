@@ -1,10 +1,9 @@
 {
   "metadata": {
     "source": "Life Insurance Data Generator (Faker)",
-    "qa_extracted_at": "2026-02-14T06:10:49.450565+00:00",
-    "promoted_at": "2026-02-14T06:10:49.456420+00:00",
+    "extracted_at": "2026-02-14T06:10:49.450565+00:00",
     "record_count": 23,
-    "layer": "PROD"
+    "layer": "QA"
   },
   "data": [
     {
@@ -20,7 +19,9 @@
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 71,
       "Medical_Exam_Required__c": false,
-      "Decision_Date__c": "2024-06-20"
+      "Medical_Exam_Date__c": null,
+      "Decision_Date__c": "2024-06-20",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000002",
@@ -36,7 +37,8 @@
       "Risk_Score__c": 91,
       "Medical_Exam_Required__c": false,
       "Medical_Exam_Date__c": "2025-10-19",
-      "Decision_Date__c": "2025-10-31"
+      "Decision_Date__c": "2025-10-31",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000003",
@@ -52,7 +54,8 @@
       "Risk_Score__c": 26,
       "Medical_Exam_Required__c": true,
       "Medical_Exam_Date__c": "2026-02-01",
-      "Decision_Date__c": "2026-02-14"
+      "Decision_Date__c": "2026-02-14",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000004",
@@ -68,7 +71,8 @@
       "Risk_Score__c": 40,
       "Medical_Exam_Required__c": true,
       "Medical_Exam_Date__c": "2025-02-12",
-      "Decision_Date__c": "2025-02-17"
+      "Decision_Date__c": "2025-02-17",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000005",
@@ -84,7 +88,8 @@
       "Risk_Score__c": 65,
       "Medical_Exam_Required__c": true,
       "Medical_Exam_Date__c": "2026-01-24",
-      "Decision_Date__c": "2026-01-27"
+      "Decision_Date__c": "2026-01-27",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000006",
@@ -100,7 +105,8 @@
       "Risk_Score__c": 12,
       "Medical_Exam_Required__c": false,
       "Medical_Exam_Date__c": "2025-02-21",
-      "Decision_Date__c": "2025-02-16"
+      "Decision_Date__c": "2025-02-16",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000007",
@@ -115,7 +121,9 @@
       "Health_Class__c": "Standard",
       "Risk_Score__c": 35,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2024-12-31"
+      "Medical_Exam_Date__c": "2024-12-31",
+      "Decision_Date__c": null,
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000008",
@@ -131,7 +139,8 @@
       "Risk_Score__c": 56,
       "Medical_Exam_Required__c": true,
       "Medical_Exam_Date__c": "2026-02-09",
-      "Decision_Date__c": "2026-02-14"
+      "Decision_Date__c": "2026-02-14",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000009",
@@ -163,6 +172,7 @@
       "Health_Class__c": "Preferred Plus",
       "Risk_Score__c": 41,
       "Medical_Exam_Required__c": false,
+      "Medical_Exam_Date__c": null,
       "Decision_Date__c": "2025-01-02",
       "Notes__c": "Best discussion away. Shoulder western however similar ahead event yeah make. Need heart control one herself sign."
     },
@@ -179,7 +189,9 @@
       "Health_Class__c": "Substandard",
       "Risk_Score__c": 70,
       "Medical_Exam_Required__c": true,
-      "Decision_Date__c": "2026-02-14"
+      "Medical_Exam_Date__c": null,
+      "Decision_Date__c": "2026-02-14",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000012",
@@ -194,7 +206,9 @@
       "Health_Class__c": "Standard Plus",
       "Risk_Score__c": 27,
       "Medical_Exam_Required__c": false,
-      "Decision_Date__c": "2025-10-16"
+      "Medical_Exam_Date__c": null,
+      "Decision_Date__c": "2025-10-16",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000013",
@@ -210,7 +224,8 @@
       "Risk_Score__c": 78,
       "Medical_Exam_Required__c": true,
       "Medical_Exam_Date__c": "2026-02-06",
-      "Decision_Date__c": "2026-02-14"
+      "Decision_Date__c": "2026-02-14",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000014",
@@ -226,7 +241,8 @@
       "Risk_Score__c": 60,
       "Medical_Exam_Required__c": true,
       "Medical_Exam_Date__c": "2026-02-12",
-      "Decision_Date__c": "2026-02-14"
+      "Decision_Date__c": "2026-02-14",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000015",
@@ -241,7 +257,9 @@
       "Health_Class__c": "Standard",
       "Risk_Score__c": 54,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-02-20"
+      "Medical_Exam_Date__c": "2026-02-20",
+      "Decision_Date__c": null,
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000016",
@@ -273,7 +291,9 @@
       "Health_Class__c": "Substandard",
       "Risk_Score__c": 35,
       "Medical_Exam_Required__c": true,
-      "Decision_Date__c": "2025-06-05"
+      "Medical_Exam_Date__c": null,
+      "Decision_Date__c": "2025-06-05",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000018",
@@ -306,7 +326,8 @@
       "Risk_Score__c": 90,
       "Medical_Exam_Required__c": false,
       "Medical_Exam_Date__c": "2025-12-12",
-      "Decision_Date__c": "2025-12-16"
+      "Decision_Date__c": "2025-12-16",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000020",
@@ -338,6 +359,8 @@
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 76,
       "Medical_Exam_Required__c": true,
+      "Medical_Exam_Date__c": null,
+      "Decision_Date__c": null,
       "Notes__c": "Order crime blood fight we forward per. Key issue statement prepare organization feel. Water cut fire who why fact reason make. Site for exactly skill half usually customer."
     },
     {
@@ -354,7 +377,8 @@
       "Risk_Score__c": 19,
       "Medical_Exam_Required__c": true,
       "Medical_Exam_Date__c": "2025-09-13",
-      "Decision_Date__c": "2025-10-08"
+      "Decision_Date__c": "2025-10-08",
+      "Notes__c": null
     },
     {
       "Application_ID__c": "APP-000023",
@@ -368,7 +392,10 @@
       "Underwriting_Status__c": "Referred",
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 89,
-      "Medical_Exam_Required__c": true
+      "Medical_Exam_Required__c": true,
+      "Medical_Exam_Date__c": null,
+      "Decision_Date__c": null,
+      "Notes__c": null
     }
   ]
 }
