@@ -1,10 +1,9 @@
 {
   "metadata": {
     "source": "Life Insurance Data Generator (Faker)",
-    "qa_extracted_at": "2026-03-01T06:11:52.748506+00:00",
-    "promoted_at": "2026-03-01T06:11:52.755214+00:00",
+    "extracted_at": "2026-03-01T06:11:52.748506+00:00",
     "record_count": 12,
-    "layer": "PROD"
+    "layer": "QA"
   },
   "data": [
     {
@@ -21,7 +20,8 @@
       "Beneficiary_Name__c": "Christine Salinas",
       "Beneficiary_Relationship__c": "Spouse",
       "Status__c": "Terminated",
-      "Cash_Value__c": 0
+      "Cash_Value__c": 0,
+      "Last_Payment_Date__c": null
     },
     {
       "Policy_ID__c": "POL-000002",
@@ -37,7 +37,8 @@
       "Beneficiary_Name__c": "Brenda Turner",
       "Beneficiary_Relationship__c": "Spouse",
       "Status__c": "Lapsed",
-      "Cash_Value__c": 0
+      "Cash_Value__c": 0,
+      "Last_Payment_Date__c": null
     },
     {
       "Policy_ID__c": "POL-000003",
@@ -155,7 +156,8 @@
       "Beneficiary_Name__c": "Mrs. Elizabeth Knapp MD",
       "Beneficiary_Relationship__c": "Child",
       "Status__c": "Paid Up",
-      "Cash_Value__c": 0
+      "Cash_Value__c": 0,
+      "Last_Payment_Date__c": null
     },
     {
       "Policy_ID__c": "POL-000010",
