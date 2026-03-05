@@ -1,10 +1,9 @@
 {
   "metadata": {
     "source": "Life Insurance Data Generator (Faker)",
-    "qa_extracted_at": "2026-03-05T06:12:45.456435+00:00",
-    "promoted_at": "2026-03-05T06:12:45.461822+00:00",
+    "extracted_at": "2026-03-05T06:12:45.456435+00:00",
     "record_count": 20,
-    "layer": "PROD"
+    "layer": "QA"
   },
   "data": [
     {
