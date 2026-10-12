@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "Life Insurance Data Generator (Faker)",
-    "qa_extracted_at": "2026-10-11T11:46:44.746152+00:00",
-    "promoted_at": "2026-10-11T11:46:44.755815+00:00",
+    "qa_extracted_at": "2026-10-12T13:50:14.889946+00:00",
+    "promoted_at": "2026-10-12T13:50:14.897726+00:00",
     "record_count": 23,
     "layer": "PROD"
   },
@@ -15,12 +15,12 @@
       "Product_Type__c": "Final Expense",
       "Coverage_Amount__c": 50000,
       "Premium_Monthly__c": 102.0,
-      "Application_Date__c": "2025-02-02",
+      "Application_Date__c": "2025-02-03",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 71,
       "Medical_Exam_Required__c": false,
-      "Decision_Date__c": "2025-02-14"
+      "Decision_Date__c": "2025-02-15"
     },
     {
       "Application_ID__c": "APP-000002",
@@ -30,13 +30,13 @@
       "Product_Type__c": "Final Expense",
       "Coverage_Amount__c": 500000,
       "Premium_Monthly__c": 1060.0,
-      "Application_Date__c": "2026-06-11",
+      "Application_Date__c": "2026-06-12",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Preferred Plus",
       "Risk_Score__c": 91,
       "Medical_Exam_Required__c": false,
-      "Medical_Exam_Date__c": "2026-06-15",
-      "Decision_Date__c": "2026-06-27"
+      "Medical_Exam_Date__c": "2026-06-16",
+      "Decision_Date__c": "2026-06-28"
     },
     {
       "Application_ID__c": "APP-000003",
@@ -46,13 +46,13 @@
       "Product_Type__c": "Universal Life",
       "Coverage_Amount__c": 100000,
       "Premium_Monthly__c": 130.0,
-      "Application_Date__c": "2026-09-15",
+      "Application_Date__c": "2026-09-16",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Standard Plus",
       "Risk_Score__c": 26,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-09-28",
-      "Decision_Date__c": "2026-10-11"
+      "Medical_Exam_Date__c": "2026-09-29",
+      "Decision_Date__c": "2026-10-12"
     },
     {
       "Application_ID__c": "APP-000004",
@@ -62,13 +62,13 @@
       "Product_Type__c": "Whole Life",
       "Coverage_Amount__c": 500000,
       "Premium_Monthly__c": 1335.0,
-      "Application_Date__c": "2025-10-02",
+      "Application_Date__c": "2025-10-03",
       "Underwriting_Status__c": "Declined",
       "Health_Class__c": "Preferred Plus",
       "Risk_Score__c": 40,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2025-10-09",
-      "Decision_Date__c": "2025-10-14"
+      "Medical_Exam_Date__c": "2025-10-10",
+      "Decision_Date__c": "2025-10-15"
     },
     {
       "Application_ID__c": "APP-000005",
@@ -78,13 +78,13 @@
       "Product_Type__c": "Universal Life",
       "Coverage_Amount__c": 250000,
       "Premium_Monthly__c": 578.5,
-      "Application_Date__c": "2026-09-08",
+      "Application_Date__c": "2026-09-09",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Standard",
       "Risk_Score__c": 65,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-09-20",
-      "Decision_Date__c": "2026-09-23"
+      "Medical_Exam_Date__c": "2026-09-21",
+      "Decision_Date__c": "2026-09-24"
     },
     {
       "Application_ID__c": "APP-000006",
@@ -94,13 +94,13 @@
       "Product_Type__c": "Term Life",
       "Coverage_Amount__c": 1000000,
       "Premium_Monthly__c": 1992.0,
-      "Application_Date__c": "2025-10-06",
+      "Application_Date__c": "2025-10-07",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Standard Plus",
       "Risk_Score__c": 12,
       "Medical_Exam_Required__c": false,
-      "Medical_Exam_Date__c": "2025-10-18",
-      "Decision_Date__c": "2025-10-13"
+      "Medical_Exam_Date__c": "2025-10-19",
+      "Decision_Date__c": "2025-10-14"
     },
     {
       "Application_ID__c": "APP-000007",
@@ -110,12 +110,12 @@
       "Product_Type__c": "Term Life",
       "Coverage_Amount__c": 1500000,
       "Premium_Monthly__c": 1848.0,
-      "Application_Date__c": "2025-08-22",
+      "Application_Date__c": "2025-08-23",
       "Underwriting_Status__c": "Referred",
       "Health_Class__c": "Standard",
       "Risk_Score__c": 35,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2025-08-27"
+      "Medical_Exam_Date__c": "2025-08-28"
     },
     {
       "Application_ID__c": "APP-000008",
@@ -125,13 +125,13 @@
       "Product_Type__c": "Variable Life",
       "Coverage_Amount__c": 2000000,
       "Premium_Monthly__c": 3752.0,
-      "Application_Date__c": "2026-10-02",
+      "Application_Date__c": "2026-10-03",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 56,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-10-06",
-      "Decision_Date__c": "2026-10-11"
+      "Medical_Exam_Date__c": "2026-10-07",
+      "Decision_Date__c": "2026-10-12"
     },
     {
       "Application_ID__c": "APP-000009",
@@ -141,13 +141,13 @@
       "Product_Type__c": "Term Life",
       "Coverage_Amount__c": 1000000,
       "Premium_Monthly__c": 976.0,
-      "Application_Date__c": "2026-04-14",
+      "Application_Date__c": "2026-04-15",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Standard",
       "Risk_Score__c": 43,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-04-27",
-      "Decision_Date__c": "2026-04-26",
+      "Medical_Exam_Date__c": "2026-04-28",
+      "Decision_Date__c": "2026-04-27",
       "Notes__c": "Class drive strong home to. Himself science so ready bad seat."
     },
     {
@@ -158,12 +158,12 @@
       "Product_Type__c": "Term Life",
       "Coverage_Amount__c": 250000,
       "Premium_Monthly__c": 244.0,
-      "Application_Date__c": "2025-08-20",
+      "Application_Date__c": "2025-08-21",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Preferred Plus",
       "Risk_Score__c": 41,
       "Medical_Exam_Required__c": false,
-      "Decision_Date__c": "2025-08-29",
+      "Decision_Date__c": "2025-08-30",
       "Notes__c": "Best discussion away. Shoulder western however similar ahead event yeah make. Need heart control one herself sign."
     },
     {
@@ -174,12 +174,12 @@
       "Product_Type__c": "Variable Life",
       "Coverage_Amount__c": 1000000,
       "Premium_Monthly__c": 3108.0,
-      "Application_Date__c": "2026-09-19",
+      "Application_Date__c": "2026-09-20",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Substandard",
       "Risk_Score__c": 70,
       "Medical_Exam_Required__c": true,
-      "Decision_Date__c": "2026-10-11"
+      "Decision_Date__c": "2026-10-12"
     },
     {
       "Application_ID__c": "APP-000012",
@@ -189,12 +189,12 @@
       "Product_Type__c": "Universal Life",
       "Coverage_Amount__c": 750000,
       "Premium_Monthly__c": 1696.5,
-      "Application_Date__c": "2026-06-04",
+      "Application_Date__c": "2026-06-05",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Standard Plus",
       "Risk_Score__c": 27,
       "Medical_Exam_Required__c": false,
-      "Decision_Date__c": "2026-06-12"
+      "Decision_Date__c": "2026-06-13"
     },
     {
       "Application_ID__c": "APP-000013",
@@ -204,13 +204,13 @@
       "Product_Type__c": "Whole Life",
       "Coverage_Amount__c": 500000,
       "Premium_Monthly__c": 990.0,
-      "Application_Date__c": "2026-09-26",
+      "Application_Date__c": "2026-09-27",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Preferred Plus",
       "Risk_Score__c": 78,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-10-03",
-      "Decision_Date__c": "2026-10-11"
+      "Medical_Exam_Date__c": "2026-10-04",
+      "Decision_Date__c": "2026-10-12"
     },
     {
       "Application_ID__c": "APP-000014",
@@ -220,13 +220,13 @@
       "Product_Type__c": "Variable Life",
       "Coverage_Amount__c": 250000,
       "Premium_Monthly__c": 434.0,
-      "Application_Date__c": "2026-10-04",
+      "Application_Date__c": "2026-10-05",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 60,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-10-09",
-      "Decision_Date__c": "2026-10-11"
+      "Medical_Exam_Date__c": "2026-10-10",
+      "Decision_Date__c": "2026-10-12"
     },
     {
       "Application_ID__c": "APP-000015",
@@ -236,12 +236,12 @@
       "Product_Type__c": "Final Expense",
       "Coverage_Amount__c": 1000000,
       "Premium_Monthly__c": 2000.0,
-      "Application_Date__c": "2026-10-11",
+      "Application_Date__c": "2026-10-12",
       "Underwriting_Status__c": "In Review",
       "Health_Class__c": "Standard",
       "Risk_Score__c": 54,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-10-17"
+      "Medical_Exam_Date__c": "2026-10-18"
     },
     {
       "Application_ID__c": "APP-000016",
@@ -251,13 +251,13 @@
       "Product_Type__c": "Final Expense",
       "Coverage_Amount__c": 25000,
       "Premium_Monthly__c": 75.0,
-      "Application_Date__c": "2025-11-03",
+      "Application_Date__c": "2025-11-04",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Substandard",
       "Risk_Score__c": 96,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2025-11-10",
-      "Decision_Date__c": "2025-11-26",
+      "Medical_Exam_Date__c": "2025-11-11",
+      "Decision_Date__c": "2025-11-27",
       "Notes__c": "Require bank child Republican plant. First blood accept final growth especially."
     },
     {
@@ -268,12 +268,12 @@
       "Product_Type__c": "Term Life",
       "Coverage_Amount__c": 100000,
       "Premium_Monthly__c": 128.0,
-      "Application_Date__c": "2026-01-07",
+      "Application_Date__c": "2026-01-08",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Substandard",
       "Risk_Score__c": 35,
       "Medical_Exam_Required__c": true,
-      "Decision_Date__c": "2026-01-30"
+      "Decision_Date__c": "2026-01-31"
     },
     {
       "Application_ID__c": "APP-000018",
@@ -283,13 +283,13 @@
       "Product_Type__c": "Universal Life",
       "Coverage_Amount__c": 250000,
       "Premium_Monthly__c": 487.5,
-      "Application_Date__c": "2026-09-25",
+      "Application_Date__c": "2026-09-26",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Standard",
       "Risk_Score__c": 58,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-10-06",
-      "Decision_Date__c": "2026-10-06",
+      "Medical_Exam_Date__c": "2026-10-07",
+      "Decision_Date__c": "2026-10-07",
       "Notes__c": "Cost large never impact. Bed never others."
     },
     {
@@ -300,13 +300,13 @@
       "Product_Type__c": "Term Life",
       "Coverage_Amount__c": 100000,
       "Premium_Monthly__c": 144.0,
-      "Application_Date__c": "2026-07-30",
+      "Application_Date__c": "2026-07-31",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 90,
       "Medical_Exam_Required__c": false,
-      "Medical_Exam_Date__c": "2026-08-08",
-      "Decision_Date__c": "2026-08-12"
+      "Medical_Exam_Date__c": "2026-08-09",
+      "Decision_Date__c": "2026-08-13"
     },
     {
       "Application_ID__c": "APP-000020",
@@ -316,13 +316,13 @@
       "Product_Type__c": "Final Expense",
       "Coverage_Amount__c": 1000000,
       "Premium_Monthly__c": 3360.0,
-      "Application_Date__c": "2026-10-11",
+      "Application_Date__c": "2026-10-12",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Substandard",
       "Risk_Score__c": 50,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-10-24",
-      "Decision_Date__c": "2026-10-11",
+      "Medical_Exam_Date__c": "2026-10-25",
+      "Decision_Date__c": "2026-10-12",
       "Notes__c": "Activity including single right nice yeah. Occur college herself catch feeling. Certainly cold every feel site guess want."
     },
     {
@@ -333,7 +333,7 @@
       "Product_Type__c": "Whole Life",
       "Coverage_Amount__c": 250000,
       "Premium_Monthly__c": 442.5,
-      "Application_Date__c": "2026-10-11",
+      "Application_Date__c": "2026-10-12",
       "Underwriting_Status__c": "Referred",
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 76,
@@ -348,13 +348,13 @@
       "Product_Type__c": "Term Life",
       "Coverage_Amount__c": 25000,
       "Premium_Monthly__c": 30.8,
-      "Application_Date__c": "2026-05-05",
+      "Application_Date__c": "2026-05-06",
       "Underwriting_Status__c": "Approved",
       "Health_Class__c": "Standard Plus",
       "Risk_Score__c": 19,
       "Medical_Exam_Required__c": true,
-      "Medical_Exam_Date__c": "2026-05-10",
-      "Decision_Date__c": "2026-06-04"
+      "Medical_Exam_Date__c": "2026-05-11",
+      "Decision_Date__c": "2026-06-05"
     },
     {
       "Application_ID__c": "APP-000023",
@@ -364,7 +364,7 @@
       "Product_Type__c": "Final Expense",
       "Coverage_Amount__c": 100000,
       "Premium_Monthly__c": 308.0,
-      "Application_Date__c": "2025-10-13",
+      "Application_Date__c": "2025-10-14",
       "Underwriting_Status__c": "Referred",
       "Health_Class__c": "Preferred",
       "Risk_Score__c": 89,
