@@ -1,8 +1,8 @@
 {
   "metadata": {
     "source": "Life Insurance Data Generator (Faker)",
-    "qa_extracted_at": "2026-10-26T11:50:48.660883+00:00",
-    "promoted_at": "2026-10-26T11:50:48.672290+00:00",
+    "qa_extracted_at": "2026-10-27T11:14:03.526213+00:00",
+    "promoted_at": "2026-10-27T11:14:03.539832+00:00",
     "record_count": 12,
     "layer": "PROD"
   },
@@ -13,8 +13,8 @@
       "Customer_ID__c": "CUST-00032",
       "Policy_Number__c": "LI8418324922",
       "Product_Type__c": "Term Life",
-      "Effective_Date__c": "2026-06-30",
-      "Expiry_Date__c": "2041-06-26",
+      "Effective_Date__c": "2026-07-01",
+      "Expiry_Date__c": "2041-06-27",
       "Coverage_Amount__c": 25000,
       "Premium_Amount__c": 184.8,
       "Payment_Frequency__c": "Semi-Annual",
@@ -29,8 +29,8 @@
       "Customer_ID__c": "CUST-00031",
       "Policy_Number__c": "LI8709662258",
       "Product_Type__c": "Final Expense",
-      "Effective_Date__c": "2025-12-18",
-      "Expiry_Date__c": "2124-11-24",
+      "Effective_Date__c": "2025-12-19",
+      "Expiry_Date__c": "2124-11-25",
       "Coverage_Amount__c": 25000,
       "Premium_Amount__c": 75.0,
       "Payment_Frequency__c": "Monthly",
@@ -45,8 +45,8 @@
       "Customer_ID__c": "CUST-00034",
       "Policy_Number__c": "LI2619163247",
       "Product_Type__c": "Whole Life",
-      "Effective_Date__c": "2026-10-26",
-      "Expiry_Date__c": "2125-10-02",
+      "Effective_Date__c": "2026-10-27",
+      "Expiry_Date__c": "2125-10-03",
       "Coverage_Amount__c": 500000,
       "Premium_Amount__c": 2970.0,
       "Payment_Frequency__c": "Quarterly",
@@ -54,7 +54,7 @@
       "Beneficiary_Relationship__c": "Parent",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-09-27"
+      "Last_Payment_Date__c": "2026-09-28"
     },
     {
       "Policy_ID__c": "POL-000004",
@@ -62,8 +62,8 @@
       "Customer_ID__c": "CUST-00006",
       "Policy_Number__c": "LI9454334062",
       "Product_Type__c": "Term Life",
-      "Effective_Date__c": "2026-08-28",
-      "Expiry_Date__c": "2036-08-25",
+      "Effective_Date__c": "2026-08-29",
+      "Expiry_Date__c": "2036-08-26",
       "Coverage_Amount__c": 100000,
       "Premium_Amount__c": 144.0,
       "Payment_Frequency__c": "Monthly",
@@ -71,7 +71,7 @@
       "Beneficiary_Relationship__c": "Parent",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-09-30"
+      "Last_Payment_Date__c": "2026-10-01"
     },
     {
       "Policy_ID__c": "POL-000005",
@@ -79,8 +79,8 @@
       "Customer_ID__c": "CUST-00041",
       "Policy_Number__c": "LI4927323476",
       "Product_Type__c": "Variable Life",
-      "Effective_Date__c": "2026-10-26",
-      "Expiry_Date__c": "2125-10-02",
+      "Effective_Date__c": "2026-10-27",
+      "Expiry_Date__c": "2125-10-03",
       "Coverage_Amount__c": 250000,
       "Premium_Amount__c": 2604.0,
       "Payment_Frequency__c": "Semi-Annual",
@@ -88,7 +88,7 @@
       "Beneficiary_Relationship__c": "Parent",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-10-14"
+      "Last_Payment_Date__c": "2026-10-15"
     },
     {
       "Policy_ID__c": "POL-000006",
@@ -96,8 +96,8 @@
       "Customer_ID__c": "CUST-00038",
       "Policy_Number__c": "LI3631431563",
       "Product_Type__c": "Final Expense",
-      "Effective_Date__c": "2026-10-26",
-      "Expiry_Date__c": "2125-10-02",
+      "Effective_Date__c": "2026-10-27",
+      "Expiry_Date__c": "2125-10-03",
       "Coverage_Amount__c": 1000000,
       "Premium_Amount__c": 10080.0,
       "Payment_Frequency__c": "Quarterly",
@@ -105,7 +105,7 @@
       "Beneficiary_Relationship__c": "Child",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-10-09"
+      "Last_Payment_Date__c": "2026-10-10"
     },
     {
       "Policy_ID__c": "POL-000007",
@@ -113,8 +113,8 @@
       "Customer_ID__c": "CUST-00025",
       "Policy_Number__c": "LI8714753670",
       "Product_Type__c": "Term Life",
-      "Effective_Date__c": "2025-09-20",
-      "Expiry_Date__c": "2050-09-14",
+      "Effective_Date__c": "2025-09-21",
+      "Expiry_Date__c": "2050-09-15",
       "Coverage_Amount__c": 250000,
       "Premium_Amount__c": 732.0,
       "Payment_Frequency__c": "Quarterly",
@@ -122,7 +122,7 @@
       "Beneficiary_Relationship__c": "Spouse",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-10-06"
+      "Last_Payment_Date__c": "2026-10-07"
     },
     {
       "Policy_ID__c": "POL-000008",
@@ -130,8 +130,8 @@
       "Customer_ID__c": "CUST-00026",
       "Policy_Number__c": "LI6244291385",
       "Product_Type__c": "Variable Life",
-      "Effective_Date__c": "2026-10-26",
-      "Expiry_Date__c": "2125-10-02",
+      "Effective_Date__c": "2026-10-27",
+      "Expiry_Date__c": "2125-10-03",
       "Coverage_Amount__c": 1000000,
       "Premium_Amount__c": 37296.0,
       "Payment_Frequency__c": "Annual",
@@ -139,7 +139,7 @@
       "Beneficiary_Relationship__c": "Other",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-10-04"
+      "Last_Payment_Date__c": "2026-10-05"
     },
     {
       "Policy_ID__c": "POL-000009",
@@ -147,8 +147,8 @@
       "Customer_ID__c": "CUST-00003",
       "Policy_Number__c": "LI5942411853",
       "Product_Type__c": "Final Expense",
-      "Effective_Date__c": "2025-03-05",
-      "Expiry_Date__c": "2124-02-10",
+      "Effective_Date__c": "2025-03-06",
+      "Expiry_Date__c": "2124-02-11",
       "Coverage_Amount__c": 50000,
       "Premium_Amount__c": 1224.0,
       "Payment_Frequency__c": "Annual",
@@ -163,8 +163,8 @@
       "Customer_ID__c": "CUST-00005",
       "Policy_Number__c": "LI4135973483",
       "Product_Type__c": "Final Expense",
-      "Effective_Date__c": "2026-07-16",
-      "Expiry_Date__c": "2125-06-22",
+      "Effective_Date__c": "2026-07-17",
+      "Expiry_Date__c": "2125-06-23",
       "Coverage_Amount__c": 500000,
       "Premium_Amount__c": 12720.0,
       "Payment_Frequency__c": "Annual",
@@ -172,7 +172,7 @@
       "Beneficiary_Relationship__c": "Sibling",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-10-17"
+      "Last_Payment_Date__c": "2026-10-18"
     },
     {
       "Policy_ID__c": "POL-000011",
@@ -180,8 +180,8 @@
       "Customer_ID__c": "CUST-00017",
       "Policy_Number__c": "LI7533138437",
       "Product_Type__c": "Universal Life",
-      "Effective_Date__c": "2026-10-19",
-      "Expiry_Date__c": "2125-09-25",
+      "Effective_Date__c": "2026-10-20",
+      "Expiry_Date__c": "2125-09-26",
       "Coverage_Amount__c": 250000,
       "Premium_Amount__c": 578.5,
       "Payment_Frequency__c": "Monthly",
@@ -189,7 +189,7 @@
       "Beneficiary_Relationship__c": "Sibling",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-09-27"
+      "Last_Payment_Date__c": "2026-09-28"
     },
     {
       "Policy_ID__c": "POL-000012",
@@ -197,8 +197,8 @@
       "Customer_ID__c": "CUST-00023",
       "Policy_Number__c": "LI7238213207",
       "Product_Type__c": "Variable Life",
-      "Effective_Date__c": "2026-10-26",
-      "Expiry_Date__c": "2125-10-02",
+      "Effective_Date__c": "2026-10-27",
+      "Expiry_Date__c": "2125-10-03",
       "Coverage_Amount__c": 2000000,
       "Premium_Amount__c": 11256.0,
       "Payment_Frequency__c": "Quarterly",
@@ -206,7 +206,7 @@
       "Beneficiary_Relationship__c": "Spouse",
       "Status__c": "Active",
       "Cash_Value__c": 0,
-      "Last_Payment_Date__c": "2026-10-11"
+      "Last_Payment_Date__c": "2026-10-12"
     }
   ]
 }
